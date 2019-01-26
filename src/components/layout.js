@@ -15,7 +15,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div class="container">
+        <div className="container">
           { children }
 
           <footer>
