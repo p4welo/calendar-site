@@ -240,7 +240,6 @@ a.badge,
   padding: 20px;
 }
 .sidebar-user-material .category-content {
-  background: url("../../../../../../global_assets/images/backgrounds/user_material_bg.jpg") center center no-repeat;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
@@ -1203,9 +1202,6 @@ body[class*=navbar-bottom] .content {
 *  Latest update: May 25, 2015
 *
 * ---------------------------------------------------------------------------- */
-.layout-boxed {
-  background: url("../../../../../../global_assets/images/backgrounds/boxed_bg.png") repeat;
-}
 .layout-boxed > .navbar {
   margin-left: auto;
   margin-right: auto;
@@ -1232,11 +1228,6 @@ body[class*=navbar-bottom] .content {
   .layout-boxed .page-container,
   .layout-boxed > .navbar {
     width: 1200px;
-  }
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .layout-boxed {
-    background: url("../../../../../../global_assets/images/backgrounds/boxed_bg_retina.png") repeat;
   }
 }
 /* ------------------------------------------------------------------------------
@@ -1524,7 +1515,6 @@ img ~ .legitRipple-ripple {
  *
  * ---------------------------------------------------------------------------- */
 .login-cover {
-  background: url("../../../../../../global_assets/images/backgrounds/login_cover.jpg") no-repeat;
   background-size: cover;
 }
 .login-container .page-container {

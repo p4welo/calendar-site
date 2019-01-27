@@ -6,5 +6,5 @@
 
 import './src/styles/bootstrap.css';
 import './src/styles/core.css';
-// import './src/styles/components.css';
+import './src/styles/components.css';
 // import './src/styles/colors.css';

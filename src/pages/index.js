@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import HomeHeader from '../components/home-header';
+import HomeHeader from '../components/home/home-header';
 
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
@@ -12,17 +12,31 @@ const IndexPage = (props) => {
       <>
         <HomeHeader/>
         <Layout>
-          {postList.edges.map(({ node }, i) => (
-              <Link to={node.frontmatter.path} key={i}>
-                <div className="panel panel-flat">
-                  <div className="panel-body">
-                    <h1>{node.frontmatter.title}</h1>
-                    <Img fluid={node.frontmatter.image.childImageSharp.fluid}/>
-                    <span>{node.frontmatter.date}</span>
-                  </div>
+          <div className='row'>
+            {postList.edges.map(({ node }, i) => (
+                <div className="col-xs-12 col-sm-6 col-md-4" key={i}>
+                  <Link to={node.frontmatter.path}>
+                    <div className="thumbnail">
+                      <div className="thumb">
+                        <Img fluid={node.frontmatter.image.childImageSharp.fluid}
+                            style={{
+                              height: `350px`
+                            }}/>
+                      </div>
+
+                      <div className="caption text-center">
+                        <h6 className="text-semibold no-margin">
+                          {node.frontmatter.title}
+                        </h6>
+                        <small className="display-block">
+                          {node.frontmatter.city}
+                        </small>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
-              </Link>
-          ))}
+            ))}
+          </div>
         </Layout>
       </>
   )
@@ -33,14 +47,15 @@ export default IndexPage;
 
 export const listQuery = graphql`
   query ListQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___dateFrom] }) {
       edges {
         node {
           excerpt(pruneLength: 250)
           frontmatter {
             path
-            date(formatString: "MMMM Do YYYY")
+            dateFrom(formatString: "DD MMMM YYYY")
             title
+            city
             image {
               childImageSharp {
                 resize(width: 1500, height: 1500) {

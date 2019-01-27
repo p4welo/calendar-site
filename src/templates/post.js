@@ -18,7 +18,6 @@ export const postQuery = graphql`
       html
       frontmatter {
         title
-        description
       }
     }
   }
