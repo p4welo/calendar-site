@@ -27,7 +27,14 @@ const HomeHeader = () => (
             Turnieje taneczne w jednym miejscu
           </h2>
           <div className="btn-group">
-            <button className="btn btn-primary btn-raised">Zgłoś turniej za darmo</button>
+            <a href="https://goo.gl/forms/l2Ri9kqlDrPJsUnO2"
+                className="btn btn-primary btn-raised"
+                style={{
+                  background: `#07beb8`,
+                  borderColor: `#07beb8`
+                }}
+                target='_blank'
+                rel="noopener noreferrer">Zgłoś turniej za darmo</a>
           </div>
         </div>
       </div>
