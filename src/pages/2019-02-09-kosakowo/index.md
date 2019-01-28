@@ -8,6 +8,7 @@ dateTo: ''
 city: 'Kosakowo'
 image: 'kosakowo.jpg'
 ---
+
 Zapraszamy solistów, duety, mini formacje i formacje
 
 Szczegóły:

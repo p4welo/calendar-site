@@ -15,8 +15,8 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-manifest`,
+    // `gatsby-plugin-offline`,
+    // `gatsby-plugin-manifest`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -37,8 +37,12 @@ module.exports = {
         name: "pages",
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 1019916,
+        sv: 6
+      },
+    },
   ],
 }
