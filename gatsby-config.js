@@ -37,12 +37,5 @@ module.exports = {
         name: "pages",
       },
     },
-    {
-      resolve: `gatsby-plugin-hotjar`,
-      options: {
-        id: 1019916,
-        sv: 6
-      },
-    },
   ],
 }
