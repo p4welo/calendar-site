@@ -6,7 +6,7 @@ title: 'I OGÓLNOPOLSKI FESTIWAL ZESPOŁÓW ARTYSTYCZNYCH „MOC TAŃCA”'
 dateFrom: '2019-02-09'
 dateTo: ''
 city: 'Kosakowo'
-image: 'kosakowo.jpg'
+image: 'image.jpg'
 ---
 
 Zapraszamy solistów, duety, mini formacje i formacje

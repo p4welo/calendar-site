@@ -6,7 +6,7 @@ title: 'OGÓLNOPOLSKI KONKURS TAŃCA TANECZNE MIRAŻE'
 dateFrom: '2019-03-09'
 dateTo: ''
 city: 'Bydgoszcz'
-image: 'bydgoszcz.jpg'
+image: 'image.jpg'
 ---
 UCZESTNICY W konkursie mogą brać udział:
 

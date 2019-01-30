@@ -1,7 +1,7 @@
 const path = require('path');
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   const postTemplate = path.resolve('src/templates/post.js');
 
@@ -9,11 +9,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     allMarkdownRemark {
       edges {
         node {
-          html
           id
           frontmatter {
             path
-            title
           }
         }
       }

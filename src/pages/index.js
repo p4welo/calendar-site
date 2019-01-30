@@ -12,6 +12,7 @@ const IndexPage = (props) => {
       <>
         <HomeHeader/>
         <Layout>
+          <h3 className='text-center'>Sezon 2018/2019</h3>
           <div className='row'>
             {postList.edges.map(({ node }, i) => (
                 <div className="col-xs-12 col-sm-6 col-md-4" key={i}>

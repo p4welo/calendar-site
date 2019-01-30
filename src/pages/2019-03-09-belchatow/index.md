@@ -6,7 +6,7 @@ title: 'XI OGÓLNOPOLSKIE SPOTKANIA TANECZNE (RE)AKCJE 2019'
 dateFrom: '2019-03-09'
 dateTo: '2019-03-10'
 city: 'Bełchatów'
-image: 'belchatow.jpg'
+image: 'image.jpg'
 ---
 (Re)akcje to 2 dniowy festiwal przeznaczony dla solistów, zespołów oraz teatrów tańca. Pierwszy dzień (09.03.2019) to formy krótkie do 5 minut. Drugi dzień (10.03.2019) to formy długie do 30 minut.
 

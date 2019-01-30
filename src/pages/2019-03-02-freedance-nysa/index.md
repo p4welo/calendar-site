@@ -6,7 +6,7 @@ title: 'Freestyle Dance Nysa 2019'
 dateFrom: '2019-03-02'
 dateTo: '2019-03-03'
 city: 'Nysa'
-image: 'tanero.jpg'
+image: 'image.jpg'
 ---
 XI Międzynarodowy Turniej Tańca Nowoczesnego FREESTYLE DANCE NYSA
 

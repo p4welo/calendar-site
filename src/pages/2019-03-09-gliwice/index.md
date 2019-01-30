@@ -6,7 +6,7 @@ title: 'II OGÓLNOPOLSKI TURNIEJ TAŃCA NOWOCZESNEGO GOLD CONTEST'
 dateFrom: '2019-03-09'
 dateTo: '2019-03-10'
 city: 'Gliwice'
-image: 'gliwice.jpg'
+image: 'image.jpg'
 ---
 W dniach 9-10.03.2019 Serdecznie Zapraszamy Was na kolejną odsłonę GOLD CONTEST, największej tanecznej imprezy w Gliwicach. W tym roku pojawi się wiele zmian. Między innymi:
 

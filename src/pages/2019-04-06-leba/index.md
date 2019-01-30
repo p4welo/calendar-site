@@ -6,7 +6,7 @@ title: 'VI Ogólnopolski Festiwal Sztuki Baletowej'
 dateFrom: '2019-04-06'
 dateTo: ''
 city: 'Łeba'
-image: 'leba.jpg'
+image: 'image.jpg'
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.
 
