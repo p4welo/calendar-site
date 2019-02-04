@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Taneczny kalendarz`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@p4welo`,
+    description: `Kalendarz taneczny to wszystkie turnieje tańca w jednym miejscu! Zgłoś swój turniej ZA DARMO i dotrzyj do nowych odbiorców.`,
+    author: `Paweł Radomski`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

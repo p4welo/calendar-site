@@ -1,7 +1,7 @@
 import React from 'react';
-import BackgroundImage from './background-image'
 import Logo from './logo'
 import './home-header.css';
+import image from '../../images/home.jpg';
 
 const HomeHeader = () => (
     <div className='home-header'
@@ -10,7 +10,14 @@ const HomeHeader = () => (
           position: `relative`,
           marginBottom: `20px`
         }}>
-      <BackgroundImage/>
+
+      <div className="header__slide" style={{
+        background: `url(${image}) no-repeat scroll center 50%/cover`,
+        position: `absolute`,
+        top: `0`,
+        width: `100vw`,
+        height: `100vh`,
+      }}></div>
       <div className='container'
           style={{
             height: `100%`,

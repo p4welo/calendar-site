@@ -19,17 +19,21 @@ const BackgroundImage = () => (
       query {
         placeholderImage: file(relativePath: { eq: "home.jpg" }) {
           childImageSharp {
-                resize(width: 1500, height: 1500) {
-                  src
-                }
-                fluid(maxWidth: 786) {
-                  ...GatsbyImageSharpFluid
-                }
+                fixed(width: 800) {
+          ...GatsbyImageSharpFixed
+        }
               }
         }
       }
     `}
-    render={data => <Img fluid={data.placeholderImage.childImageSharp.fluid} />}
+    render={data => <Img fixed={data.placeholderImage.childImageSharp.fixed}
+        style={{
+          height: `100%`,
+          left: `0`,
+          position: `absolute`,
+          top: `0`,
+          width: `100%`
+        }}/>}
   />
 );
 export default BackgroundImage

@@ -5,11 +5,13 @@ import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
 import HomeHeader from '../components/home/home-header';
+import SEO from '../components/seo';
 
 const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
       <>
+        <SEO title='Strona główna' />
         <HomeHeader/>
         <Layout>
           <h3 className='text-center'>Sezon 2018/2019</h3>
