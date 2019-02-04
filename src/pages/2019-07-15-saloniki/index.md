@@ -1,15 +1,15 @@
 ---
-path: '/top-art-festiwal-rzym-2019'
+path: '/top-art-festiwal-saloniki-2019'
 date: '2018-09-26'
 
-title: 'TOP ART FESTIVAL „LE STRADE DELLA MUSICA”'
-dateFrom: '2019-07-12'
-dateTo: '2019-07-19'
-city: 'Rzym - Nettuno - Anzio'
+title: 'TOP ART FESTIVAL „ARTISTIC GAMES”'
+dateFrom: '2019-07-15'
+dateTo: '2019-07-22'
+city: 'Saloniki'
 image: 'image.jpg'
 ---
-Międzynarodowy Festiwal Dzieci i Młodzieży w Rzymie – Wieczne miasto Rzym otwiera swoje ulice na muzykę i utalentowane dzieci i młodzież z całego świata. Koncerty w pięknej scenerii zabytków i romantycznych ulic. Zabawa w południowym stylu. Plaża, pizza, słońce, muzyka i dużo pozytywnej energii. Zakwaterowanie w 3*** hotelach w Anzio, Nettuno. „Koncert Galowy“ w „CINECITTA WORLD“ – jedna z najpiękniejszych sal koncertowych we Włoszech. Pobyt w parku rozrywki „CINECITTA WORLD”. Pobyt w parku wodnym „ZOOMARINE”. WSPÓLNY KONCERT Z WŁOSKIMI SZKOŁAMI TAŃCA. Dla wszystkich uczestników warsztaty artystyczne z włoskimi choreografami. Zwiedzanie wiecznego miasta Rzym – COLOSEUM, FORUM ROMANUM, PANTHEON, fontanna DI TREVI. Zwiedzanie Watykanu i Bazyliki ŚW. PIOTRA, oraz wiele atrakcji turystycznych przygotowanych specjalnie dla uczestników festiwalu.
-https://www.youtube.com/watch?v=zgnAAFW92Ls
+Miasto Saloniki w uroczej Grecji zapraszają utalentowane dzieci i młodzież z całego świata. Koncerty w pięknej scenerii zabytków i romantycznych ulic. Słońce, oliwki i Zorba oraz plaża, morze, muzyka i dużo pozytywnej energii. Zakwaterowanie w 3*** hotelach w Salonikach. „Koncert Galowy“ w zabytkowym klimacie Grecji. Warsztaty taneczne z międzynarodową grupą instruktorów – (GRECJA, WŁOCHY) Całodniowy pobyt w parku wodnym „Waterland” Wieczór Grecko – Polski – prezentacja artystyczna folklorystycznych grup z Grecji, degustacja potraw Greckich oraz kilka mądrych i ciekawych słów o historii tego pięknego kraju. Zwiedzanie miasta Saloniki oraz rejs statkiem festiwalowym po pięknych greckich wodnych zakątkach. Wycieczka do podnóży Olimpu
+https://www.youtube.com/watch?v=pKXNdSyVc04
 
 Szczegóły:
 https://www.facebook.com/topartfestival/
