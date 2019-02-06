@@ -7,8 +7,7 @@ dateFrom: '2019-04-07'
 dateTo: ''
 city: 'Żory'
 image: 'image.jpg'
+tags: []
+link: http://reaktywacja-zory.pl/index.php/festiwal-tanca-dzieci-dzieciom-bez-barier
 ---
 Serdecznie zapraszamy zespoly z calej Polski, bedzie to juz 7 edycja festiwalu, wkrótce szczegóły
-
-Szczegóły:
-http://reaktywacja-zory.pl/index.php/festiwal-tanca-dzieci-dzieciom-bez-barier

@@ -1,6 +1,5 @@
 import React from 'react';
 import Logo from './logo'
-import './home-header.css';
 import image from '../../images/home.jpg';
 
 const HomeHeader = () => (

@@ -7,6 +7,8 @@ dateFrom: '2019-05-18'
 dateTo: ''
 city: 'Libiąż'
 image: 'image.jpg'
+tags: []
+link: https://zakreceninataniec.pl/
 ---
 Festiwal Tańca "Złote Sznurowadło 2019"
 

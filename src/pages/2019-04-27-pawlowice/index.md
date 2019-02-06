@@ -7,17 +7,16 @@ dateFrom: '2019-04-27'
 dateTo: ''
 city: 'Pawłowice'
 image: 'image.jpg'
+tags: []
+link: https://www.facebook.com/impuls.fk
 ---
 Kategorie:
-- HIP HOP
-- DISCO DANCE
-- SHOW DANCE
-- MODERN JAZZ
-- INNE FORMY TAŃCA
+- hip hop
+- disco dance
+- show dance
+- modern jazz
+- inne formy tańca
 
-MEDAL DLA KAŻDEGO UCZESTNIKA !
-DLA ZWYCIĘZCÓW PUCHARY !
-GRAND PRIX 500 ZŁ ! :)
-
-Szczegóły:
-https://www.facebook.com/impuls.fk
+Medal dla każdego uczestnika!
+Dla zwycięzców puchary!
+GRAND PRIX 500 zł! :)

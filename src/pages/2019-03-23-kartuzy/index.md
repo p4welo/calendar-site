@@ -7,8 +7,7 @@ dateFrom: '2019-03-23'
 dateTo: ''
 city: 'Kartuzy'
 image: 'image.jpg'
+tags: []
+link: http://studiobravo.wixsite.com/stolem
 ---
 Zapraszamy mini formacje i formacje.
-
-Szczegóły:
-http://studiobravo.wixsite.com/stolem

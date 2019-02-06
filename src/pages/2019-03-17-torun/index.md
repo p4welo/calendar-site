@@ -7,6 +7,8 @@ dateFrom: '2019-03-17'
 dateTo: ''
 city: 'Toruń'
 image: 'image.jpg'
+tags: []
+link: http://born2dance.pl/index.php?option=com_content&view=article&id=317&Itemid=284
 ---
 Stowarzyszenie Tańca Nowoczesnego oraz Born2Dane Studio Małgorzaty Szulc i Mariusza Mikołajek zapraszają na Ogólnopolski Turniej Tańca „Chance for Dance 2019” 17 marca 2019 (niedziela)
 
@@ -19,6 +21,3 @@ Stowarzyszenie Tańca Nowoczesnego oraz Born2Dane Studio Małgorzaty Szulc i Mar
 Eliminacje 9.00
 
 „Arena” Toruń ul. Bema 73/89
-
-Szczegóły:
-http://born2dance.pl/index.php?option=com_content&view=article&id=317&Itemid=284

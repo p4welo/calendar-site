@@ -7,6 +7,8 @@ dateFrom: '2019-06-08'
 dateTo: ''
 city: 'Andrychów'
 image: 'image.jpg'
+tags: []
+link: https://www.facebook.com/events/375630586557936/
 ---
 DANCE Is the LIMIT
 ~ Ponieważ w tańcu nie ma granic ~
@@ -115,6 +117,3 @@ SPRAWY ORGANIZACYJNE:
 
 KLAUZULA RODO:
 Zgodnie z art. 13 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/UE („RODO”) Organizatorzy informują, że administratorem danych osobowych uczestników jest firma AP HELITECH. Przetwarzanie danych osobowych odbywa się na podstawie art. 6 ust. 1 lit. c i e RODO i jest niezbędne do wykonania zadania realizowanego w interesie publicznym wynikającego z art. 34 ustawy o organizowaniu i prowadzeniu działalności kulturalnej oraz do spełnienia obowiązków określonych w ustawie o rachunkowości- w celu organizacji, przeprowadzenia i rozliczenia Konkursu. Podanie danych osobowych jest warunkiem uczestnictwa w Konkursie. W przypadku  nie podania danych uczestnik nie będzie mógł wystąpić w Konkursie. Dane osobowe będą przechowywane jedynie w okresie niezbędnym do organizacji Konkursu. Po zakończeniu Konkursu dane mogą być przechowywane jedynie w celach archiwalnych, zgodnie z obowiązującymi przepisami. Okres przechowywania danych osobowych wynosi 3 lata. Okres przechowywania dokumentacji finansowej wynosi 5 lat. Uczestnik ma prawo do żądania od administratora dostępu do swoich danych osobowych, ich sprostowania, usunięcia oraz ograniczenia przetwarzania. Prawa te mogą zostać ograniczone zgodnie z przepisami RODO. Dane osobowe nie będą przetwarzane w sposób zautomatyzowany i nie będą profilowane chyba, że takie działanie jest dozwolone przepisami prawa, które przewidują właściwe środki ochrony praw i wolności osób, której dane dotyczą.
-
-Szczegóły:
-https://www.facebook.com/events/375630586557936/

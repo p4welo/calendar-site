@@ -7,6 +7,8 @@ dateFrom: '2019-05-25'
 dateTo: ''
 city: 'Jastrzębie Zdrój'
 image: 'image.jpg'
+tags: []
+link: http://www.dance-passion.pl/index.php/site/index/2-konkurs-tanca.html
 ---
 Celem Konkursu jest wspieranie młodzieży i dzieci w doskonaleniu swojej pasji, popularyzacja wszelkich form tańca, a także promowanie samego miasta Jastrzębia w środowisku tancerzy całego kraju.
 
@@ -34,6 +36,3 @@ Prezydent Miasta Jastrzębie-Zdrój
 KONTAKT
 
 Wszelkie informacje uzyskacie Państwo pod numerem telefonu: 605 119 108 (godz. 12-20), lub wysyłając maila na: studio.tanca@dance-passion.pl
-
-Szczegóły:
-http://www.dance-passion.pl/index.php/site/index/2-konkurs-tanca.html

@@ -7,12 +7,11 @@ dateFrom: '2019-03-30'
 dateTo: ''
 city: 'Ostrowiec Świętokrzyski'
 image: 'image.jpg'
+tags: []
+link: https://www.facebook.com/events/333645870725508/
 ---
 Zapraszamy wszystkich tancerzy na Lit Dance Cup Competition – 30 marca 2019 roku. Ostrowiec Św. (woj.świetokrzyskie).
 
-Turniej HIP -HOP DANCE. Do rozdania oprócz medali, pucharów, dyplomów mamy dla Was min. 10 000 zł !!!
+Turniej HIP-HOP DANCE. Do rozdania oprócz medali, pucharów, dyplomów mamy dla Was min. 10 000 zł !!!
 
 Imprezę poprowadzi zielonogórski b-boy – Master of Ceremoni- Rademenez !!! https://www.facebook.com/rademenezofficial/ W jury: SIMBA – Piotr Abramowicz, Artur Kuriata i Gregory Kuciak
-
-Szczegóły:
-https://www.facebook.com/events/333645870725508/

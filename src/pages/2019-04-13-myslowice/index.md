@@ -7,6 +7,8 @@ dateFrom: '2019-04-13'
 dateTo: ''
 city: 'Mysłowice'
 image: 'image.jpg'
+tags: []
+link: https://www.facebook.com/events/934171833455078
 ---
 Dance Machine Festival
 
@@ -126,6 +128,3 @@ Dane osobowe będą przechowywane jedynie w okresie niezbędnym do organizacji F
 z obowiązującymi przepisami. Okres przechowywania danych osobowych wynosi 3 lata. Okres przechowywania dokumentacji finansowej wynosi 5 lat.
 Uczestnik ma prawo do żądania od administratora dostępu do swoich danych osobowych, ich sprostowania, usunięcia oraz ograniczenia przetwarzania. Prawa te mogą zostać ograniczone zgodnie z przepisami RODO.
 Dane osobowe nie będą przetwarzane w sposób zautomatyzowany i nie będą profilowane chyba, że takie działanie jest dozwolone przepisami prawa, które przewidują właściwe środki ochrony praw i wolności osób, której dane dotyczą.
-
-Szczegóły:
-https://www.facebook.com/events/934171833455078

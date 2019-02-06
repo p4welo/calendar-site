@@ -9,8 +9,8 @@ export default function Template({ data }) {
   const { markdownRemark: post } = data;
   return (
       <Layout>
-        <SEO title={post.frontmatter.title} />
-        <Link to='/'>Powrót</Link>
+        <SEO title={post.frontmatter.title}/>
+        <Link to='/' class='return-to-home'>Powrót</Link>
         <div className='panel panel-flat blog-horizontal blog-horizontal-1'>
           <div className="panel-heading">
             <h1 className="panel-title text-semibold">
@@ -21,11 +21,20 @@ export default function Template({ data }) {
             <div className="thumb">
               <Img fluid={post.frontmatter.image.childImageSharp.fluid}
                   className="img-responsive"/>
+              <span className="label label-striped"
+                  style={{ width: `100%` }}>
+                {post.frontmatter.dateFrom}
+              </span>
             </div>
             <div className="blog-preview">
-              <p dangerouslySetInnerHTML={{ __html: post.html }}/>
+              <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              <a href={post.frontmatter.link}
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  class="btn btn-default organizer-site">
+                Strona organizatora
+              </a>
             </div>
-
           </div>
         </div>
       </Layout>
@@ -41,6 +50,7 @@ export const postQuery = graphql`
           dateFrom(formatString: "DD MMMM YYYY", locale: "pl")
           title
           city
+          link
           image {
             childImageSharp {
               resize(width: 1500, height: 1500) {

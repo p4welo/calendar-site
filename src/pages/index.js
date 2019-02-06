@@ -17,37 +17,34 @@ const IndexPage = (props) => {
           <h3 className='text-center'>Sezon 2018/2019</h3>
           <div className='row'>
             {postList.edges.map(({ node }, i) => (
-                <div className="col-xs-12 col-sm-6 col-md-4" key={i}>
-                  <Link to={node.frontmatter.path}>
-                    <div className="thumbnail btn-raised"
+                <div className="col-xs-12 col-sm-6 col-md-4"
+                    key={i}
+                    style={{marginBottom: `20px`}}>
+                    <div className="thumbnail"
                         style={{
-                          transition: `box-shadow 100ms ease-in-out`
+                          transition: `box-shadow 100ms ease-in-out`,
+                          marginBottom: `0`
                         }}>
                       <div className="thumb">
-                        <span className="label label-striped"
-                          style={{
-                            position: `absolute`,
-                            zIndex: `1`,
-                            left: `0`,
-                            bottom: `0`,
-                            width: `100%`
-                          }}>
-                          {node.frontmatter.dateFrom}
-                        </span>
                         <Img fluid={node.frontmatter.image.childImageSharp.fluid}
                             style={{ height: `450px` }}/>
+                        <span className="label label-striped"
+                            style={{ width: `100%` }}>
+                          {node.frontmatter.dateFrom}
+                        </span>
                       </div>
 
                       <div className="caption" style={{height: `120px`}}>
                         <h6 className="text-semibold no-margin">
-                          {node.frontmatter.title}
+                          <Link to={node.frontmatter.path} class='event-link'>
+                            {node.frontmatter.title}
+                          </Link>
                         </h6>
-                        <small className="display-block">
+                        <small className="display-block event-city">
                           {node.frontmatter.city}
                         </small>
                       </div>
                     </div>
-                  </Link>
                 </div>
             ))}
           </div>

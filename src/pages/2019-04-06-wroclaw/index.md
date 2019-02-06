@@ -7,6 +7,8 @@ dateFrom: '2019-04-06'
 dateTo: ''
 city: 'Borowa k. Wrocławia'
 image: 'image.jpg'
+tags: []
+link: http://trendy.setenta.wroclaw.pl
 ---
 Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udziału w zbliżającym się festiwalu! 🙂
 
@@ -26,12 +28,9 @@ Stopnie zaawansowania: Debiuty / Open
 
 Nagrody:
 
-Formacje / Mini formacje – 1, 2, 3 m-ce – puchar i dyplom.
+1, 2, 3 m-ce – puchar i dyplom.
 
 **Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie.**
 
-Szczegóły:
-
 https://www.facebook.com/events/2228466857427674/
 
-http://trendy.setenta.wroclaw.pl

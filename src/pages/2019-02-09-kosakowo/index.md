@@ -7,9 +7,7 @@ dateFrom: '2019-02-09'
 dateTo: ''
 city: 'Kosakowo'
 image: 'image.jpg'
+tags: ["solo", "duet", "mini formacje", "formacje"]
+link: http://studiobravo.wixsite.com/moctanca
 ---
-
-Zapraszamy solistów, duety, mini formacje i formacje
-
-Szczegóły:
-http://studiobravo.wixsite.com/moctanca
+Zapraszamy solistów, duety, mini formacje i formacje.

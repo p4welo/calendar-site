@@ -7,8 +7,7 @@ dateFrom: '2019-04-06'
 dateTo: ''
 city: 'Łeba'
 image: 'image.jpg'
+tags: []
+link: http://studiobravo.wixsite.com/konkursbaletowy
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.
-
-Szczegóły:
-http://studiobravo.wixsite.com/konkursbaletowy

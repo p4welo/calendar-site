@@ -7,8 +7,7 @@ dateFrom: '2019-02-24'
 dateTo: ''
 city: 'Jelcz Laskowice'
 image: 'image.jpg'
+tags: []
+link: https://zakreceninataniec.pl/
 ---
 Zapraszamy tancerzy oraz zespoły działające w Domach Kultury, Klubach, Szkołach Tańca i innych placówkach oświatowych i kulturalnych.
-
-Szczegóły:
-https://zakreceninataniec.pl/
