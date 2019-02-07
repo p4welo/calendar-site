@@ -11,7 +11,7 @@ const IndexPage = (props) => {
   const postList = props.data.allMarkdownRemark;
   return (
       <>
-        <SEO title='Strona główna' />
+        <SEO title='Strona główna'/>
         <HomeHeader/>
         <Layout>
           <h3 className='text-center'>Sezon 2018/2019</h3>
@@ -19,32 +19,33 @@ const IndexPage = (props) => {
             {postList.edges.map(({ node }, i) => (
                 <div className="col-xs-12 col-sm-6 col-md-4"
                     key={i}
-                    style={{marginBottom: `20px`}}>
-                    <div className="thumbnail"
-                        style={{
-                          transition: `box-shadow 100ms ease-in-out`,
-                          marginBottom: `0`
-                        }}>
-                      <div className="thumb">
-                        <Img fluid={node.frontmatter.image.childImageSharp.fluid}
-                            style={{ height: `450px` }}/>
-                        <span className="label label-striped"
-                            style={{ width: `100%` }}>
+                    style={{ marginBottom: `20px` }}>
+                  <div className="thumbnail"
+                      style={{
+                        transition: `box-shadow 100ms ease-in-out`,
+                        marginBottom: `0`
+                      }}>
+                    <div className="thumb">
+                      <Img fluid={node.frontmatter.image.childImageSharp.fluid}
+                          style={{ height: `450px` }}
+                          alt={node.frontmatter.title}/>
+                      <span className="label label-striped"
+                          style={{ width: `100%` }}>
                           {node.frontmatter.dateFrom}
                         </span>
-                      </div>
-
-                      <div className="caption" style={{height: `120px`}}>
-                        <h6 className="text-semibold no-margin">
-                          <Link to={node.frontmatter.path} class='event-link'>
-                            {node.frontmatter.title}
-                          </Link>
-                        </h6>
-                        <small className="display-block event-city">
-                          {node.frontmatter.city}
-                        </small>
-                      </div>
                     </div>
+
+                    <div className="caption" style={{ height: `120px` }}>
+                      <h6 className="text-semibold no-margin">
+                        <Link to={node.frontmatter.path} class='event-link'>
+                          {node.frontmatter.title}
+                        </Link>
+                      </h6>
+                      <small className="display-block event-city">
+                        {node.frontmatter.city}
+                      </small>
+                    </div>
+                  </div>
                 </div>
             ))}
           </div>

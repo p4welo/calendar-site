@@ -14,13 +14,6 @@ module.exports = {
     author: `Paweł Radomski`,
   },
   plugins: [
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
-    `gatsby-transformer-remark`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-purgecss`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -33,6 +26,12 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-purgecss`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -66,6 +65,8 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`
     // `gatsby-plugin-offline`
   ],
 };
