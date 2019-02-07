@@ -2,7 +2,7 @@
 path: '/xdance-2019'
 date: '2018-09-26'
 
-title: 'World dance'
+title: 'XDance Festival'
 dateFrom: '2019-03-24'
 dateTo: ''
 city: 'Zdzieszowice'
