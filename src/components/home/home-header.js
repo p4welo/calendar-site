@@ -14,6 +14,7 @@ const HomeHeader = () => (
         background: `url(${image}) no-repeat scroll center 50%/cover`,
         position: `absolute`,
         top: `0`,
+        left: `0`,
         width: `100vw`,
         height: `100vh`,
       }}></div>

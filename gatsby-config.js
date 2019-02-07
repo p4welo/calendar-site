@@ -19,6 +19,7 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-purgecss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
