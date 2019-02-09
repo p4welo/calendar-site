@@ -4,10 +4,11 @@ date: '2018-09-26'
 
 title: 'III OGÓLNOPOLSKI TURNIEJ FOMACJI TANECZNYCH „KASZUBSKI STOLEM”'
 dateFrom: '2019-03-23'
-dateTo: ''
+dateTo: '2019-03-23'
 city: 'Kartuzy'
 image: 'image.jpg'
 tags: []
 link: http://studiobravo.wixsite.com/stolem
+promoted: false
 ---
 Zapraszamy mini formacje i formacje.

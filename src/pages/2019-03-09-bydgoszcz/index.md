@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'OGÓLNOPOLSKI KONKURS TAŃCA TANECZNE MIRAŻE'
 dateFrom: '2019-03-09'
-dateTo: ''
+dateTo: '2019-03-09'
 city: 'Bydgoszcz'
 image: 'image.jpg'
 tags: []
 link: http://palac.bydgoszcz.pl/regulaminy.php#mirages
+promoted: false
 ---
 UCZESTNICY
 

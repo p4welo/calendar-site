@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'Dance is the Limit - ponieważ w tańcu nie ma granic!'
 dateFrom: '2019-06-08'
-dateTo: ''
+dateTo: '2019-06-08'
 city: 'Andrychów'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/375630586557936/
+promoted: false
 ---
 DANCE Is the LIMIT
 ~ Ponieważ w tańcu nie ma granic ~

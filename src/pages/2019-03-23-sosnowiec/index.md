@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'World dance'
 dateFrom: '2019-03-23'
-dateTo: ''
+dateTo: '2019-03-23'
 city: 'Sosnowiec'
 image: 'image.jpg'
 tags: []
 link: http://www.kiepura.pl/skandal/pl,1,m,69,regulamin
+promoted: false
 ---
 Zapraszamy na:
 - DISCO DANCE: formacje.

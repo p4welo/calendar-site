@@ -9,5 +9,6 @@ city: 'Bełchatów'
 image: 'image.jpg'
 tags: []
 link: https://www.mckbelchatow.pl/wydarzenia/12822,xi-ogolnopolskie-spotkania-taneczne-%28re%29akcje-belchatow-2019
+promoted: false
 ---
 (Re)akcje to 2 dniowy festiwal przeznaczony dla solistów, zespołów oraz teatrów tańca. Pierwszy dzień (09.03.2019) to formy krótkie do 5 minut. Drugi dzień (10.03.2019) to formy długie do 30 minut.

@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'I OGÓLNOPOLSKI TURNIEJ TAŃCA NOWOCZESNEGO PAKOSŁAW 2019'
 dateFrom: '2019-04-06'
-dateTo: ''
+dateTo: '2019-04-06'
 city: 'Pakosław k. Rawicza'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/I-Og%C3%B3lnopolski-Turniej-Ta%C5%84ca-Nowoczesnego-Pakos%C5%82aw-2019-r-776122852780301/
+promoted: false
 ---
 I Ogólnopolski Turniej Tańca Nowoczesnego Pakosław 2019r.
 

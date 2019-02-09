@@ -9,6 +9,7 @@ city: 'Saloniki'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/topartfestival/
+promoted: false
 ---
 Miasto Saloniki w uroczej Grecji zapraszają utalentowane dzieci i młodzież z całego świata.
 Koncerty w pięknej scenerii zabytków i romantycznych ulic.

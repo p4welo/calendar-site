@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'XDance Festival'
 dateFrom: '2019-03-24'
-dateTo: ''
+dateTo: '2019-03-24'
 city: 'Zdzieszowice'
 image: 'image.jpg'
 tags: []
 link: //www.xculture.pl/zdzieszowice
+promoted: false
 ---
 Zapraszamy serdecznie na XDF 2019 w Zdzieszowicach.
 

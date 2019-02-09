@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'Dance Machine Festival'
 dateFrom: '2019-04-13'
-dateTo: ''
+dateTo: '2019-04-13'
 city: 'Mysłowice'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/934171833455078
+promoted: false
 ---
 Dance Machine Festival
 

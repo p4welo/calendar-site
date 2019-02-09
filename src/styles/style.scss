@@ -1,14 +1,39 @@
 @import url('https://use.fontawesome.com/releases/v5.7.1/css/all.css');
-
 @import "./bootstrap.css";
 @import "./core.css";
 @import "./components.css";
 @import "./colors.css";
 
-.event-link {
-  text-transform: uppercase;
+.home-page {
+  .event-container {
+    margin-bottom: 20px;
+  }
+
+  .thumbnail {
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .label-date {
+    width: 100%;
+  }
+
+  .caption {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .event-link {
+    margin-top: auto;
+    width: 100%;
+  }
+
+  .event-city {
+    text-transform: capitalize;
+  }
 }
 
-.event-city {
-  text-transform: capitalize;
+.label-date {
+  font-size: 12px !important;
 }

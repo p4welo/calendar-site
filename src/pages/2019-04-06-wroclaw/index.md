@@ -4,11 +4,12 @@ date: '2018-09-26'
 
 title: 'I FESTIWAL TAŃCA FORMACJI I MINI FORMACJI „TRENDY”'
 dateFrom: '2019-04-06'
-dateTo: ''
+dateTo: '2019-04-06'
 city: 'Borowa k. Wrocławia'
 image: 'image2.jpg'
 tags: []
 link: http://trendy.setenta.wroclaw.pl
+promoted: true
 ---
 Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udziału w zbliżającym się festiwalu! 🙂
 
