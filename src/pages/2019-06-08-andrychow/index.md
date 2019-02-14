@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/375630586557936/
 promoted: false
+visible: true
 ---
 DANCE Is the LIMIT
 ~ Ponieważ w tańcu nie ma granic ~

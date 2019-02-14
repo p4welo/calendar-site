@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
+visible: true
 ---
 Międzynarodowy Festiwal Dzieci i Młodzieży w Rzymie – Wieczne miasto Rzym otwiera swoje ulice na muzykę i utalentowane dzieci i młodzież z całego świata.
 

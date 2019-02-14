@@ -5,11 +5,11 @@ import Img from 'gatsby-image';
 import { Link } from '@reach/router';
 import SEO from '../components/seo';
 
-export default function Template({ data }) {
+export default function Template({ location, data }) {
   const { markdownRemark: post } = data;
   return (
       <Layout>
-        <SEO title={post.frontmatter.title}/>
+        <SEO title={post.frontmatter.title} image={post.frontmatter.image.childImageSharp.fluid.src} url={location.pathname}/>
         <Link to='/' class='return-to-home'>Powrót</Link>
         <div className='panel panel-flat blog-horizontal blog-horizontal-1'>
           <div className='panel-body'>

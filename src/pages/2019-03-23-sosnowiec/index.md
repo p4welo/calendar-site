@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://www.kiepura.pl/skandal/pl,1,m,69,regulamin
 promoted: false
+visible: true
 ---
 Zapraszamy na:
 - DISCO DANCE: formacje.

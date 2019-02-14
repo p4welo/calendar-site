@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
+import moment from 'moment';
 
 import Layout from '../components/layout';
 import HomeHeader from '../components/home/home-header';
@@ -19,6 +20,7 @@ const IndexPage = (props) => {
           <div class="row">
             {
               postList.edges
+                  .filter(({ node }) => node.frontmatter.visible)
                   .filter(({ node }) => node.frontmatter.promoted)
                   .map(({ node }, i) => (
                       <div className="col-xs-12 col-sm-6 col-md-4 event-container"
@@ -61,7 +63,10 @@ const IndexPage = (props) => {
 
           <h5 className="text-light">Sezon 2018/2019</h5>
           <div class='row'>
-            {postList.edges.map(({ node }, i) => (
+            {
+              postList.edges
+                  .filter(({ node }) => node.frontmatter.visible)
+                  .map(({ node }, i) => (
                 <div className="col-xs-12 col-sm-6 col-md-4 event-container"
                     key={i}>
                   <div className="thumbnail">
@@ -92,7 +97,8 @@ const IndexPage = (props) => {
                     </div>
                   </div>
                 </div>
-            ))}
+            ))
+            }
           </div>
         </Layout>
       </div>
@@ -111,6 +117,7 @@ export const listQuery = graphql`
           frontmatter {
             path
             promoted
+            visible
             dateFrom(formatString: "DD MMMM YYYY", locale: "pl")
             dateTo(formatString: "DD MMMM YYYY", locale: "pl")
             title

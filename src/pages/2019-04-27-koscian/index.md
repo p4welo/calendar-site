@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://www.mass-team.pl/festiwal-tanca
 promoted: false
+visible: true
 ---
 III Ogólnopolski Turniej Tańca Nowoczesnego o Puchar Burmistrza Kościana.
 27 kwietnia (sobota) Disco Dance, hip Hop 28 kwietnia (niedziela ) Modern, contemporary, Jazz. 

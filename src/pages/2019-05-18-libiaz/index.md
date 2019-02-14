@@ -8,10 +8,8 @@ dateTo: '2019-05-18'
 city: 'Libiąż'
 image: 'image.jpg'
 tags: []
-link: https://zakreceninataniec.pl/
+link: http://lck.libiaz.pl/
 promoted: false
+visible: true
 ---
 Festiwal Tańca "Złote Sznurowadło 2019"
-
-Szczegóły:
-http://lck.libiaz.pl/

@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://www.dance-passion.pl/index.php/site/index/2-konkurs-tanca.html
 promoted: false
+visible: true
 ---
 Celem Konkursu jest wspieranie młodzieży i dzieci w doskonaleniu swojej pasji, popularyzacja wszelkich form tańca, a także promowanie samego miasta Jastrzębia w środowisku tancerzy całego kraju.
 

@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/333645870725508/
 promoted: false
+visible: true
 ---
 Zapraszamy wszystkich tancerzy na Lit Dance Cup Competition – 30 marca 2019 roku. Ostrowiec Św. (woj.świetokrzyskie).
 

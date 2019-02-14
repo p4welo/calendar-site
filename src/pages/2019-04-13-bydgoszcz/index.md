@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: www.szkolabohema.pl
 promoted: false
+visible: true
 ---
 BUT – Bydgoska Układanka Taneczna jest ogólnopolskim turniejem tańca, który podzieliliśmy na 2 stopnie zaawansowania:
 - DEBIUTY NA START! – tancerze z maksymalnie 2 letnim stażem, 

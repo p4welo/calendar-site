@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://newdance.pl/festiwal/
 promoted: false
+visible: true
 ---
 VI Ogólnopolski Festiwal Tańca "Dance - Passion and Life" jest przeznaczony 
 dla dziecięcych i młodzieżowych zespołów tanecznych, 

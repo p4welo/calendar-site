@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://www.srt-kontrast.com/2019/01/20/1437-2-2-2-3-2-2-2-2/
 promoted: false
+visible: true
 ---
 Serdecznie zapraszamy na zupełnie nowy, nowoczesny, niepowtarzalny Ogólnopolski Turniej Tańca LET’S DANCE 2019 – Oborniki Wielopolskie.
 

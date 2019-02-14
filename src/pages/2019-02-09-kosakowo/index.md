@@ -10,5 +10,6 @@ image: 'image.jpg'
 tags: ["solo", "duet", "mini formacje", "formacje"]
 link: http://studiobravo.wixsite.com/moctanca
 promoted: false
+visible: true
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.

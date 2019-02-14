@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/1084181728407576/
 promoted: false
+visible: true
 ---
 W dniach 9-10.03.2019 Serdecznie Zapraszamy Was na kolejną odsłonę GOLD CONTEST, największej tanecznej imprezy w Gliwicach. W tym roku pojawi się wiele zmian. Między innymi:
 

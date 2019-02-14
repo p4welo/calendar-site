@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: http://palac.bydgoszcz.pl/regulaminy.php#mirages
 promoted: false
+visible: true
 ---
 UCZESTNICY
 

@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/934171833455078
 promoted: false
+visible: true
 ---
 Dance Machine Festival
 

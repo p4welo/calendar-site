@@ -10,5 +10,6 @@ image: 'image.jpg'
 tags: []
 link: http://studiobravo.wixsite.com/konkursbaletowy
 promoted: false
+visible: true
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.

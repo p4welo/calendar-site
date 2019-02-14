@@ -10,6 +10,7 @@ image: 'image2.jpg'
 tags: []
 link: http://trendy.setenta.wroclaw.pl
 promoted: true
+visible: true
 ---
 Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udziału w zbliżającym się festiwalu! 🙂
 

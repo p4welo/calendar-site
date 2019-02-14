@@ -10,5 +10,6 @@ image: 'image.jpg'
 tags: []
 link: http://reaktywacja-zory.pl/index.php/festiwal-tanca-dzieci-dzieciom-bez-barier
 promoted: false
+visible: true
 ---
 Serdecznie zapraszamy zespoly z calej Polski, bedzie to juz 7 edycja festiwalu, wkrótce szczegóły

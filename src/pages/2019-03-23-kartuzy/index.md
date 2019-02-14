@@ -10,5 +10,6 @@ image: 'image.jpg'
 tags: []
 link: http://studiobravo.wixsite.com/stolem
 promoted: false
+visible: true
 ---
 Zapraszamy mini formacje i formacje.

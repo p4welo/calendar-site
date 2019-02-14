@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: //www.xculture.pl/zdzieszowice
 promoted: false
+visible: true
 ---
 Zapraszamy serdecznie na XDF 2019 w Zdzieszowicach.
 

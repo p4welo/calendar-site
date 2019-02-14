@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/impuls.fk
 promoted: false
+visible: true
 ---
 Kategorie:
 - hip hop

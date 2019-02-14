@@ -10,5 +10,6 @@ image: 'image.jpg'
 tags: []
 link: https://zakreceninataniec.pl/
 promoted: false
+visible: true
 ---
 Zapraszamy tancerzy oraz zespoły działające w Domach Kultury, Klubach, Szkołach Tańca i innych placówkach oświatowych i kulturalnych.

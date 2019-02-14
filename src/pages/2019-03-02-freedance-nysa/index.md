@@ -10,6 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/203400063908497/
 promoted: false
+visible: true
 ---
 XI Międzynarodowy Turniej Tańca Nowoczesnego FREESTYLE DANCE NYSA
 
