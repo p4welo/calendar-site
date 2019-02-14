@@ -4,9 +4,16 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image';
 import { Link } from '@reach/router';
 import SEO from '../components/seo';
+import { DiscussionEmbed } from "disqus-react";
 
 export default function Template({ location, data }) {
   const { markdownRemark: post } = data;
+  const disqusShortname = `${process.env.DISQUS_ID}`;
+  const disqusConfig = {
+    identifier: post.title,
+    title: post.frontmatter.title,
+  };
+
   return (
       <Layout>
         <SEO title={post.frontmatter.title} image={post.frontmatter.image.childImageSharp.fluid.src} url={location.pathname}/>
@@ -39,6 +46,7 @@ export default function Template({ location, data }) {
             </div>
           </div>
         </div>
+        <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
       </Layout>
   )
 }
