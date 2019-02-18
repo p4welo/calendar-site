@@ -10,5 +10,8 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/TurniejTancaTop/
 promoted: true
-visible: false
+visible: true
 ---
+Zapraszamy serdecznie na 3. edycję Turnieju Tańca Nowoczesnego TOP do Wrocławia! 
+
+Więcej szczegółów wkrótce :)

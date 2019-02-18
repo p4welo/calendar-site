@@ -26,7 +26,7 @@ Kategorie taneczne:
 * Balet
 * Teatr tańca
 
-Stopnie zaawansowania: Debiuty / Open
+Stopnie zaawansowania: Debiuty / Mistrzowie
 
 Nagrody:
 
