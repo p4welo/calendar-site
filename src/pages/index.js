@@ -14,9 +14,8 @@ const IndexPage = (props) => {
       <div className='home-page'>
         <SEO title='Strona główna'/>
         <HomeHeader/>
-
         <Layout>
-          <h5 className="text-light">Wydarzenia promowane</h5>
+          <h5 id='main' className="text-light">Wydarzenia promowane</h5>
           <div className="row">
             {
               postList.edges
@@ -52,7 +51,7 @@ const IndexPage = (props) => {
                               {node.frontmatter.city}
                             </small>
                             <Link to={node.frontmatter.path}
-                                className='event-link promoted-event-link btn btn-primary'>
+                                className='event-link promoted-event-link btn btn-default'>
                               Szczegóły
                             </Link>
                           </div>
@@ -61,14 +60,14 @@ const IndexPage = (props) => {
                   ))}
           </div>
 
-          <div style={{display: `flex`, justifyContent: `center`}}>
-            <div className='panel panel-flat col-xs-12'>
-              <div className='panel-body'>
-                <p>Polub nas na Facebooku!</p>
-                <div className="fb-like" data-href="https://facebook.com/tanecznykalendarz/"
-                    data-layout="button_count" data-action="like" data-size="large"
-                    data-show-faces="true" data-share="true"></div>
-              </div>
+          <div style={{ display: `flex`, justifyContent: `center` }}>
+            <div className="well well-white text-center">
+              <h5 style={{ marginTop: `0` }}>
+                Polub nas na Facebooku i bądź na bieżąco z nowymi wydarzeniami
+              </h5>
+              <div className="fb-like" data-href="https://facebook.com/tanecznykalendarz/"
+                  data-layout="button_count" data-action="like" data-size="large"
+                  data-show-faces="true" data-share="true"></div>
             </div>
           </div>
 
@@ -104,7 +103,7 @@ const IndexPage = (props) => {
                               {node.frontmatter.city}
                             </small>
                             <Link to={node.frontmatter.path}
-                                className='event-link btn btn-primary'>
+                                className='event-link btn btn-default'>
                               Szczegóły
                             </Link>
                           </div>

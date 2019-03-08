@@ -2,29 +2,30 @@
 path: '/xdance-2019'
 date: '2018-09-26'
 
-title: 'XDance Festival'
+title: 'XDance Festival 2019 - Zdzieszowice'
 dateFrom: '2019-03-24'
 dateTo: '2019-03-24'
-city: 'Zdzieszowice'
+city: 'Zdzieszowice (Opole)'
 image: 'image.jpg'
 tags: []
-link: //www.xculture.pl/zdzieszowice
+link: http://www.xculture.pl/zdzieszowice
 promoted: false
 visible: true
 ---
-Zapraszamy serdecznie na XDF 2019 w Zdzieszowicach.
+Zapraszamy serdecznie na kolejne edycje XDance Festival 2019, najlepsza taneczna atmosfera, świetna zabawa, rywalizacja, warsztaty oraz widowisko, którego musisz być częscią!
 
-Informacje o festivalu udzielamy pod tym linkiem: 
-https://bit.ly/2RqWsKR
+Zarejestruj swoich tancerzy: https://bit.ly/2RqWsKR
 
 Kategorie:
-- SOLO 
-- DUETY 
+- SOLO
+- DUETY
 - FORMACJE
 
 Kategorie taneczne:
-- HIP HOP
-- SHOW DANCE
-- MODERN JAZZ
-- DISCO DANCE
-- STREET DANCE SHOW
+- HIP HOP 
+- STREET DANCE SHOW 
+- DISCO DANCE 
+- MODERN JAZZ 
+- SHOW DANCE 
+- PERFORMING ART IMPROVISATION 
+- INNE

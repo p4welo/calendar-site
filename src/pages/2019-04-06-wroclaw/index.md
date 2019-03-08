@@ -14,10 +14,10 @@ visible: true
 ---
 Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udziału w zbliżającym się festiwalu! 🙂
 
-Grupy wiekowe: do 8 lat / 9-11 lat / 12-15 lat / powyżej 15 lat
+**Karta zgłoszeń:**
+- http://kartazgloszen.pl
 
-Kategorie taneczne:
-
+**Kategorie taneczne:**
 * Hip hop
 * Jazz
 * Taniec współczesny
@@ -26,13 +26,26 @@ Kategorie taneczne:
 * Balet
 * Teatr tańca
 
-Stopnie zaawansowania: Debiuty / Mistrzowie
+**Grupy wiekowe:**
+- do 8 lat
+- 9-11 lat
+- 12-15 lat
+- powyżej 15 lat
 
-Nagrody:
+**Stopnie zaawansowania:**
+- Debiuty
+- Mistrzowie
 
+**Sędziowie:**
+- Katarzyna Bryłka
+- Piotr "Czyż" Czyżewski
+- Przemysław Polakowski
+
+
+**Nagrody:**
+*
 1, 2, 3 m-ce – puchar i dyplom.
 
 **Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie.**
 
 https://www.facebook.com/events/2228466857427674/
-

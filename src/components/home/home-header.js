@@ -35,9 +35,12 @@ const HomeHeader = () => (
           </h2>
           <div className="btn-group">
             <a href="https://goo.gl/forms/l2Ri9kqlDrPJsUnO2"
+                style={{marginRight: `5px`}}
                 className="btn btn-primary btn-raised"
                 target='_blank'
                 rel="noopener noreferrer">Zgłoś turniej za darmo</a>
+            <a href="#main"
+                className="btn btn-default btn-raised">Przeglądaj turnieje</a>
           </div>
         </div>
       </div>
