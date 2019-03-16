@@ -39,7 +39,7 @@ Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udz
 **Sędziowie:**
 - Katarzyna Bryłka
 - Piotr "Czyż" Czyżewski
-- Przemysław Polakowski
+- Włodek Kołobycz
 
 
 **Nagrody:**

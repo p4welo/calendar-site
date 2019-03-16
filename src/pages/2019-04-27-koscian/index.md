@@ -8,7 +8,7 @@ dateTo: '2019-04-28'
 city: 'Kościan'
 image: 'image.jpg'
 tags: []
-link: http://www.mass-team.pl/festiwal-tanca
+link: http://szkolapoezja.pl/turniej2019/
 promoted: false
 visible: true
 ---
