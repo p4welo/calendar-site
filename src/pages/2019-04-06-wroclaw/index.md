@@ -6,7 +6,7 @@ title: 'I FESTIWAL TAŃCA FORMACJI I MINI FORMACJI „TRENDY”'
 dateFrom: '2019-04-06'
 dateTo: '2019-04-06'
 city: 'Borowa k. Wrocławia'
-image: 'image2.jpg'
+image: 'image.jpg'
 tags: []
 link: http://trendy.setenta.wroclaw.pl
 promoted: true
@@ -40,11 +40,12 @@ Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udz
 - Katarzyna Bryłka
 - Piotr "Czyż" Czyżewski
 - Włodek Kołobycz
+- Grzegorz Pańtak
+- ...wkrótce!
 
 
 **Nagrody:**
-*
-1, 2, 3 m-ce – puchar i dyplom.
+* 1, 2, 3 m-ce – puchar i dyplom.
 
 **Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie.**
 

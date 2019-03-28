@@ -8,7 +8,7 @@ dateTo: '2019-04-14'
 city: 'Bydgoszcz'
 image: 'image.jpg'
 tags: []
-link: www.szkolabohema.pl
+link: http://www.szkolabohema.pl
 promoted: false
 visible: true
 ---
