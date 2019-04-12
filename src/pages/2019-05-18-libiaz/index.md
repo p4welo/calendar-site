@@ -13,3 +13,6 @@ promoted: false
 visible: true
 ---
 Festiwal Tańca "Złote Sznurowadło 2019"
+
+**10 kwiecień - ostatni dzień przyjmowania zgłoszeń i opłat startowych - dzisiaj o godz. 24.00 
+zamykamy listy startowe!!!**
