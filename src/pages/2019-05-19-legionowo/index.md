@@ -3,8 +3,8 @@ path: '/xdance-legionowo-2019'
 date: '2018-09-26'
 
 title: 'XDance Festival 2019 - Legionowo'
-dateFrom: '2019-04-13'
-dateTo: '2019-04-14'
+dateFrom: '2019-05-19'
+dateTo: '2019-05-19'
 city: 'Legionowo'
 image: 'image.jpg'
 tags: []
