@@ -4,6 +4,8 @@
 @import "./components.css";
 @import "./colors.css";
 
+$color-primary: #07beb8;
+
 .home-page {
   .event-container {
     margin-bottom: 20px;
@@ -12,6 +14,9 @@
   .thumbnail {
     margin-bottom: 0;
     position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   .label-date {
@@ -21,7 +26,7 @@
   .caption {
     display: flex;
     flex-direction: column;
-    height: 150px;
+    flex-grow: 1;
   }
 
   .event-link {
@@ -29,8 +34,62 @@
     width: 100%;
   }
 
-  .event-city {
+  &__event-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+}
+
+.home-header {
+  height: 100vh;
+  min-height: 400px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 400px;
+    height: calc(100vh - 50px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+  &__content-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+
+  &__description {
+    z-index: 1;
+  }
+
+  .btn-group > a:first-child {
+    margin: 0 5px 5px 0;
+  }
+
+  .navbar-text {
+    width: 100%;
+  }
+}
+
+.event-tile {
+  &__image {
+    height: 350px;
+  }
+
+  &__city {
     text-transform: capitalize;
+    margin-bottom: 10px;
   }
 }
 
@@ -39,6 +98,25 @@
 }
 
 .btn-primary {
-  background: #07beb8 !important;
-  border-color: #07beb8 !important;
+  background: $color-primary !important;
+  border-color: $color-primary !important;
+}
+
+.app-navbar {
+  .navbar-header {
+    margin: 0;
+  }
+
+  a.navbar-brand {
+    padding-top: 5px !important;
+    padding-bottom: 5px;
+    overflow: hidden;
+
+    > img {
+      margin-top: -19px;
+      height: 90px;
+    }
+  }
+
+
 }
