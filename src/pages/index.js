@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
             }
           </div>
-          <Link to='/archive' className='btn btn-default btn-raised'
+          <Link to='/archive' className='btn btn-default btn-raised btn-go-to-archive'
               style={{ marginBottom: `20px` }}>Przejdź do archiwum wydarzeń</Link>
         </Layout>
       </div>
@@ -65,6 +65,7 @@ export const query = graphql`
           excerpt(pruneLength: 250)
           frontmatter {
             path
+            date
             promoted
             visible
             dateFrom

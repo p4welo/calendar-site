@@ -1,12 +1,9 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 import { graphql, Link } from 'gatsby';
-import { isNowOrFuture } from '../utils/date-utils';
-import moment from 'moment';
+import { formatDate, isNowOrFuture } from '../utils/date-utils';
 
-const Component = React.Component;
-
-class ArchivePage extends Component {
+class ArchivePage extends React.Component {
   constructor(props) {
     super(props);
     const isPast = ({ node }) => !isNowOrFuture(node.frontmatter.dateTo);
@@ -15,8 +12,8 @@ class ArchivePage extends Component {
         const data = event.node.frontmatter;
         return {
           title: data.title,
-          dateFrom: moment(data.dateFrom).format("DD/MM/YYYY"),
-          dateTo: moment(data.dateTo).format("DD/MM/YYYY"),
+          dateFrom: formatDate(data.dateFrom),
+          dateTo: formatDate(data.dateTo),
           multiday: data.dateTo !== data.dateFrom,
           path: data.path,
           city: data.city
@@ -26,7 +23,6 @@ class ArchivePage extends Component {
   }
 
   render() {
-
     return (
         <>
           <Navbar/>
@@ -35,7 +31,7 @@ class ArchivePage extends Component {
               <h4>Archiwum wydarzeń</h4>
             </div>
 
-            <div className='panel panel-flat'>
+            <div className='panel panel-flat table-responsive'>
               <table className='table'>
                 <tbody>
                 {

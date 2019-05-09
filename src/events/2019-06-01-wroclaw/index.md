@@ -5,22 +5,34 @@ date: '2018-09-26'
 title: 'III Ogólnopolski turniej tańca TOP'
 dateFrom: '2019-06-01'
 dateTo: '2019-06-02'
-city: 'Wrocław'
+city: 'Oleśnica'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/TurniejTancaTop/
 promoted: true
 visible: true
 ---
-Zapraszamy serdecznie na 3. edycję Turnieju Tańca Nowoczesnego TOP do Wrocławia!
+Zapraszamy serdecznie na 3. edycję Turnieju Tańca Nowoczesnego TOP na Dolny Śląsk!
+
+**Karta zgłoszeń:**
+
+http://kartazgloszen.pl
+
+**Miejsce**
+
+Hala Sportowa ATOL w Oleśnicy
+
+http://atol.olesnica.pl/obiekty-sportowe-konferencyjne/hala-sportowa
 
 **Style taneczne:**
 * Hip hop
 * Jazz
 * Taniec współczesny
-* Disco dance
 * Show dance
 * Balet
+* Disco dance
+* Disco show (formacje i mini formacje) - **nowość!**
+* Inne formy tańca (formacje i mini formacje) - **nowość!**
 
 Podobnie jak w zeszłym roku - otwieramy dwie dodatkowe kategorie dla **debiutujących formacji i 
 miniformacji:**
@@ -38,12 +50,14 @@ miniformacji:**
 - 9-11 lat
 - 12-15 lat
 - powyżej 15 lat
+- 30+ (inne formy tańca) - **nowość!**
 
 **Jury**
 - Katarzyna Bryłka
 - Marta "Mostek" Mościcka
-- Marta Brendel
 - Przemysław Polakowski
+- ?
+- ?
 
 **Nagrody:**
 - soliści / duety - 1, 2, 3 miejsce - medal i dyplom

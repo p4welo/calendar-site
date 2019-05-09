@@ -9,7 +9,7 @@ class HomeHeader extends Component {
     return (
         <>
           <div className='home-header'>
-            <div className='home-header__slide' style={{ backgroundImage: `url(${image})` }}/>
+            <div className='home-header__slide' style={{ background: `url(${image}) no-repeat scroll center 50%/cover` }}/>
             <div/>
             <div className='container home-header__content'>
               <div className='col-sm-offset-1 home-header__content-column'>

@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Pawel Radomski <p4welo@gmail.com>",
   "dependencies": {
+    "dayjs": "^1.8.12",
     "disqus-react": "^1.0.5",
     "dotenv": "^6.2.0",
     "gatsby": "^2.0.88",

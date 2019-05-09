@@ -4,22 +4,27 @@ import { graphql } from 'gatsby'
 import Img from 'gatsby-image';
 import { Link } from '@reach/router';
 import SEO from '../components/seo';
-import { DiscussionEmbed } from "disqus-react";
+import { DiscussionEmbed } from 'disqus-react';
 import Navbar from '../components/navbar';
+import { formatDate } from '../utils/date-utils';
 
 export default function Template({ location, data }) {
-  const { markdownRemark: post } = data;
+  const page = data.markdownRemark;
+  const event = {
+    ...page.frontmatter,
+    thumbnail: page.frontmatter.image.childImageSharp.fluid
+  };
   const disqusShortname = `${process.env.DISQUS_ID}`;
   const disqusConfig = {
-    identifier: post.title,
-    title: post.frontmatter.title,
+    identifier: page.title,
+    title: event.title,
   };
 
   return (
       <>
-        <SEO title={post.frontmatter.title}
-            description={post.excerpt}
-            image={post.frontmatter.image.childImageSharp.fluid.src}
+        <SEO title={event.title}
+            description={page.excerpt}
+            image={event.thumbnail.src}
             url={location.pathname}/>
 
         <Navbar/>
@@ -32,27 +37,29 @@ export default function Template({ location, data }) {
 
           <div className='panel panel-flat blog-horizontal blog-horizontal-1'>
             <div className='panel-body'>
-              <div className="thumb">
-                <Img fluid={post.frontmatter.image.childImageSharp.fluid}
-                    className="img-responsive"/>
+              <div className='thumb' style={{float: `right`, marginRight: `0`, marginLeft: `10px`}}>
+                <Img fluid={event.thumbnail}
+                    className='img-responsive'/>
               </div>
-              <div className="blog-preview">
-                <h1 className="panel-title text-semibold">
-                  {post.frontmatter.title}
+              <div className='blog-preview'>
+                <h1 className='panel-title text-semibold'>
+                  {event.title}
                 </h1>
 
-                <span className="label label-striped label-date">
-                {post.frontmatter.dateFrom}
+                <h4 className='text-uppercase'>{event.city}</h4>
+
+                <span className='label label-striped label-date'>
+                {formatDate(event.dateFrom)}
                   {
-                    post.frontmatter.dateTo !== post.frontmatter.dateFrom &&
-                    <span> - {post.frontmatter.dateTo}</span>
+                    event.dateTo !== event.dateFrom &&
+                    <span> - {formatDate(event.dateTo)}</span>
                   }
               </span>
-                <div dangerouslySetInnerHTML={{ __html: post.html }}/>
-                <a href={post.frontmatter.link}
+                <div dangerouslySetInnerHTML={{ __html: page.html }}/>
+                <a href={event.link}
                     target='_blank'
-                    rel="noopener noreferrer"
-                    className="btn btn-primary organizer-site">
+                    rel='noopener noreferrer'
+                    className='btn btn-primary organizer-site'>
                   Strona organizatora
                 </a>
               </div>
@@ -71,8 +78,8 @@ export const query = graphql`
       excerpt(pruneLength: 250)
       frontmatter {
         path
-          dateFrom(formatString: "DD MMMM YYYY", locale: "pl")
-          dateTo(formatString: "DD MMMM YYYY", locale: "pl")
+          dateFrom
+          dateTo
           title
           city
           link
