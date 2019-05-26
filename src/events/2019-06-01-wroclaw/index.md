@@ -56,8 +56,8 @@ miniformacji:**
 - Katarzyna Bryłka
 - Marta "Mostek" Mościcka
 - Przemysław Polakowski
-- ?
-- ?
+- Włodek Kołobycz
+- Mirosław Nędzewicz
 
 **Nagrody:**
 - soliści / duety - 1, 2, 3 miejsce - medal i dyplom
