@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/navbar';
 import { graphql, Link } from 'gatsby';
 import { formatDate, isNowOrFuture } from '../utils/date-utils';
+import SEO from '../components/seo';
 
 class ArchivePage extends React.Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class ArchivePage extends React.Component {
   render() {
     return (
         <>
+          <SEO title='Archiwum wydarzeń'/>
           <Navbar/>
           <div className='container'>
             <div className='page-title'>

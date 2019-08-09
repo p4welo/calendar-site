@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
+import banner from '../images/banner-karta.jpg';
 import Layout from '../components/layout';
 import HomeHeader from '../components/home/home-header';
 import SEO from '../components/seo';
@@ -22,8 +23,15 @@ const IndexPage = ({ data }) => {
         <SEO title='Strona główna'/>
         <HomeHeader eventAmount={eventList.length}
             futureAmount={eventList.filter(isFuture).length}/>
+
         <Layout>
-          <h5 id='main'>Proponowane wydarzenia</h5>
+          <div id='main' style={{ textAlign: 'center', marginBottom: '20px' }}>
+            <a href='https://kartazgloszen.pl' target='_blank'>
+              <img src={banner} style={{ width: '100%', maxWidth: '700px' }}/>
+            </a>
+          </div>
+
+          <h5>Proponowane wydarzenia</h5>
           <div className="row home-page__event-row">
             {
               eventList

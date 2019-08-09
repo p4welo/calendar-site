@@ -21,15 +21,17 @@ class EventTile extends Component {
       city: data.frontmatter.city
     };
 
+    function Ribbon() {
+      return event.promoted ?
+          <div className="ribbon-container">
+            <div className="ribbon bg-indigo-400">Polecamy</div>
+          </div> : <span/>;
+    }
+
     return (
         <div className="col-xs-12 col-sm-6 col-md-4 event-container">
           <div className="thumbnail">
-            {
-              event.promoted &&
-              <div className="ribbon-container">
-                <div className="ribbon bg-indigo-400">Polecamy</div>
-              </div>
-            }
+            { <Ribbon/> }
             <div className="thumb">
               <Img fluid={event.image}
                   className="event-tile__image"
@@ -45,7 +47,8 @@ class EventTile extends Component {
                 {event.title}
                 {
                   event.new &&
-                  <span className="label bg-orange text-uppercase event-tile__label-new">Nowość</span>
+                  <span
+                      className="label bg-orange text-uppercase event-tile__label-new">Nowość</span>
                 }
               </h6>
               <small className="display-block event-tile__city">
@@ -61,5 +64,6 @@ class EventTile extends Component {
     );
   }
 }
+
 
 export default EventTile;

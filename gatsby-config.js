@@ -65,6 +65,12 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: process.env.FB_PIXEL_ID,
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`
     // `gatsby-plugin-offline`
