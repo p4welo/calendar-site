@@ -17,6 +17,7 @@ const IndexPage = ({ data }) => {
     return visible && promoted;
   };
   const isFuture = ({ node }) => isNowOrFuture(node.frontmatter.dateTo);
+  const isPast = ({ node }) => !isNowOrFuture(node.frontmatter.dateTo);
 
   return (
       <div className='home-page'>
@@ -26,8 +27,11 @@ const IndexPage = ({ data }) => {
 
         <Layout>
           <div id='main' style={{ textAlign: 'center', marginBottom: '20px' }}>
-            <a href='https://kartazgloszen.pl' target='_blank'>
-              <img src={banner} style={{ width: '100%', maxWidth: '700px' }}/>
+            <a href='https://kartazgloszen.pl'
+                className='karta-zgloszen-banner'
+                target='_blank'>
+              <img src={banner}
+                  style={{ width: '100%', maxWidth: '700px' }}/>
             </a>
           </div>
 
@@ -55,6 +59,7 @@ const IndexPage = ({ data }) => {
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
             }
           </div>
+
           <Link to='/archive' className='btn btn-default btn-raised btn-go-to-archive'
               style={{ marginBottom: `20px` }}>Przejdź do archiwum wydarzeń</Link>
         </Layout>
