@@ -18,6 +18,7 @@ const IndexPage = ({ data }) => {
   };
   const isFuture = ({ node }) => isNowOrFuture(node.frontmatter.dateTo);
   const isPast = ({ node }) => !isNowOrFuture(node.frontmatter.dateTo);
+  const sortByDate = ({ nodeA }, { nodeB }) => nodeA.frontmatter.dateTo;
 
   return (
       <div className='home-page'>
@@ -26,16 +27,8 @@ const IndexPage = ({ data }) => {
             futureAmount={eventList.filter(isFuture).length}/>
 
         <Layout>
-          <div id='main' style={{ textAlign: 'center', marginBottom: '20px' }}>
-            <a href='https://kartazgloszen.pl'
-                className='karta-zgloszen-banner'
-                target='_blank'>
-              <img src={banner}
-                  style={{ width: '100%', maxWidth: '700px' }}/>
-            </a>
-          </div>
 
-          <h5>Proponowane wydarzenia</h5>
+          <h3 style={{marginTop: '40px'}} id='main'>Proponowane wydarzenia</h3>
           <div className="row home-page__event-row">
             {
               eventList
@@ -51,7 +44,7 @@ const IndexPage = ({ data }) => {
             </div>
           </div>
 
-          <h5>Nadchodzące wydarzenia</h5>
+          <h3 style={{marginTop: '40px'}}>Nadchodzące wydarzenia</h3>
           <div className='row home-page__event-row'>
             {
               eventList
@@ -59,6 +52,17 @@ const IndexPage = ({ data }) => {
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
             }
           </div>
+
+          {/*<h3 style={{marginTop: '40px'}}>Ubiegłe wydarzenia</h3>*/}
+          {/*<div className='row home-page__event-row' style={{filter: 'saturate(0.3)'}}>*/}
+          {/*  {*/}
+          {/*    eventList*/}
+          {/*        .filter(isPast)*/}
+          {/*        .sort(sortByDate)*/}
+          {/*        .slice(0,9)*/}
+          {/*        .map(({ node }, i) => <EventTile event={node} key={i}/>)*/}
+          {/*  }*/}
+          {/*</div>*/}
 
           <Link to='/archive' className='btn btn-default btn-raised btn-go-to-archive'
               style={{ marginBottom: `20px` }}>Przejdź do archiwum wydarzeń</Link>

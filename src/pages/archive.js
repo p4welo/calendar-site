@@ -3,6 +3,7 @@ import Navbar from '../components/navbar';
 import { graphql, Link } from 'gatsby';
 import { formatDate, isNowOrFuture } from '../utils/date-utils';
 import SEO from '../components/seo';
+import banner from '../images/banner-karta.jpg';
 
 class ArchivePage extends React.Component {
   constructor(props) {
@@ -29,6 +30,11 @@ class ArchivePage extends React.Component {
           <SEO title='Archiwum wydarzeń'/>
           <Navbar/>
           <div className='container'>
+            <div className='karta-zgloszen-banner'>
+              <a href='https://kartazgloszen.pl' target='_blank'>
+                <img src={banner}/>
+              </a>
+            </div>
             <div className='page-title'>
               <h4>Archiwum wydarzeń</h4>
             </div>
@@ -40,11 +46,10 @@ class ArchivePage extends React.Component {
                   this.state.events.map((event, i) => (
                       <tr key={i}>
                         <td>{event.dateFrom}</td>
-                        <td style={{textTransform: `uppercase`}}>{event.title}</td>
-                        <td>{event.city}</td>
-                        <td>
-                          <Link to={event.path}>Szczegóły</Link>
+                        <td style={{ textTransform: `uppercase` }}>
+                          <Link to={event.path}>{event.title}</Link>
                         </td>
+                        <td>{event.city}</td>
                       </tr>
                   ))
                 }

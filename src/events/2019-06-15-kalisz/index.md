@@ -12,7 +12,7 @@ link: https://www.facebook.com/events/586780455133682/
 promoted: false
 visible: true
 ---
-Bijemy Rekord Polski w Tańcu Hip Hop!
+Bijemy Rekord Polski w [Tańcu Hip Hop](/turniej-tanca-top-2020)!
 
 PIERWSZA impreza z cyklu „WIELKA BITWA KALISKA”
 

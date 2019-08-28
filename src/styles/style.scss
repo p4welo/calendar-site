@@ -6,6 +6,41 @@
 
 $color-primary: #07beb8;
 
+$screen-xs: 768px;
+$screen-sm: 48em;
+$screen-md: 64em;
+$screen-lg: 75em;
+
+@mixin xs-only {
+  @media (max-width: #{$screen-xs}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (min-width: #{$screen-xs}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (min-width: #{$screen-sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}
+
 .home-page {
   .event-container {
     margin-bottom: 20px;
@@ -45,7 +80,7 @@ $color-primary: #07beb8;
   height: 100vh;
   min-height: 400px;
   position: relative;
-  margin-bottom: 20px;
+  //margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -79,6 +114,12 @@ $color-primary: #07beb8;
   }
 }
 
+.event-post {
+  .label-date {
+    margin-bottom: 20px;
+  }
+}
+
 .event-tile {
   &__image {
     height: 350px;
@@ -90,12 +131,7 @@ $color-primary: #07beb8;
   }
 
   &__label-new {
-    //position: absolute;
-    //top: 5px;
-    //font-size: 12px !important;
     margin-left: 5px;
-    //left: 5px;
-    //z-index: 2;
   }
 }
 
@@ -123,6 +159,20 @@ $color-primary: #07beb8;
       height: 90px;
     }
   }
+}
 
+.karta-zgloszen-banner {
+  text-align: center;
+  margin: 0 -10px;
+  //margin: 0 -10px 20px;
 
+  @include sm {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: 800px;
+  }
 }

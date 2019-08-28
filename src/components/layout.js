@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from '@reach/router';
+import banner from '../images/banner-karta.jpg';
 
 const Layout = ({ children }) => (
     <StaticQuery
@@ -17,6 +18,11 @@ const Layout = ({ children }) => (
         render={data => (
             <>
               <div className="container" style={{ minHeight: `calc(100vh - 326px)` }}>
+                <div className='karta-zgloszen-banner'>
+                  <a href='https://kartazgloszen.pl' target='_blank'>
+                    <img src={banner} />
+                  </a>
+                </div>
                 {children}
               </div>
               <footer style={{

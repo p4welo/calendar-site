@@ -19,5 +19,8 @@ Zabawa w południowym stylu.
 Plaża, pizza, słońce, muzyka i dużo pozytywnej energii.
  
 Zakwaterowanie w 3*** hotelach w Anzio, Nettuno. 
-„Koncert Galowy“ w „CINECITTA WORLD“ – jedna z najpiękniejszych sal koncertowych we Włoszech. Pobyt w parku rozrywki „CINECITTA WORLD”. Pobyt w parku wodnym „ZOOMARINE”. WSPÓLNY KONCERT Z WŁOSKIMI SZKOŁAMI TAŃCA. Dla wszystkich uczestników warsztaty artystyczne z włoskimi choreografami. Zwiedzanie wiecznego miasta Rzym – COLOSEUM, FORUM ROMANUM, PANTHEON, fontanna DI TREVI. Zwiedzanie Watykanu i Bazyliki ŚW. PIOTRA, oraz wiele atrakcji turystycznych przygotowanych specjalnie dla uczestników festiwalu.
+„Koncert Galowy“ w „CINECITTA WORLD“ – jedna z najpiękniejszych sal koncertowych we Włoszech. 
+Pobyt w parku rozrywki „CINECITTA WORLD”. Pobyt w parku wodnym „ZOOMARINE”. WSPÓLNY KONCERT Z 
+WŁOSKIMI [SZKOŁAMI TAŃCA](http://tanecznykalendarz.pl/magia-tanca-ostrow-2019). Dla wszystkich uczestników warsztaty artystyczne z włoskimi 
+choreografami. Zwiedzanie wiecznego miasta Rzym – COLOSEUM, FORUM ROMANUM, PANTHEON, fontanna DI TREVI. Zwiedzanie Watykanu i Bazyliki ŚW. PIOTRA, oraz wiele atrakcji turystycznych przygotowanych specjalnie dla uczestników festiwalu.
 https://www.youtube.com/watch?v=zgnAAFW92Ls

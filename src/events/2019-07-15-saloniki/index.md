@@ -18,7 +18,8 @@ Słońce, oliwki i Zorba oraz plaża, morze, muzyka i dużo pozytywnej energii.
 
 Zakwaterowanie w 3*** hotelach w Salonikach. 
 „Koncert Galowy“ w zabytkowym klimacie Grecji. 
-Warsztaty taneczne z międzynarodową grupą instruktorów – (GRECJA, WŁOCHY) Całodniowy pobyt w parku wodnym „Waterland” Wieczór Grecko – Polski – prezentacja artystyczna folklorystycznych grup z Grecji, degustacja potraw Greckich oraz kilka mądrych i ciekawych słów o historii tego pięknego kraju. 
+[Warsztaty taneczne](/turniej-tanca-top-2020) z międzynarodową grupą instruktorów – (GRECJA, WŁOCHY) Całodniowy pobyt w 
+parku wodnym „Waterland” Wieczór Grecko – Polski – prezentacja artystyczna folklorystycznych grup z Grecji, degustacja potraw Greckich oraz kilka mądrych i ciekawych słów o historii tego pięknego kraju. 
 Zwiedzanie miasta Saloniki oraz rejs statkiem festiwalowym po pięknych greckich wodnych zakątkach. 
 Wycieczka do podnóży Olimpu
 

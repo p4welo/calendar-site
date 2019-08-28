@@ -7,7 +7,6 @@ import SEO from '../components/seo';
 import { DiscussionEmbed } from 'disqus-react';
 import Navbar from '../components/navbar';
 import { formatDate } from '../utils/date-utils';
-import banner from '../images/banner-karta.jpg';
 
 export default function Template({ location, data }) {
   const page = data.markdownRemark;
@@ -36,7 +35,7 @@ export default function Template({ location, data }) {
             </Link>
           </div>
 
-          <div className='panel panel-flat blog-horizontal blog-horizontal-1'>
+          <div className='panel panel-flat blog-horizontal blog-horizontal-1 event-post'>
             <div className='panel-body'>
               <div className='thumb' style={{float: `right`, marginRight: `0`, marginLeft: `10px`}}>
                 <Img fluid={event.thumbnail}
@@ -59,18 +58,12 @@ export default function Template({ location, data }) {
                 <div dangerouslySetInnerHTML={{ __html: page.html }}/>
                 <a href={event.link}
                     target='_blank'
-                    rel='noopener noreferrer'
+                    rel='noopener noreferrer nofollow'
                     className='btn btn-primary organizer-site'>
                   Strona organizatora
                 </a>
               </div>
             </div>
-          </div>
-
-          <div id='main' style={{ textAlign: 'center', marginBottom: '20px' }}>
-            <a href='https://kartazgloszen.pl' target='_blank'>
-              <img src={banner} style={{ width: '100%', maxWidth: '700px' }}/>
-            </a>
           </div>
 
           <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
