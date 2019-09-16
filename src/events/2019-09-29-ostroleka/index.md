@@ -16,7 +16,10 @@ visible: true
  
 III Ogólnopolskie Konfrontacje Taneczne
 PASJA TAŃCA
+
 Ostrołęka 29 września 2019
+
+**[Zapisy](https://moja.kartazgloszen.pl)**
 
 Miejsce
 

@@ -14,4 +14,8 @@ visible: true
 ---
 Zapraszamy serdecznie na 4. edycję Turnieju Tańca Nowoczesnego TOP na Dolny Śląsk!
 
+**[Fotorelacja z edycji 2019 cz.1](https://www.facebook.com/pg/TurniejTancaTop/photos/?tab=album&album_id=2401421493254750)**
+
+**[Fotorelacja z edycji 2019 cz.2](https://www.facebook.com/TurniejTancaTop/photos/?tab=album&album_id=2407235809339985)**
+
 Więcej szczegółów wkrótce.

@@ -24,3 +24,5 @@ nowoczesny, show dance i tap dance.
 
 Dwa dni zmagań konkursowych zwieńczonych rozdaniem nagród i galą 
 konkursową. 
+
+**[Zapisy](https://moja.kartazgloszen.pl)**

@@ -105,12 +105,43 @@ $screen-lg: 75em;
     z-index: 1;
   }
 
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+
+    @include sm {
+      display: block;
+    }
+
+    & > a {
+      padding: 11px 21px;
+      font-size: 15px;
+      line-height: 1.333334;
+      border-radius: 3px;
+
+      &:first-child {
+        margin: 0 5px 15px 0;
+      }
+    }
+  }
+
   .btn-group > a:first-child {
-    margin: 0 5px 5px 0;
+    margin: 0 0 10px 0;
+
+    @include sm {
+      margin-right: 5px;
+    }
   }
 
   .navbar-text {
     width: 100%;
+  }
+
+  .btn-group > a {
+    padding: 11px 21px;
+    font-size: 15px;
+    line-height: 1.333334;
+    border-radius: 3px;
   }
 }
 
