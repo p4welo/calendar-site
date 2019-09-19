@@ -32,3 +32,5 @@ MARK'N'MOVE 2017 👉 https://youtu.be/_yrZcni3vXs
 MARK'N'MOVE 2016 👉 https://youtu.be/XiIPvYcwalk
 
 MARK'N'MOVE 2015 👉 https://youtu.be/kGSuQI9kq-w
+
+REGULAMIN: http://www.srt-kontrast.com/ogolnopolskie-mistrzostwa-w-tancu-nowoczesnym/
