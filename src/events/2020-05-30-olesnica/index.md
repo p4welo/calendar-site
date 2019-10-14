@@ -8,7 +8,7 @@ dateTo: '2020-05-31'
 city: 'Oleśnica'
 image: 'image.jpg'
 tags: []
-link: http://top.setenta.wroclaw.pl
+link: https://top.setenta.wroclaw.pl
 promoted: true
 visible: true
 ---

@@ -8,7 +8,7 @@ dateTo: '2020-04-25'
 city: 'Borowa k. Wrocławia'
 image: 'image.jpg'
 tags: []
-link: http://trendy.setenta.wroclaw.pl
+link: https://trendy.setenta.wroclaw.pl
 promoted: true
 visible: true
 ---

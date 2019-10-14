@@ -25,20 +25,19 @@ class EventTile extends Component {
       return event.promoted ?
           <div className="ribbon-container">
             <div className="ribbon bg-indigo-400">Polecamy</div>
-          </div> : <span/>;
+          </div> : <span></span>;
     }
 
     return (
         <div className="col-xs-12 col-sm-6 col-md-4 event-container">
           <div className="thumbnail">
-            { <Ribbon/> }
             <div className="thumb">
               <Img fluid={event.image}
                   className="event-tile__image"
                   alt={event.title}/>
               <span className="label label-striped label-date">
-                {event.dateFrom}
-                {event.multiday && <span> - {event.dateTo}</span>}
+                { event.dateFrom }
+                { event.multiday && <span> - {event.dateTo}</span> }
               </span>
             </div>
 
@@ -59,6 +58,8 @@ class EventTile extends Component {
                 Szczegóły
               </Link>
             </div>
+
+            <Ribbon/>
           </div>
         </div>
     );

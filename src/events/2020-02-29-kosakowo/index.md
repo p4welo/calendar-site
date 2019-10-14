@@ -8,7 +8,7 @@ dateTo: '2020-02-29'
 city: 'Kosakowo'
 image: 'image.jpg'
 tags: []
-link: www.agencjabravo.com/moctanca
+link: http://www.agencjabravo.com/moctanca
 promoted: false
 visible: true
 ---

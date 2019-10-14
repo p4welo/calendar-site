@@ -1,7 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import banner from '../images/banner-karta.jpg';
 import Layout from '../components/layout';
 import HomeHeader from '../components/home/home-header';
 import SEO from '../components/seo';
@@ -17,8 +16,6 @@ const IndexPage = ({ data }) => {
     return visible && promoted;
   };
   const isFuture = ({ node }) => isNowOrFuture(node.frontmatter.dateTo);
-  const isPast = ({ node }) => !isNowOrFuture(node.frontmatter.dateTo);
-  const sortByDate = ({ nodeA }, { nodeB }) => nodeA.frontmatter.dateTo;
 
   return (
       <div className='home-page'>
@@ -52,17 +49,6 @@ const IndexPage = ({ data }) => {
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
             }
           </div>
-
-          {/*<h3 style={{marginTop: '40px'}}>Ubiegłe wydarzenia</h3>*/}
-          {/*<div className='row home-page__event-row' style={{filter: 'saturate(0.3)'}}>*/}
-          {/*  {*/}
-          {/*    eventList*/}
-          {/*        .filter(isPast)*/}
-          {/*        .sort(sortByDate)*/}
-          {/*        .slice(0,9)*/}
-          {/*        .map(({ node }, i) => <EventTile event={node} key={i}/>)*/}
-          {/*  }*/}
-          {/*</div>*/}
 
           <Link to='/archive' className='btn btn-default btn-raised btn-go-to-archive'
               style={{ marginBottom: `20px` }}>Przejdź do archiwum wydarzeń</Link>

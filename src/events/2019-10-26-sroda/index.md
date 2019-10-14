@@ -1,6 +1,6 @@
 ---
 path: '/na-scenie-2019'
-date: '2019-07-10'
+date: '2019-09-19'
 
 title: Ogólnopolski Konkurs Baletowo-Taneczny "Na Scenie"
 dateFrom: '2019-10-26'
