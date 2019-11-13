@@ -7,6 +7,8 @@ import SEO from '../components/seo';
 import { DiscussionEmbed } from 'disqus-react';
 import Navbar from '../components/navbar';
 import { formatDate } from '../utils/date-utils';
+// import banner from '../images/baner-percent.jpg';
+import banner from '../images/baner-percent.jpg';
 
 export default function Template({ location, data }) {
   const page = data.markdownRemark;
@@ -67,6 +69,13 @@ export default function Template({ location, data }) {
           </div>
 
           <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
+
+          <div className='karta-zgloszen-banner mb-20'>
+            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2'>
+              <img src={banner} />
+            </a>
+          </div>
+
         </Layout>
       </>
   )

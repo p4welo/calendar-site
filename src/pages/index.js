@@ -8,6 +8,7 @@ import EventTile from '../components/event-tile';
 import SocialButtons from '../components/social-buttons';
 import { Link } from '@reach/router';
 import { isNowOrFuture } from '../utils/date-utils';
+import banner from '../images/baner-percent.jpg';
 
 const IndexPage = ({ data }) => {
   const eventList = data.allMarkdownRemark.edges;
@@ -24,9 +25,14 @@ const IndexPage = ({ data }) => {
             futureAmount={eventList.filter(isFuture).length}/>
 
         <Layout>
+          <div style={{ display: `flex`, justifyContent: `center`, marginTop: '30px' }}>
+            <div className="well well-white text-center">
+              <SocialButtons/>
+            </div>
+          </div>
 
           <h3 style={{marginTop: '40px'}} id='main'>Proponowane wydarzenia</h3>
-          <div className="row home-page__event-row">
+          <div className="row home-page__event-row mb-20">
             {
               eventList
                   .filter(isFuture)
@@ -35,10 +41,10 @@ const IndexPage = ({ data }) => {
             }
           </div>
 
-          <div style={{ display: `flex`, justifyContent: `center` }}>
-            <div className="well well-white text-center">
-              <SocialButtons/>
-            </div>
+          <div className='karta-zgloszen-banner'>
+            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2'>
+              <img src={banner} />
+            </a>
           </div>
 
           <h3 style={{marginTop: '40px'}}>Nadchodzące wydarzenia</h3>

@@ -17,3 +17,6 @@ Zapraszamy serdecznie wszystkie formacje i mini formacje na 2. edycję Festiwalu
 **[Fotorelacja z edycji 2019](https://www.facebook.com/pg/festiwalTrendy/photos/?tab=album&album_id=384842698778470)**
 
 Więcej szczegółów wkrótce.
+
+- *Fantastyczny turniej ! Organizacja na wysokim poziomie:) fajna atmosfera, wysoki poziom 🙂 
+napewno wrócimy 🙂 pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Centrum Tańca**

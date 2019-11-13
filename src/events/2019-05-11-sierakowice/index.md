@@ -8,7 +8,7 @@ dateTo: '2019-05-11'
 city: 'Sierakowice'
 image: 'image.jpg'
 tags: []
-link: www.studiobravo.wix.com/awangarda
+link: http://www.studiobravo.wix.com/awangarda
 promoted: false
 visible: true
 ---

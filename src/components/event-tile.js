@@ -47,7 +47,7 @@ class EventTile extends Component {
                 {
                   event.new &&
                   <span
-                      className="label bg-orange text-uppercase event-tile__label-new">Nowość</span>
+                      className="label bg-success text-uppercase event-tile__label-new">Nowość</span>
                 }
               </h6>
               <small className="display-block event-tile__city">

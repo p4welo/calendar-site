@@ -18,11 +18,11 @@ const Layout = ({ children }) => (
         render={data => (
             <>
               <div className="container" style={{ minHeight: `calc(100vh - 326px)` }}>
-                <div className='karta-zgloszen-banner'>
-                  <a href='https://kartazgloszen.pl' target='_blank'>
-                    <img src={banner} />
-                  </a>
-                </div>
+                {/*<div className='karta-zgloszen-banner'>*/}
+                {/*  <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link'>*/}
+                {/*    <img src={banner} />*/}
+                {/*  </a>*/}
+                {/*</div>*/}
                 {children}
               </div>
               <footer style={{
