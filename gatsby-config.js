@@ -71,6 +71,14 @@ module.exports = {
         pixelId: process.env.FB_PIXEL_ID,
       },
     },
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: process.env.YANDEX_METRIKA_TRACKING_ID,
+        webvisor: true,
+        trackHash: true,
+      }
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`
     // `gatsby-plugin-offline`
