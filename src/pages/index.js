@@ -9,6 +9,7 @@ import SocialButtons from '../components/social-buttons';
 import { Link } from '@reach/router';
 import { isNowOrFuture } from '../utils/date-utils';
 import banner from '../images/baner-percent.jpg';
+import bannerMobile from '../images/baner-mobile.jpg';
 
 const IndexPage = ({ data }) => {
   const eventList = data.allMarkdownRemark.edges;
@@ -42,8 +43,11 @@ const IndexPage = ({ data }) => {
           </div>
 
           <div className='karta-zgloszen-banner'>
-            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2'>
-              <img src={banner} />
+            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2 banner-sm'>
+              <img src={banner} className='' />
+            </a>
+            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2 banner-xs'>
+              <img src={bannerMobile} className='' />
             </a>
           </div>
 

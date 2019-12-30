@@ -204,6 +204,26 @@ $screen-lg: 75em;
 
   img {
     width: 100%;
-    max-width: 800px;
+    max-width: 450px;
+
+    @include sm {
+      max-width: 800px;
+    }
+  }
+}
+
+.banner-sm {
+  display: none;
+
+  @include sm {
+    display: block;
+  }
+}
+
+.banner-xs {
+  display: block;
+
+  @include sm {
+    display: none;
   }
 }
