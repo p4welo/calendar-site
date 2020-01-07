@@ -8,7 +8,7 @@ dateTo: '2020-04-25'
 city: 'Borowa k. Wrocławia'
 image: 'image.jpg'
 tags: []
-link: https://trendy.setenta.wroclaw.pl
+link: https://www.facebook.com/events/980908552290843/
 promoted: true
 visible: true
 ---

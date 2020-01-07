@@ -8,7 +8,7 @@ dateTo: '2020-05-31'
 city: 'Oleśnica'
 image: 'image.jpg'
 tags: []
-link: https://top.setenta.wroclaw.pl
+link: https://www.facebook.com/events/3137660979791710/
 promoted: true
 visible: true
 ---
