@@ -80,6 +80,13 @@ module.exports = {
         trackHash: true,
       }
     },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: process.env.HOTJAR_ID,
+        sv: process.env.HOTJAR_SNIPPET_VERSION
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`
     // `gatsby-plugin-offline`
