@@ -12,11 +12,50 @@ link: https://www.facebook.com/events/980908552290843/
 promoted: true
 visible: true
 ---
-Zapraszamy serdecznie wszystkie formacje i mini formacje na 2. edycję Festiwalu TRENDY!
+
+- *Fantastyczny turniej ! Organizacja na wysokim poziomie:) fajna atmosfera, wysoki poziom 🙂 
+na pewno wrócimy 🙂pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Centrum Tańca**
 
 **[Fotorelacja z edycji 2019](https://www.facebook.com/pg/festiwalTrendy/photos/?tab=album&album_id=384842698778470)**
 
-Więcej szczegółów wkrótce.
+---
+Zapraszamy serdecznie wszystkie formacje i mini formacje na 2. edycję Festiwalu TRENDY!
 
-- *Fantastyczny turniej ! Organizacja na wysokim poziomie:) fajna atmosfera, wysoki poziom 🙂 
-napewno wrócimy 🙂 pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Centrum Tańca**
+#### Lokalizacja
+Szkoła Podstawowa im. Odkrywców i Podróżników
+
+ul. Parkowa 2/4, Borowa k. Wrocławia
+
+[Zobacz na mapie](https://goo.gl/maps/9TjjcvJLeZ32)
+
+#### Grupy wiekowe
+- do 8 lat
+- 9-11 lat
+- 12-15 lat
+- powyżej 15 lat
+
+#### Style
+- Hip Hop
+- Jazz
+- Taniec współczesny
+- Disco Dance
+- Show Dance
+- Balet
+- Teatr tańca
+
+#### Kategorie
+- Mini formacje: 3-7 tancerzy
+- Formacje: 8-24 tancerzy
+
+#### Poziomy zaawansowania
+- Debiuty
+- Mistrzowie
+
+**Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie**
+
+#### Sędziowie
+- Katarzyna Bryłka
+- ?
+- ?
+- ?
+- ?
