@@ -2,7 +2,7 @@
 path: '/festiwal-trendy-2020'
 date: '2019-08-29'
 
-title: 'II Festiwal tańca formacji i mini formacji TRENDY'
+title: 'II Festiwal Tańca Formacji i Mini Formacji TRENDY'
 dateFrom: '2020-04-25'
 dateTo: '2020-04-25'
 city: 'Borowa k. Wrocławia'
@@ -20,6 +20,9 @@ na pewno wrócimy 🙂pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Ce
 
 ---
 Zapraszamy serdecznie wszystkie formacje i mini formacje na 2. edycję Festiwalu TRENDY!
+
+### REGULAMIN
+[https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf](https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf)
 
 #### Lokalizacja
 Szkoła Podstawowa im. Odkrywców i Podróżników

@@ -2,7 +2,7 @@
 path: '/turniej-tanca-top-2020'
 date: '2019-08-12'
 
-title: 'IV Ogólnopolski turniej tańca TOP'
+title: 'IV Ogólnopolski Turniej Tańca TOP'
 dateFrom: '2020-05-30'
 dateTo: '2020-05-31'
 city: 'Oleśnica'
@@ -26,6 +26,9 @@ Wielkie Brawa dla Państwa!* - **Monika Wyszomirska-Kondraciuk - Szkoła Tańca 
 
 ---
 Zapraszamy serdecznie na 4. edycję Turnieju Tańca Nowoczesnego TOP na Dolny Śląsk!
+
+### REGULAMIN
+[https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf](https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf)
 
 #### Lokalizacja
 Hala sportowa ATOL w Oleśnicy
