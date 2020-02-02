@@ -39,23 +39,23 @@ class ArchivePage extends React.Component {
               <h4>Archiwum wydarzeń</h4>
             </div>
 
-            <div className='panel panel-flat table-responsive'>
-              <table className='table'>
-                <tbody>
-                {
-                  this.state.events.map((event, i) => (
-                      <tr key={i}>
-                        <td>{event.dateFrom}</td>
-                        <td style={{ textTransform: `uppercase` }}>
-                          <Link to={event.path}>{event.title}</Link>
-                        </td>
-                        <td>{event.city}</td>
-                      </tr>
-                  ))
-                }
-                </tbody>
-              </table>
-            </div>
+            {
+              this.state.events.map((event, i) => (
+                  <Link to={event.path}>
+                    <div className='panel panel-flat mb-5 no-border-radius btn-raised' key={i}>
+                      <div className='panel-body'>
+                        <div>
+                          {event.dateFrom}
+                        </div>
+                        <div>
+                          <strong>{event.title}</strong>
+                          <p className='no-margin text-muted'>{event.city}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
+              ))
+            }
           </div>
         </>
     )
