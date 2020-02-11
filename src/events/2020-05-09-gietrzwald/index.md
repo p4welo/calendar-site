@@ -12,20 +12,30 @@ link: http://wikacup.com.pl/
 promoted: false
 visible: true
 ---
-#### III Ogólnopolski Turniej Tańca Wika Cup
+Zapraszamy na III Ogólnopolski Turniej Tańca Wika Cup
 
-**9.05.2020 (sobota)**
+Wydarzenie odbędzie się 9-10 maja 2020 w Gietrzwałdzie k. Olsztyna
 
-DISCO DANCE, HIP HOP, CHEERLEADING, INNE FORMY TAŃCA
+### 9.05.2020 (sobota)
+- TANIEC WSPÓŁCZESNY
+- HIP HOP
+- PAI
+- LATINO
+- SALSA
+- BACHATA
 
-**10.05.2020 (niedziela)**
+### 10.05.2020 (niedziela)
+- TANIEC TOWARZYSKI
 
-TANIEC TOWARZYSKI
+**UWAGA!**
 
-#### UWAGA!
+Sponsor tytularny przygotował voucher dla każdego tancerza o wartości wniesionej opłaty startowej do
+wykorzystania w Sklepie z Artykułami Tanecznymi Wika!
 
-Sponsor tytularny przygotował voucher dla każdego tancerza o wartości wniesionej opłaty startowej do wykorzystania w Sklepie z Artykułami Tanecznymi Wika!
+Wszystkie informacje znajdziecie na stronie www.wikacup.com.pl
 
-Przewidujemy również NAGRODY PIENIĘŻNE!
+Chcesz wiedzieć więcej? Napisz do nas!
 
-Do zobaczenia
+e-mail: zgłoszenia@przemienieccy.pl
+
+Do zobaczenia!

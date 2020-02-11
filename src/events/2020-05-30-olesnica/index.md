@@ -69,7 +69,7 @@ ul. Kochanowskiego 2, Oleśnica
 
 #### Sędziowie
 - Katarzyna Bryłka
-- ?
+- Przemysław Polakowski
 - ?
 - ?
 - ?

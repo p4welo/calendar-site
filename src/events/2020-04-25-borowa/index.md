@@ -58,7 +58,7 @@ ul. Parkowa 2/4, Borowa k. Wrocławia
 
 #### Sędziowie
 - Katarzyna Bryłka
-- ?
+- Przemysław Polakowski
 - ?
 - ?
 - ?
