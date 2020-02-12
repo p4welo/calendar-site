@@ -9,7 +9,7 @@ city: 'Warszawa'
 image: 'image.jpg'
 tags: []
 link: https://grupafestiwale.pl/
-promoted: false
+promoted: true
 visible: true
 ---
 Serdecznie Zapraszamy na **Ogólnopolskie Konfrontacje Taneczne "Zakręceni na Taniec"**.

@@ -1,23 +1,22 @@
 ---
-path: '/zakreceni-na-taniec-lipiany-2020'
-date: '2020-02-11'
+path: '/zakreceni-na-taniec-poznan-2020'
+date: '2020-02-12'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'
-dateFrom: '2020-03-14'
-dateTo: '2020-03-15'
-city: 'Lipiany'
+dateFrom: '2020-04-18'
+dateTo: '2020-04-19'
+city: 'Marki'
 image: 'image.jpg'
 tags: []
-link: https://grupafestiwale.pl/
+link: https://grupafestiwale.pl/produkcje/zakreceni-na-taniec/
 promoted: true
 visible: true
 ---
-Serdecznie Zapraszamy na **Ogólnopolskie Konfrontacje Taneczne "Zakręceni na Taniec"**, które 
-odbędą się w Lipianach (43km od Gorzowa Wielkopolskiego i 79km od Szczecina)
+Serdecznie Zapraszamy na Ogólnopolskie Konfrontacje Taneczne "Zakręceni na Taniec" w Markach.
 
 Jeśli jesteś zakręcony na taniec i chcesz, aby twoi tancerze nabrali pozytywnej energii do dalszych treningów, zabierz ich na nasze konfrontacje.
 
-#### Kategorie Taneczne 
+#### Kategorie Taneczne: 
 Zapraszamy grupy, tria, duety i solistów ze wszystkich kategorii tanecznych.
 
 Tancerze będą oceniani w kategoriach:

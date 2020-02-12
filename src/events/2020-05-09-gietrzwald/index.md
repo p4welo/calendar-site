@@ -36,6 +36,6 @@ Wszystkie informacje znajdziecie na stronie www.wikacup.com.pl
 
 Chcesz wiedzieć więcej? Napisz do nas!
 
-e-mail: zgłoszenia@przemienieccy.pl
+e-mail: zgloszenia@przemienieccy.pl
 
 Do zobaczenia!

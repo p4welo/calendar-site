@@ -1,23 +1,22 @@
 ---
-path: '/zakreceni-na-taniec-lipiany-2020'
-date: '2020-02-11'
+path: '/zakreceni-na-taniec-jelcz-laskowice-2020'
+date: '2020-02-12'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'
-dateFrom: '2020-03-14'
-dateTo: '2020-03-15'
-city: 'Lipiany'
+dateFrom: '2020-03-28'
+dateTo: '2020-03-29'
+city: 'Jelcz-Laskowice'
 image: 'image.jpg'
 tags: []
 link: https://grupafestiwale.pl/
 promoted: true
 visible: true
 ---
-Serdecznie Zapraszamy na **Ogólnopolskie Konfrontacje Taneczne "Zakręceni na Taniec"**, które 
-odbędą się w Lipianach (43km od Gorzowa Wielkopolskiego i 79km od Szczecina)
+Serdecznie Zapraszamy na Ogólnopolskie Konfrontacje Taneczne"Zakręceni na Taniec" w Jelczu-Laskowice.
 
 Jeśli jesteś zakręcony na taniec i chcesz, aby twoi tancerze nabrali pozytywnej energii do dalszych treningów, zabierz ich na nasze konfrontacje.
 
-#### Kategorie Taneczne 
+#### Kategorie Taneczne: 
 Zapraszamy grupy, tria, duety i solistów ze wszystkich kategorii tanecznych.
 
 Tancerze będą oceniani w kategoriach:

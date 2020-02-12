@@ -9,7 +9,7 @@
     "disqus-react": "^1.0.5",
     "dotenv": "^6.2.0",
     "gatsby": "^2.0.88",
-    "gatsby-cli": "^2.8.15",
+    "gatsby-cli": "^2.8.29",
     "gatsby-image": "^2.0.28",
     "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-fullstory": "^2.0.3",
