@@ -1,5 +1,5 @@
 ---
-path: '/zakreceni-na-taniec-poznan-2020'
+path: '/zakreceni-na-taniec-marki-2020'
 date: '2020-02-12'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'

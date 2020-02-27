@@ -12,6 +12,9 @@ link: https://www.facebook.com/events/3137660979791710/
 promoted: true
 visible: true
 ---
+##### ZAPRASZAMY SERDECZNIE NA 4. EDYCJĘ TURNIEJU TAŃCA NOWOCZESNEGO TOP NA DOLNY ŚLĄSK!
+
+---
 
 **[Fotorelacja z edycji 2019 cz.1](https://www.facebook.com/pg/TurniejTancaTop/photos/?tab=album&album_id=2401421493254750)**
 
@@ -21,29 +24,31 @@ visible: true
 serdecznie podziękować za wspaniały turniej😀 Niesamowita atmosfera i doskonała organizacja. 
 Wielkie Brawa dla Państwa!* - **Monika Wyszomirska-Kondraciuk - Szkoła Tańca Champion Team**
 - *Jeszcze raz bardzo dziekujemy za zawody i mega organizacje grupy bardzo zadowolone :)* - 
-**Okolska Dorota - Radom DDC Dom Kultury Idalin**
+**Dorota Okolska - Radom DDC Dom Kultury Idalin**
 - *Bardzo dziękujemy za turniej 🙂 I gratulujemy świetnej organizacji 🙂* - **Anna Pietrzyk - Szkoła Tańca Dance Flow**
 
 ---
-Zapraszamy serdecznie na 4. edycję Turnieju Tańca Nowoczesnego TOP na Dolny Śląsk!
 
-### REGULAMIN
-[https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf](https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf)
+## 🏆🏆🏆 **[ZAPISY ONLINE](https://moja.kartazgloszen.pl)** 👈👈👈
+https://moja.kartazgloszen.pl
 
-#### Lokalizacja
+### LOKALIZACJA
 Hala sportowa ATOL w Oleśnicy
 
 ul. Kochanowskiego 2, Oleśnica
 
 [Zobacz na mapie](https://goo.gl/maps/RiCbWzX1rY4EtY6h8)
 
-#### Grupy wiekowe
+### REGULAMIN
+[https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf](https://top.setenta.wroclaw.pl/static/regulamin-top-2020.pdf)
+
+### GRUPY WIEKOWE
 - do 8 lat
 - 9-11 lat
 - 12-15 lat
 - powyżej 15 lat
 
-#### Style
+### STYLE
 - Art (pierwszy kroczek)
 - Taniec nowoczesny (pierwszy kroczek)
 - Hip hop
@@ -55,19 +60,19 @@ ul. Kochanowskiego 2, Oleśnica
 - Balet
 - Inne formy tańca
 
-#### Kategorie
+### KATEGORIE
 - Solo
 - Duety
 - Mini formacje: 3-7 tancerzy
 - Formacje: 8-24 tancerzy
 
-#### Poziomy zaawansowania
+### POZIOMY ZAAWANSOWANIA
 - Debiuty
 - Mistrzowie
 
 **Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie**
 
-#### Sędziowie
+### SĘDZIOWIE
 - Katarzyna Bryłka
 - Przemysław Polakowski
 - ?

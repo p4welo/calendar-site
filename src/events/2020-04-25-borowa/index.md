@@ -12,6 +12,9 @@ link: https://www.facebook.com/events/980908552290843/
 promoted: true
 visible: true
 ---
+##### ZAPRASZAMY SERDECZNIE WSZYSTKIE FORMACJE I MINI FORMACJE NA 2. EDYCJĘ FESTIWALU TRENDY!
+
+---
 
 - *Fantastyczny turniej ! Organizacja na wysokim poziomie:) fajna atmosfera, wysoki poziom 🙂 
 na pewno wrócimy 🙂pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Centrum Tańca**
@@ -19,25 +22,27 @@ na pewno wrócimy 🙂pozdrawiamy🙂* - **Dominika Bator-Wróbel - Oławskie Ce
 **[Fotorelacja z edycji 2019](https://www.facebook.com/pg/festiwalTrendy/photos/?tab=album&album_id=384842698778470)**
 
 ---
-Zapraszamy serdecznie wszystkie formacje i mini formacje na 2. edycję Festiwalu TRENDY!
 
-### REGULAMIN
-[https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf](https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf)
+## 🏆🏆🏆 **[ZAPISY ONLINE](https://moja.kartazgloszen.pl)** 👈👈👈
+https://moja.kartazgloszen.pl
 
-#### Lokalizacja
+### LOKALIZACJA
 Szkoła Podstawowa im. Odkrywców i Podróżników
 
 ul. Parkowa 2/4, Borowa k. Wrocławia
 
 [Zobacz na mapie](https://goo.gl/maps/9TjjcvJLeZ32)
 
-#### Grupy wiekowe
+### REGULAMIN
+[https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf](https://trendy.setenta.wroclaw.pl/static/regulamin-trendy-2020.pdf)
+
+### GRUPY WIEKOWE
 - do 8 lat
 - 9-11 lat
 - 12-15 lat
 - powyżej 15 lat
 
-#### Style
+### STYLE
 - Hip Hop
 - Jazz
 - Taniec współczesny
@@ -46,17 +51,17 @@ ul. Parkowa 2/4, Borowa k. Wrocławia
 - Balet
 - Teatr tańca
 
-#### Kategorie
+### KATEGORIE
 - Mini formacje: 3-7 tancerzy
 - Formacje: 8-24 tancerzy
 
-#### Poziomy zaawansowania
+### POZIOMY ZAAWANSOWANIA
 - Debiuty
 - Mistrzowie
 
 **Wszystkie występy poza podium kategorii DEBIUTY otrzymują wyróżnienie**
 
-#### Sędziowie
+### SĘDZIOWIE
 - Katarzyna Bryłka
 - Przemysław Polakowski
 - ?
