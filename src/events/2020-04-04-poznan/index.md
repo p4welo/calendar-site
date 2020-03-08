@@ -4,7 +4,7 @@ date: '2020-02-12'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'
 dateFrom: '2020-04-04'
-dateTo: '2020-04-05'
+dateTo: '2020-04-04'
 city: 'Poznań'
 image: 'image.jpg'
 tags: []

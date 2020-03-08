@@ -4,7 +4,7 @@ date: '2020-02-11'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'
 dateFrom: '2020-03-14'
-dateTo: '2020-03-15'
+dateTo: '2020-03-14'
 city: 'Lipiany'
 image: 'image.jpg'
 tags: []

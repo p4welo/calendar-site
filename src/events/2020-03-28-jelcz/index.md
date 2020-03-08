@@ -10,7 +10,7 @@ image: 'image.jpg'
 tags: []
 link: https://grupafestiwale.pl/
 promoted: true
-visible: true
+visible: false
 ---
 Serdecznie Zapraszamy na Ogólnopolskie Konfrontacje Taneczne"Zakręceni na Taniec" w Jelczu-Laskowice.
 

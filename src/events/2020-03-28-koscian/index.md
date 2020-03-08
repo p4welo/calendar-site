@@ -3,8 +3,8 @@ path: '/turniej-tanca-koscian-2020'
 date: '2019-09-24'
 
 title: 'Ogólnopolski Turniej Tańca Nowoczesnego o Puchar Burmistrza Miasta Kościan'
-dateFrom: '2020-03-28'
-dateTo: '2020-03-29'
+dateFrom: '2020-05-23'
+dateTo: '2020-05-24'
 city: 'Kościan'
 image: 'image.jpg'
 tags: []

@@ -4,7 +4,7 @@ date: '2020-02-12'
 
 title: 'Ogólnopolskie Konfrontacje Taneczne "Zakręceni Na Taniec"'
 dateFrom: '2020-04-18'
-dateTo: '2020-04-19'
+dateTo: '2020-04-18'
 city: 'Marki'
 image: 'image.jpg'
 tags: []
