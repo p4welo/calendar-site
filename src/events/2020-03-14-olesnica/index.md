@@ -3,8 +3,8 @@ path: '/pceik-turniej-tanca-olesnica-2020'
 date: '2020-02-11'
 
 title: 'XXII Turniej Tańca o Puchar Starosty Oleśnickiego'
-dateFrom: '2020-03-14'
-dateTo: '2020-03-14'
+dateFrom: '2020-06-20'
+dateTo: '2020-06-20'
 city: 'Oleśnica'
 image: 'image.jpg'
 tags: []
@@ -12,6 +12,11 @@ link: http://pceik.pl/mlodziezowy-dom-kultury/konkursy-artystyczne/taneczne/
 promoted: false
 visible: true
 ---
+**Dyrektor Powiatowego Centrum Edukacji i Kultury informuje, że XXII Turniej Tańca o Puchar
+ Starosty Oleśnickiego, który miał się odbyć dnia 14 marca 2020 r., z przyczyn niezależnych od
+  organizatora zostaje przeniesiony na 20 czerwca 2020 r. Za utrudnienia przepraszamy.**
+
+
 ### REGULAMIN
 #### **Uczestnicy**
 Turniej skierowany jest do dzieci i młodzieży biorącej udział w zajęciach tanecznych.

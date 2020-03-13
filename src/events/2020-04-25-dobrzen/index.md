@@ -3,8 +3,8 @@ path: '/plasowadla-2020'
 date: '2020-01-27'
 
 title: 'Pląsowadła'
-dateFrom: '2020-04-25'
-dateTo: '2020-04-26'
+dateFrom: '2020-06-20'
+dateTo: '2020-06-21'
 city: 'Dobrzeń Wielki'
 image: 'image.jpg'
 tags: []
@@ -12,6 +12,10 @@ link: http://plasowadla.gokdobrzenwielki.pl/
 promoted: false
 visible: true
 ---
+**W ZWIĄZKU Z ZAGROŻENIEM EPIDEMIOLOGICZNYM ZWIĄZANYM Z KORONAWIRUSEM SARS-COV-2, W TROSCE O
+ UCZESTNIKÓW I WIDZÓW, KOMITET ORGANIZACYJNY PODJĄŁ DECYZJĘ O PRZENIESIENIU III FESTIWALU SZTUKI
+  TANECZNEJ PLĄSOWADŁA 2020 NA 20-21 CZERWCA 2020R.**
+
 FESTIWAL SZTUKI TANECZNEJ  **P L Ą S O W A D Ł A**
 TO IMPREZA, KTÓREJ IDEĄ JEST PROMOWANIE
 CIEKAWYCH POMYSŁÓW I ROZWIĄZAŃ CHOREOGRAFICZNYCH ORAZ

@@ -10,8 +10,12 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/250848339237194/
 promoted: true
-visible: true
+visible: false
 ---
+**STOSUJĄC SIĘ DO ZALECEŃ WŁADZ I MAJĄC NA WZGLĘDZIE ZDROWIE WSZYSTKICH UCZESTNIKÓW I WIDZÓW
+ PODJELIŚMY DECYZJĘ O ODWOŁANIU TURNIEJU MOVE4LIFE SERDUSZKO DLA JASIA ! TURNIEJ NA PEWNO SIĘ ODB
+ ĘDZIE W PÓŹNIEJSZYM TERMINIE, O CZYM BĘDZIEMY INFORMOWAĆ. GORĄCO ZACHĘCAMY DO PRZYGOTOWAŃ ! Z TANECZNYMI POZDROWIENIAMI: ORGANIZATORZY, WSPÓŁORGANIZATORZY ORAZ PARTNERZY.**
+
 Razem dla Jasia!
 
 Turniej taneczny połączony z wydarzeniem charytatywnym. Serdecznie zachęcamy do wzięcia udziału. 

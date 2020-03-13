@@ -14,16 +14,16 @@ import bannerMobile from '../images/baner-mobile.jpg';
 const IndexPage = ({ data }) => {
   const eventList = data.allMarkdownRemark.edges;
   const isPromoted = ({ node }) => {
-    const { visible, promoted } = node.frontmatter;
-    return visible && promoted;
+    return node.frontmatter.promoted;
   };
+  const isVisible = ({ node }) => node.frontmatter.visible;
   const isFuture = ({ node }) => isNowOrFuture(node.frontmatter.dateTo);
 
   return (
       <div className='home-page'>
         <SEO title='Strona główna'/>
         <HomeHeader eventAmount={eventList.length}
-            futureAmount={eventList.filter(isFuture).length}/>
+            futureAmount={eventList.filter(isVisible).filter(isFuture).length}/>
 
         <Layout>
           <div style={{ display: `flex`, justifyContent: `center`, marginTop: '30px' }}>
@@ -36,6 +36,7 @@ const IndexPage = ({ data }) => {
           <div className="row home-page__event-row mb-20">
             {
               eventList
+                  .filter(isVisible)
                   .filter(isFuture)
                   .filter(isPromoted)
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
@@ -55,6 +56,7 @@ const IndexPage = ({ data }) => {
           <div className='row home-page__event-row'>
             {
               eventList
+                  .filter(isVisible)
                   .filter(isFuture)
                   .map(({ node }, i) => <EventTile event={node} key={i}/>)
             }

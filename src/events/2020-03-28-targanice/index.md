@@ -10,8 +10,12 @@ image: 'image.jpg'
 tags: []
 link: https://kocierz.pl/festiwal-taneczny-o-cetke-rysia
 promoted: false
-visible: true
+visible: false
 ---
+**W ZWIĄZKU Z ROZSZERZANIEM SIĘ WIRUSA W POLSCE I DBAJĄC O BEZPIECZEŃSTWO DZIECI JESTEŚMY
+ ZMUSZENI ODWOŁAĆ II FESTIWAL TANECZNY “O CĘTKĘ RYSIA “ NA KOCIERZU. O NOWYM TERMINIE BĘDZIEMY PA
+ ŃSTWA INFORMOWAĆ**
+
 Już 28.03. II Festiwal taneczny "O cętkę Rysia" na Kocierzu 💃👯‍🐱! Dodajmy też, że jesteśmy pierwszy festiwalem tanecznym przyjmującym zespoły w kategorii ZUMBA! ❤
 
 ### 🐾 Dla kogo nasz festiwal?
