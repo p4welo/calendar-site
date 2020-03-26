@@ -6,7 +6,7 @@ class SocialButtons extends Component {
   render() {
     return (
         <>
-          <h5 style={{ marginTop: `0` }}>
+          <h5 className='no-margin-top'>
             Polub nas na Facebooku i bądź na bieżąco z nowymi wydarzeniami!
           </h5>
           <div className="fb-like"

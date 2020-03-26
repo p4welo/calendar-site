@@ -31,8 +31,8 @@ export default function Template({ location, data }) {
 
         <Navbar/>
         <Layout>
-          <div className='page-title'>
-            <Link to='/' className='btn btn-default btn-xs btn-raised return-to-home'>
+          <div className='page-title no-padding-bottom'>
+            <Link to='/' className='btn btn-link btn-xs btn-raised return-to-home'>
               Powrót do strony głównej
             </Link>
           </div>
@@ -71,7 +71,10 @@ export default function Template({ location, data }) {
           <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
 
           <div className='karta-zgloszen-banner mb-20'>
-            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2'>
+            <a href='https://kartazgloszen.pl'
+                rel="noopener noreferrer"
+                target='_blank'
+                className='karta-zgloszen-banner-link2'>
               <img src={banner} />
             </a>
           </div>

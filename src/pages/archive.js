@@ -31,7 +31,9 @@ class ArchivePage extends React.Component {
           <Navbar/>
           <div className='container'>
             <div className='karta-zgloszen-banner'>
-              <a href='https://kartazgloszen.pl' target='_blank'>
+              <a href='https://kartazgloszen.pl'
+                  rel="noopener noreferrer"
+                  target='_blank'>
                 <img src={banner}/>
               </a>
             </div>

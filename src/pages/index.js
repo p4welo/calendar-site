@@ -1,105 +1,105 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-
-import Layout from '../components/layout';
-import HomeHeader from '../components/home/home-header';
-import SEO from '../components/seo';
-import EventTile from '../components/event-tile';
-import SocialButtons from '../components/social-buttons';
+import Navbar from '../components/beta/navbar';
+import Hero from '../components/beta/hero';
+import PromotedList from '../components/beta/promoted-list';
+import AmountLine from '../components/beta/amount-line';
+import { formatDate, isNew, isNowOrFuture } from '../utils/date-utils';
+import EventList from '../components/beta/event-list';
+import SocialSection from '../components/beta/social-section';
 import { Link } from '@reach/router';
-import { isNowOrFuture } from '../utils/date-utils';
-import banner from '../images/baner-percent.jpg';
-import bannerMobile from '../images/baner-mobile.jpg';
 
-const IndexPage = ({ data }) => {
-  const eventList = data.allMarkdownRemark.edges;
-  const isPromoted = ({ node }) => {
-    return node.frontmatter.promoted;
-  };
-  const isVisible = ({ node }) => node.frontmatter.visible;
-  const isFuture = ({ node }) => isNowOrFuture(node.frontmatter.dateTo);
+const BetaPage = ({ data }) => {
+  const eventList = data.allMarkdownRemark.edges.map(({node}) => {
+    return {
+      new: isNew(node.frontmatter.date),
+      date: node.frontmatter.date,
+      promoted: node.frontmatter.promoted,
+      visible: node.frontmatter.visible,
+      image: node.frontmatter.image.childImageSharp.fluid,
+      title: node.frontmatter.title,
+      dateFrom: node.frontmatter.dateFrom,
+      dateTo: node.frontmatter.dateTo,
+      multiday: node.frontmatter.dateTo !== node.frontmatter.dateFrom,
+      path: node.frontmatter.path,
+      city: node.frontmatter.city
+    };
+  });
+  const isPromoted = (event) => event.promoted;
+  const isVisible = (event) => event.visible;
+  const isFuture = (visible) => isNowOrFuture(visible.dateTo);
+
+
 
   return (
-      <div className='home-page'>
-        <SEO title='Strona główna'/>
-        <HomeHeader eventAmount={eventList.length}
-            futureAmount={eventList.filter(isVisible).filter(isFuture).length}/>
-
-        <Layout>
-          <div style={{ display: `flex`, justifyContent: `center`, marginTop: '30px' }}>
-            <div className="well well-white text-center">
-              <SocialButtons/>
+      <>
+        <Navbar></Navbar>
+        <div className='page-container'>
+          <div className="page-content">
+            <div className="content-wrapper">
+              <Hero />
+              <AmountLine futureAmount={
+                eventList.filter(isVisible).filter(isFuture).length
+              } eventAmount={
+                eventList.length
+              }></AmountLine>
+              <div className="container">
+                <PromotedList events={
+                  eventList
+                      .filter(isVisible)
+                      .filter(isFuture)
+                      .filter(isPromoted)
+                }></PromotedList>
+                <SocialSection />
+                <EventList events={
+                  eventList
+                      .filter(isVisible)
+                      .filter(isFuture)
+                }></EventList>
+                <div className="text-center">
+                  <Link to='/archive'
+                      id='index-go-to-archive'
+                      className='btn btn-default btn-raised mb-20'>Przejdź do archiwum wydarzeń</Link>
+                </div>
+              </div>
             </div>
           </div>
 
-          <h3 style={{marginTop: '40px'}} id='main'>Proponowane wydarzenia</h3>
-          <div className="row home-page__event-row mb-20">
-            {
-              eventList
-                  .filter(isVisible)
-                  .filter(isFuture)
-                  .filter(isPromoted)
-                  .map(({ node }, i) => <EventTile event={node} key={i}/>)
-            }
-          </div>
-
-          <div className='karta-zgloszen-banner'>
-            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2 banner-sm'>
-              <img src={banner} className='' />
-            </a>
-            <a href='https://kartazgloszen.pl' target='_blank' className='karta-zgloszen-banner-link2 banner-xs'>
-              <img src={bannerMobile} className='' />
-            </a>
-          </div>
-
-          <h3 style={{marginTop: '40px'}}>Nadchodzące wydarzenia</h3>
-          <div className='row home-page__event-row'>
-            {
-              eventList
-                  .filter(isVisible)
-                  .filter(isFuture)
-                  .map(({ node }, i) => <EventTile event={node} key={i}/>)
-            }
-          </div>
-
-          <Link to='/archive' className='btn btn-default btn-raised btn-go-to-archive'
-              style={{ marginBottom: `20px` }}>Przejdź do archiwum wydarzeń</Link>
-        </Layout>
-      </div>
-  )
+        </div>
+      </>
+  );
 };
 
-
-export default IndexPage;
+export default BetaPage;
 
 export const query = graphql`
-  query ListQuery {
-    allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___dateFrom] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          frontmatter {
-            path
-            date
-            promoted
-            visible
-            dateFrom
-            dateTo
-            title
-            city
-            image {
-              childImageSharp {
-                resize(width: 1500, height: 1500) {
-                  src
+    {
+        allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___dateFrom] }) {
+            edges {
+                node {
+                    excerpt(pruneLength: 250)
+                    frontmatter {
+                        path
+                        date
+                        promoted
+                        visible
+                        dateFrom
+                        dateTo
+                        title
+                        city
+                        image {
+                            childImageSharp {
+                                resize(width: 1500, height: 1500) {
+                                    src
+                                }
+                                fluid(maxWidth: 786) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
                 }
-                fluid(maxWidth: 786) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
             }
-          }
         }
-      }
     }
-  }
 `;
