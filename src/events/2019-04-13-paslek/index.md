@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/paslek-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/264534304260645/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na organizowany po raz pierwszy w Pasłęku Turniej Tańca Nowoczesnego pod nazwa PERFECT DANCE i patronatem Starosty Elbląskiego.
 

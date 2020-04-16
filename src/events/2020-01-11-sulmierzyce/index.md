@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/sulmierzyce-open-2020'
 date: '2019-11-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.mass-team.pl/festiwal-tanca
 promoted: false
 visible: true
+cancelled: false
 ---
 Kategorie Taneczne:
 

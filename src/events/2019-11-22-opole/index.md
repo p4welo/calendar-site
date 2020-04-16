@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/opolski-festiwal-tanca-2019'
 date: '2019-11-19'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://opolskifestiwaltanca.pl
 promoted: true
 visible: true
+cancelled: false
 ---
 Opolski Festiwal Tańca to nie tylko Międzynarodowe Warsztaty Taneczne ze światowej klasy pedagogami i nauczycielami tańca zakończone Imprezami Integracyjnymi oraz Panelami Dyskusyjnymi. 
 

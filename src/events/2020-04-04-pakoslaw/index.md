@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/pakoslaw-2020'
 date: '2020-01-19'
 
@@ -11,6 +12,7 @@ tags: []
 link: 'https://www.facebook.com/II-Og%C3%B3lnopolski-Turniej-Ta%C5%84ca-Nowoczesnego-Pakos%C5%82aw-2020-r-776122852780301/'
 promoted: false
 visible: true
+cancelled: false
 ---
 II Ogólnopolski Turniej Tańca Nowoczesnego Pakosław 2020r. 
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-group-2020'
 date: '2020-02-19'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://bit.ly/2ubVh7w
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy serdecznie do udziału w 8. Ogólnopolskim Festiwalu Form Tanecznych "Dance Group" 2020. 
 

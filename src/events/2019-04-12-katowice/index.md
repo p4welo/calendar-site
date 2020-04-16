@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/katowice-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://pm.katowice.pl/taniec/
 promoted: false
 visible: true
+cancelled: false
 ---
 w  ramach Festiwalu odbędą się :
 - I Ogólnopolski Konkurs Teatrów Tańca „Power Experyment” - 12.04.2019r. (konkurs  przeznaczony 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/solo-duet-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/305946856791556/
 promoted: false
 visible: true
+cancelled: false
 ---
 MIEJSCE: Hala sportowo-widowiskowa "Łuczniczka" ul Toruńska 44 Bydgoszcz
 

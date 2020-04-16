@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/solo-duet-2020'
 date: '2020-03-10'
 
@@ -11,7 +12,12 @@ tags: []
 link: https://www.facebook.com/events/1038080183208047/
 promoted: false
 visible: true
+cancelled: true
 ---
+**Informujemy, że XV Ogólnopolski Festiwal Tańca Nowoczesnego Solo-Duet - odbędzie się w innym
+ terminie. Sytuacja w kraju jest wyjątkowo dynamiczna i nie możemy na obecną chwilę niczego
+  zagwarantować. Śledzimy rozwój wydarzeń i w miarę możliwości poinformujemy Was drodzy tancerze i instruktorzy o nowym terminie tanecznych zmagań w Bydgoszczy. Mamy nadzieję, że sytuacja się ustabilizuje i jeszcze w roku 2020 będziemy mogli zrealizować nasze przedsięwzięcie.**
+
 Zapraszamy wszystkich sympatyków tańca na jubileuszowe bydgoskie święto:
 
 **"XV Ogólnopolski Festiwal Tańca Nowoczesnego SOLO - DUET Bydgoszcz 2020"** 

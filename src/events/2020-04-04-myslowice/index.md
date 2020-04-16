@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-machine-festival-2020'
 date: '2020-02-02'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/dancemachinefestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 #### TERMIN I MIEJSCE FESTIWALU:
 

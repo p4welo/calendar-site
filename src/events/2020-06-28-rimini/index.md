@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/sunshine-2020'
 date: '2020-02-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://sunshine.dance/
 promoted: true
 visible: true
+cancelled: false
 ---
 Serdecznie zapraszamy na międzynarodowy festiwal Sunshine.Dance, który odbędzie się w Rimini we Włoszech. Festiwal skierowany jest do amatorskich zespołów tanecznych dziecięcych, młodzieżowych i dorosłych o zróżnicowanym poziomie zaawansowania i różnorodnych stylach tanecznych(jazz, modern, balet, street, tap dance, acro dance, tańce ludowe i wiele więcej...).
 

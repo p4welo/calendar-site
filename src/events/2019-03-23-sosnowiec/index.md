@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/world-dance-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.kiepura.pl/skandal/pl,1,m,69,regulamin
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na:
 - DISCO DANCE: formacje.

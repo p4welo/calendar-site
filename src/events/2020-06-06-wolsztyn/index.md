@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wolsztyn-tanczy-pelna-para-2020'
 date: '2020-01-29'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://domkulturywolsztyn.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Już po raz dwunasty w Wolsztynie zatańczymy Pełną Parą!
 

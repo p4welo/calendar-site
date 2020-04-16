@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dzieci-dzieciom-bez-barier-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://reaktywacja-zory.pl/index.php/festiwal-tanca-dzieci-dzieciom-bez-barier
 promoted: false
 visible: true
+cancelled: false
 ---
 Serdecznie zapraszamy zespoly z calej Polski, bedzie to juz 7 edycja festiwalu, wkrótce szczegóły

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festiwal-trogir-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 TROGIR miejscem festiwalowym TOP ART FESTIVAL 2019 w Chorwacji. Honorowy patronat konsula rzeczypospolitej polskiej w zagrzebiu – pana Janusza Tatera Trogir jest miastem portowym na wybrzeżu Morza Adriatyckiego, znajdującym się w środkowej Dalmacji, w okręgu Splicko-Dalmatyńskim w Chorwacji. Posiada dziesiątki kilometrów naturalnych, żwirowych plaż, które oblewają krystalicznie czyste wody Adriatyku.
 – zakwaterowanie w hotelu w okolicach TROGIRU Hotel *** pokojach 2 I 3 osobowych każdy z łazienką, nad samym morzem. Hotel z klimatyzacją i basenem.

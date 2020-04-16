@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/day-of-street-2020'
 date: '2020-01-29'
 
@@ -12,6 +13,7 @@ link: https://www.facebook.com/events/217194045957029
 
 promoted: false
 visible: true
+cancelled: false
 ---
 Już 29 lutego w Brodnickim Domu Kultury odbędzie się piąta edycja "Day of Street". Tancerze będą mieli okazję zmierzyć się w pięciu kategoriach 1vs1. Podczas imprezy zostanie przeprowadzona zbiórka pieniędzy na rzecz Julki Rówczyńskiej.
 

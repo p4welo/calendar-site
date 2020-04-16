@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/navbar';
+import Navbar from '../components/beta/navbar';
 import { graphql, Link } from 'gatsby';
 import { formatDate, isNowOrFuture } from '../utils/date-utils';
 import SEO from '../components/seo';
@@ -43,7 +43,7 @@ class ArchivePage extends React.Component {
 
             {
               this.state.events.map((event, i) => (
-                  <Link to={event.path}>
+                  <Link to={event.path} key={i}>
                     <div className='panel panel-flat mb-5 no-border-radius btn-raised' key={i}>
                       <div className='panel-body'>
                         <div>

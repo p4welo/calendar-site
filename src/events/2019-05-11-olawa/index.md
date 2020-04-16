@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/koguci-pazur-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/869680876705664/
 promoted: false
 visible: true
+cancelled: false
 ---
 Oławski Festiwal Tańca  "Koguci Pazur"
 

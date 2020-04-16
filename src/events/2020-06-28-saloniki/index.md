@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festival-saloniki-2020'
 date: '2019-09-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 Międzynarodowe Festiwale talentów w najpiękniejszych miejscach europy - warsztaty z 
 międzynarodową kadrą instruktorów, wycieczki do najatrakcyjniejszych miejsc kraju w którym odbywa się festiwal, 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/art-clip-dance-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://wck.wadowice.pl/kultura/nasze-projekty/dzien-tanca
 promoted: false
 visible: true
+cancelled: false
 ---
 Wadowickie Centrum Kultury zaprasza na Ogólnopolski Konkurs Taneczny "IV Art Clip Dance".
 

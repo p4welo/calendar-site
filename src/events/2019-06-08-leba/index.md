@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/nadmorskie-rytmy-2019'
 date: '2019-05-15'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.studiobravo.wix.com/formacje
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY MINI FORMACJE I FORMACJE W KATEGORIACH:
 - MINI FORMACJE FREESTYLE DO 8 LAT

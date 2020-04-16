@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zakreceni-na-taniec-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: []
 link: https://zakreceninataniec.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy tancerzy oraz zespoły działające w Domach Kultury, Klubach, Szkołach Tańca i innych placówkach oświatowych i kulturalnych.

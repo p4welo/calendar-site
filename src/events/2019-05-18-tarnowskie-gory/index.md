@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/tanczac-w-jasnosciach-2019'
 date: '2019-04-18'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/ofttanczacwjasnosciach/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy już na XIII edycję Ogólnopolskiego Festiwalu Tanecznego Tańcząc w jasnościach
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/1000-lakes-dance-cup-2019'
 date: '2019-04-17'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://monstars.pl/1000-lakes-dance-cup/
 promoted: false
 visible: true
+cancelled: false
 ---
 Szkoła Tańca Monstars do wzięcia udziału w VII edycji Turnieju o Puchar Krainy 1000 Jezior!!!
 

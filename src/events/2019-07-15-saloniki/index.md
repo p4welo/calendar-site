@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festiwal-saloniki-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 Miasto Saloniki w uroczej Grecji zapraszają utalentowane dzieci i młodzież z całego świata.
 Koncerty w pięknej scenerii zabytków i romantycznych ulic.

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/rytmy-ulicy-2020'
 date: '2020-02-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/198513747886019/
 promoted: false
 visible: true
+cancelled: false
 ---
 Przed nami kolejna edycja brzeszczańskich Rytmów Ulicy. Największe taneczne wydarzenie w gminie rozpocznie się 16 maja
 o godz. 10.00 w Hali Sportowej w Brzeszczach!

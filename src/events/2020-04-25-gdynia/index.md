@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/gim-show-2020'
 date: '2020-01-20'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.mdk.gdynia.pl/konkursy-imprezy/kalendarz-konkursow
 promoted: false
 visible: true
+cancelled: false
 ---
 
 Festiwal przeznaczony jest dla placówek pozaszkolnych i szkolnych, które działają w ruchu amatorskim gimnastyki artystycznej, sportowej, akrobatycznej i innych form gimnastycznych. Do Festiwalu nie będą dopuszczane zawodniczki i zawodnicy klubów sportowych gimnastyki artystycznej, sportowej, akrobatycznej oraz profesjonalne tancerki i zespoły cheerleaders.

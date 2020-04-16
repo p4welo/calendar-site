@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/gar-dance-cup-2018'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: 
 promoted: false
 visible: true
+cancelled: false
 ---
 I Puchar Regionów Polski Południowej
 

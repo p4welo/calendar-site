@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/pasja-tanca-ostroleka-2019'
 date: '2019-08-28'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://taniecprogres.pl/iii-pasja-tanca-2019/
 promoted: true
 visible: true
+cancelled: false
 ---
 **Miasto Ostrołęka i Stowarzyszenie Rozwoju Poprzez Taniec PROGRES zapraszają**
  

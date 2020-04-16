@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/freestyle-dance-nysa-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/203400063908497/
 promoted: false
 visible: true
+cancelled: false
 ---
 XI Międzynarodowy Turniej Tańca Nowoczesnego FREESTYLE DANCE NYSA
 

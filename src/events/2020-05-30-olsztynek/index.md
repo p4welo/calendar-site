@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/coolturalne-bity-2020'
 date: '2020-01-16'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/2508631686043553/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy serdecznie na Ogólnopolski Turniej Tańca Nowoczesnego 
 COOLturalne BITY 2020! Będzie się działo, więc nie może Cię zabraknąć!

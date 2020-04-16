@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-ma-sens-2019'
 date: '2019-11-04'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/358162704782506/
 promoted: false
 visible: true
+cancelled: false
 ---
 Już 26 listopada odbędzie się kolejna edycja konkursu tanecznego dla szkół z Warszawy i okolic 
 Dance Ma Sens 2019 - organizowanego przez Niepubliczne Liceum Ogólnokształcące Fundacji Primus.

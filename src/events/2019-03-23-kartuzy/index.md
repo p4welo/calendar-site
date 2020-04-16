@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/kaszubski-stolem-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://studiobravo.wixsite.com/stolem
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy mini formacje i formacje.

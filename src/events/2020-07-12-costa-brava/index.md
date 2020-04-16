@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festival-costa-brava-2020'
 date: '2019-09-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 MIĘDZYNARODOWY FESTIWAL DZIECI I MŁODZIEŻY W HISZPANII
 „LA COSTA MUSICAL“

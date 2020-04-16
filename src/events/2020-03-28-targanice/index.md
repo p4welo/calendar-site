@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/o-cetke-rysia-2020'
 date: '2020-03-07'
 
@@ -10,7 +11,8 @@ image: 'image.jpg'
 tags: []
 link: https://kocierz.pl/festiwal-taneczny-o-cetke-rysia
 promoted: false
-visible: false
+visible: true
+cancelled: true
 ---
 **W ZWIĄZKU Z ROZSZERZANIEM SIĘ WIRUSA W POLSCE I DBAJĄC O BEZPIECZEŃSTWO DZIECI JESTEŚMY
  ZMUSZENI ODWOŁAĆ II FESTIWAL TANECZNY “O CĘTKĘ RYSIA “ NA KOCIERZU. O NOWYM TERMINIE BĘDZIEMY PA

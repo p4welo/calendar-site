@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wika-cup-2020'
 date: '2020-01-22'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://wikacup.com.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na III Ogólnopolski Turniej Tańca Wika Cup
 

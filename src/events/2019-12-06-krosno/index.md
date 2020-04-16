@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/mikolajkowe-spotkania-taneczne-2019'
 date: '2019-10-07'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.rckp.krosno.pl/strona-37-regulaminy_i_zgloszenia.html
 promoted: false
 visible: true
+cancelled: false
 ---
 Regulamin 27 Mikołajkowych Spotkań Tanecznych.
 

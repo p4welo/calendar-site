@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-passion-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.dance-passion.pl/index.php/site/index/2-konkurs-tanca.html
 promoted: false
 visible: true
+cancelled: false
 ---
 Celem Konkursu jest wspieranie młodzieży i dzieci w doskonaleniu swojej pasji, popularyzacja wszelkich form tańca, a także promowanie samego miasta Jastrzębia w środowisku tancerzy całego kraju.
 

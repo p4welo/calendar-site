@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/roztanczone-zulawy-2019'
 date: '2019-09-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.agencjabravo.com/roztanczonezulawy
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY SOLISTÓW, DUETY, MINI FORMACJE I FORMACJE W WIELU STYLACH TANECZNYCH.
 

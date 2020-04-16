@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/turniej-tanca-top-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/TurniejTancaTop/
 promoted: true
 visible: true
+cancelled: false
 ---
 Zapraszamy serdecznie na 3. edycję Turnieju Tańca Nowoczesnego TOP na Dolny Śląsk!
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/taneczne-miraze-2020'
 date: '2020-01-10'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://palac.bydgoszcz.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 W konkursie mogą brać udział:
 - Zespoły taneczne prezentujące miniatury, inscenizacje, etiudy w oparciu o techniki taneczne: jazz, taniec współczesny, modern (wspólna kategoria taneczna) w kategoriach wiekowych: do lat 11, 12 – 15 lat, powyżej 16 lat.

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/festiwal-trendy-2020'
 date: '2019-08-29'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/980908552290843/
 promoted: true
 visible: true
+cancelled: true
 ---
 ##### ZAPRASZAMY SERDECZNIE WSZYSTKIE FORMACJE I MINI FORMACJE NA 2. EDYCJĘ FESTIWALU TRENDY!
 

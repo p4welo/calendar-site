@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/aplauz-2020'
 date: '2019-12-12'
 
@@ -11,7 +12,10 @@ tags: []
 link: https://festiwal.aplauz-marklowice.eu/
 promoted: false
 visible: true
+cancelled: true
 ---
+**Z powodu panującej epidemii koronawirusa wydarzenie zostało odwołane**
+
 Zapraszamy na kolejną, 8. edycję Festiwalu Tanecznego Aplauz- według Was najlepszego turnieju tanecznego na Śląsku! Czekamy na grupy mażoretkowe, hip-hop'owe i street dance oraz grupy tańca nowoczesnego. Nie wiesz, czy festiwal jest dla Ciebie odpowiedni? Napisz do nas na festiwal@aplauz-marklowice.eu
 
 Zmagania toczyć się będą w kategoriach:

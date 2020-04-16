@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wygibajka-2020'
 date: '2020-02-02'
 
@@ -11,7 +12,10 @@ tags: []
 link: https://www.facebook.com/events/2707630789295162/
 promoted: false
 visible: true
+cancelled: true
 ---
+**Z powodu panującej epidemii wirusa COVID-19 wydarzenie zostało odwołane**
+
 Zapraszamy na II Ogólnopolski Festiwal Form Tanecznych Wygibajka. 
 
 W tym roku spotykamy się w Miejskim Ośrodku Sportu i Rekreacji w Rumii. 

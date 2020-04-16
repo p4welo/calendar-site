@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import { Link } from '@reach/router';
 import SEO from '../components/seo';
 import { DiscussionEmbed } from 'disqus-react';
-import Navbar from '../components/navbar';
+import Navbar from '../components/beta/navbar';
 import { formatDate } from '../utils/date-utils';
 // import banner from '../images/baner-percent.jpg';
 import banner from '../images/baner-percent.jpg';
@@ -29,11 +29,12 @@ export default function Template({ location, data }) {
             image={event.thumbnail.src}
             url={location.pathname}/>
 
-        <Navbar/>
+        <Navbar></Navbar>
         <Layout>
           <div className='page-title no-padding-bottom'>
-            <Link to='/' className='btn btn-link btn-xs btn-raised return-to-home'>
-              Powrót do strony głównej
+            <Link to='/upcoming' className='btn btn-link btn-xs btn-raised post-back-to-upcoming'
+                id='post-back-to-upcoming'>
+              Powrót do nadchodzących wydarzeń
             </Link>
           </div>
 
@@ -60,8 +61,9 @@ export default function Template({ location, data }) {
                 <div dangerouslySetInnerHTML={{ __html: page.html }}/>
                 <a href={event.link}
                     target='_blank'
+                    id='post-goto-organizer-site'
                     rel='noopener noreferrer nofollow'
-                    className='btn btn-primary organizer-site'>
+                    className='btn btn-primary'>
                   Strona organizatora
                 </a>
               </div>
@@ -74,7 +76,7 @@ export default function Template({ location, data }) {
             <a href='https://kartazgloszen.pl'
                 rel="noopener noreferrer"
                 target='_blank'
-                className='karta-zgloszen-banner-link2'>
+                id='post-karta-zgloszen-banner'>
               <img src={banner} />
             </a>
           </div>

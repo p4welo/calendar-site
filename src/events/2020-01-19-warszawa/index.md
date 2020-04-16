@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/bielanski-turniej-2020'
 date: '2019-11-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/466466527315109/
 promoted: false
 visible: true
+cancelled: false
 ---
 Już 19 stycznia zapraszamy na kolejny Ogólnopolski Turniej Tańca Nowoczesnego na Warszawskich Bielanach!!
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/piotrkowska-panorama-taneczna-2020'
 date: '2020-03-21'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.mok.piotrkow.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 #### Organizatorzy:
 Klub Kultury „Jaskółczyn” PSM

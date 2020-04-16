@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/turniej-o-zlota-kokartke-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://kokartka.info/2019/02/26/iii-turniej-o-zlota-kokartke/
 promoted: false
 visible: true
+cancelled: false
 ---
 III TURNIEJ O ZŁOTĄ KOKARTKĘ 
 

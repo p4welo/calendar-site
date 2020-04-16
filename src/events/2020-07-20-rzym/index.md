@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festival-rzym-2020'
 date: '2019-09-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 Wieczne miasto Rzymy otwiera swoje ulice na muzykę i utalentowane dzieci i młodzież z całego świata. Koncerty w pięknej scenerii zabytków i romantycznych ulic. Zabawa w południowym stylu. Plaża, pizza, słońce, muzyka i dużo pozytywnej energii.
 

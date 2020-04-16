@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/potocka-freestyle-2019'
 date: '2019-10-02'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://www.potocka.bydgoszcz.com
 promoted: false
 visible: true
+cancelled: false
 ---
 szczegóły na stronie www.potocka.bydgoszcz.com w zakładce turnieje-terminarz

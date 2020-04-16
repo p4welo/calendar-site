@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/tts-ursynow-2020'
 date: '2020-02-27'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://bit.ly/37TeicB
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na Turniej Tańca Sportowego Puchar Burmistrza Dzielnicy Ursynów 2020, który jest przeznaczony dla wszystkich tancerzy, od bardzo początkujących do bardzo zaawansowanych.
 

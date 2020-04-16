@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/gala-taneczna-mix-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://wck.wodzislaw-slaski.pl/18-gala-taneczna-mix-2
 promoted: false
 visible: true
+cancelled: false
 ---
 Wodzisławskie Centrum Kultury zaprasza na 18. Galę Taneczną MIX. Ta jedna z największych [imprez 
 tanecznych](/turniej-tanca-top-2020) na południu Polski odbędzie się w sobotę, 13 kwietnia br.

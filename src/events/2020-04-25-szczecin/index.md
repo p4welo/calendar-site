@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-stars-2020'
 date: '2020-01-07'
 
@@ -11,7 +12,10 @@ tags: []
 link: https://www.facebook.com/events/746474645844519/
 promoted: false
 visible: true
+cancelled: true
 ---
+**Z powodu panującej epidemii wirusa COVID-19 wydarzenie zostało odwołane**
+
 Już 25 kwietnia 2020 r. zapraszamy na VI edycję konkursu tańca nowoczesnego "DANCE STARS", który obędzie się w hali Szkoły Podstawowej nr 74 przy ul. Seledynowej w Szczecinie.
 
 Wszelkie pytania dotyczące konkursu prosimy przesyłać na adres:

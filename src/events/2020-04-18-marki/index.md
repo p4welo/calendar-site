@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zakreceni-na-taniec-marki-2020'
 date: '2020-02-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://grupafestiwale.pl/produkcje/zakreceni-na-taniec/
 promoted: true
 visible: true
+cancelled: false
 ---
 Serdecznie Zapraszamy na Ogólnopolskie Konfrontacje Taneczne "Zakręceni na Taniec" w Markach.
 

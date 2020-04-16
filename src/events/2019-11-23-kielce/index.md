@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/bitwa-na-taniec-kielce-2019'
 date: '2019-09-16'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/332834380836786/
 promoted: false
 visible: true
+cancelled: false
 ---
 XII edycja BnT 23/24 listopada 2019r :)
 

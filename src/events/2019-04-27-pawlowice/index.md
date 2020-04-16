@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/pawlowice-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/impuls.fk
 promoted: false
 visible: true
+cancelled: false
 ---
 Kategorie:
 - hip hop

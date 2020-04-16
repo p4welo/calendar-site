@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wika-cup-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.wikacup.com.pl
 promoted: false
 visible: true
+cancelled: false
 ---
 Zawody otwarte, bez zrzeszania i licencji, przeznaczone dla klubów
 tanecznych, domów kultury, szkół tańca niezrzeszonych 

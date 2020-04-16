@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/xdance-legionowo-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.xculture.pl/legionowo
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy serdecznie na kolejne edycje XDance Festival 2019, najlepsza taneczna atmosfera, świetna zabawa, rywalizacja, warsztaty oraz widowisko, którego musisz być częscią!
 

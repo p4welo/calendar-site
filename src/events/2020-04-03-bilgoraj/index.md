@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/taneczne-inspiracje-2020'
 date: '2020-03-07'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.trampolinasukcesu.pl
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na 7. edycję Ogólnopolskiego Festiwalu Tańca „Taneczne Inspiracje”, który odpędzie się w dniach 3-4 kwietnia 2020 roku w Biłgoraju 
 (miejsce: OSiR Biłgoraj, ul. Targowa 15).

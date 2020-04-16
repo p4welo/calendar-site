@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/festiwal-tanca-trendy-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://trendy.setenta.wroclaw.pl
 promoted: true
 visible: true
+cancelled: false
 ---
 Zapraszamy do wszystkie formacje i mini formacje z całej Polski do wzięcia udziału w zbliżającym się festiwalu! 🙂
 

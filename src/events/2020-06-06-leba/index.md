@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/nadmorskie-rytmy-2020'
 date: '2020-02-05'
 
@@ -11,5 +12,6 @@ tags: []
 link: https://www.agencjabravo.com/formacje
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy roztańczone mini formacje i formacje :)

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/spotkania-taneczne-reakcje-2020'
 date: '2019-12-11'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.mckbelchatow.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszam na Ogólnopolskie Spotkania Taneczne (Re)akcje do Bełchatowa.
 

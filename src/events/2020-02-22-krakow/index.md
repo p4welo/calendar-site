@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/obsession-dance-festival-2020'
 date: '2020-01-20'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://facebook.com/events/s/dancesportcup-obsession-dance-/2687986121289746/
 promoted: false
 visible: true
+cancelled: false
 ---
 Dwudniowe zawody w Tańcu Sportowym oraz Tańcu  Nowoczesnym.
 

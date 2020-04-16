@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/warmia-dance-cup-2020'
 date: '2020-03-08'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/740417949699131/
 promoted: false
 visible: true
+cancelled: false
 ---
 Drodzy Tancerze i Trenerzy
 

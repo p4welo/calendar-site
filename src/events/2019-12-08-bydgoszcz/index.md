@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/potocka-freestyle2-2019'
 date: '2019-11-20'
 title: 'Ogólnopolski Turniej Tańca Freestyle'
@@ -10,5 +11,6 @@ tags: []
 link: http://www.potocka.bydgoszcz.com
 promoted: false
 visible: true
+cancelled: false
 ---
 Disco-dance, hip-hop, break-dance, popping, inne formy taneczne oraz Taniec towarzyski

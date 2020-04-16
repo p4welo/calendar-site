@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/home-cup-2020'
 date: '2020-03-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/1507596019404704/
 promoted: false
 visible: true
+cancelled: false
 ---
 #### 1 POLISH DANCE HOME CUP 
 

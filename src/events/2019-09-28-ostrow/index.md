@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/magia-tanca-ostrow-2019'
 date: '2019-08-10'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.konkursmagiatanca.pl
 promoted: true
 visible: true
+cancelled: false
 ---
 XVII edycja konkursu poświęconego sztuce tańca !!!
 

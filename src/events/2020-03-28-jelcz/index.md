@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zakreceni-na-taniec-jelcz-laskowice-2020'
 date: '2020-02-12'
 
@@ -10,7 +11,8 @@ image: 'image.jpg'
 tags: []
 link: https://grupafestiwale.pl/
 promoted: true
-visible: false
+visible: true
+cancelled: true
 ---
 Serdecznie Zapraszamy na Ogólnopolskie Konfrontacje Taneczne"Zakręceni na Taniec" w Jelczu-Laskowice.
 

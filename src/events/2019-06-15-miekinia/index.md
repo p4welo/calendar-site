@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/summer-dance-festival-2019'
 date: '2019-06-02'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://xn--szkoataca-tubz.com.pl/index.php/regulamin-summer-dance-festival-19/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na III edycje Summer Dance Festival 2019.
 

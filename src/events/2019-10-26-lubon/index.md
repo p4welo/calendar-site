@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/mark-n-move-2019'
 date: '2019-07-10'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/1397404573733025/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy wszystkich na V edycję zawodów Mark'n'Move❗⚡⚡⚡ Luboń 2019❗
 

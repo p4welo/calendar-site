@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/rytmy-ulicy-brzeszcze-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/2047305545566494/
 promoted: false
 visible: true
+cancelled: false
 ---
 Przed nami kolejna edycja brzeszczańskich Rytmów Ulicy. Największe taneczne wydarzenie w gminie rozpocznie się 11 maja o godz. 10.00 na Hali Sportowej w Brzeszczach!
 

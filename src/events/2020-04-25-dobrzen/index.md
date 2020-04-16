@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/plasowadla-2020'
 date: '2020-01-27'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://plasowadla.gokdobrzenwielki.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 **W ZWIĄZKU Z ZAGROŻENIEM EPIDEMIOLOGICZNYM ZWIĄZANYM Z KORONAWIRUSEM SARS-COV-2, W TROSCE O
  UCZESTNIKÓW I WIDZÓW, KOMITET ORGANIZACYJNY PODJĄŁ DECYZJĘ O PRZENIESIENIU III FESTIWALU SZTUKI

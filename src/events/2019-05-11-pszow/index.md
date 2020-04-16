@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/przeglad-zespolow-tanecznych-pszow-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://mokpszow.pl/index.php/541-xii-przegl%C4%85d-zespo%C5%82%C3%B3w-tanecznych-psz%C3%B3w-2019.html
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy do udziału w "XII Ogólnopolskim Przeglądzie Zespołów Tanecznych - Pszów 2019". 
 Impreza została objęta honorowym patronatem Starosty powiatu wodzisławskiego. 

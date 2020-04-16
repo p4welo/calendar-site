@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zlote-sznurowadlo-2020'
 date: '2020-01-27'
 
@@ -11,5 +12,6 @@ tags: []
 link: https://lck.libiaz.pl/festiwal-tanca-zlote-sznurowadlo-2020/
 promoted: false
 visible: true
+cancelled: true
 ---
 Festiwal organizowany jest po raz XVIII w Libiążu, woj. małopolskie.

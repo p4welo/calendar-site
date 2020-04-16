@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-stars-szczecin-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/601173576990069
 promoted: false
 visible: true
+cancelled: false
 ---
 To już V edycja Turnieju Tańca "Dance Stars" odbywającego się w Szczecinie.
 

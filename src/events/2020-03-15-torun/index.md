@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/chance-for-dance-2020'
 date: '2020-01-15'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.danceonline.pl
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na III edycję Ogólnopolskiego Turnieju Tańca Chance for Dance 2020. Rozgrywane konkurencje:
 1. Disco Dance, Hip Hop  - solo , duety , trio, mini formacje i formacje 

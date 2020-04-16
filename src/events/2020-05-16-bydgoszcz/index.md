@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/butek-2020'
 date: '2020-02-05'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.szkolabohema.pl/ii-ogolnopolski-turniej-tanca-but-ek/
 promoted: false
 visible: true
+cancelled: false
 ---
 ❌❌❌ II Ogólnopolski Turniej Tańca ❌❌❌
 

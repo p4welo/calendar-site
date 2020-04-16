@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/ogolnopolski-turniej-tanca-nowoczesnego-gold-contest-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/1084181728407576/
 promoted: false
 visible: true
+cancelled: false
 ---
 W dniach 9-10.03.2019 Serdecznie Zapraszamy Was na kolejną odsłonę GOLD CONTEST, największej tanecznej imprezy w Gliwicach. W tym roku pojawi się wiele zmian. Między innymi:
 

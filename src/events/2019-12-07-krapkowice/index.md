@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/krapkowickie-zderzenia-taneczne-2019'
 date: '2019-11-18'
 title: 'VIII Krapkowickie ZDERZENIA TANECZNE '
@@ -10,6 +11,7 @@ tags: []
 link: http://sieradan.pl/vii-krapkowickie-zderzenia-taneczne/
 promoted: false
 visible: true
+cancelled: false
 ---
 Drodzy Miłośnicy Tańca koniecznie przybądźcie
 ❤️7 grudnia 2019 (sobota)❤️na 

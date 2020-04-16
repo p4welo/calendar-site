@@ -1,17 +1,42 @@
 import React from 'react';
-import { formatHeaderFromKey, groupByMonth } from '../../utils/date-utils';
+import { groupByMonth } from '../../utils/date-utils';
 import MonthSection from './month-section';
 
 class EventList extends React.Component {
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      filtered: this.props.events
+    };
+  }
+
+  getFilteredEventsForText(text = '') {
+    return this.props.events
+        .filter(event => event.title.toLowerCase().includes(text.toLowerCase()));
+  }
+
+  filterEvents(filter = {}) {
+    const { title } = filter;
+    if (title) {
+      this.setState({
+        filtered: this.getFilteredEventsForText(title)
+      });
+    }
+  }
+
   render() {
-    const groupped = groupByMonth(this.props.events);
+    const groupped = groupByMonth(this.state.filtered);
 
     return (
         <div>
           <h3>Nadchodzące wydarzenia</h3>
+          {/*<FilterArea filterChange={this.filterEvents.bind(this)}></FilterArea>*/}
+
           {
-            Object.keys(groupped).map((key) =>
-                <MonthSection events={ groupped[key] } header={ key }></MonthSection>
+            Object.keys(groupped).map((key, i) =>
+                <MonthSection events={groupped[key]} header={key} key={i}></MonthSection>
             )
           }
         </div>

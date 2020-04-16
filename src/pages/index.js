@@ -1,38 +1,29 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+
 import Navbar from '../components/beta/navbar';
 import Hero from '../components/beta/hero';
 import PromotedList from '../components/beta/promoted-list';
 import AmountLine from '../components/beta/amount-line';
-import { formatDate, isNew, isNowOrFuture } from '../utils/date-utils';
-import EventList from '../components/beta/event-list';
 import SocialSection from '../components/beta/social-section';
-import { Link } from '@reach/router';
+import SEO from '../components/seo';
+import {
+  isFuture,
+  isNotCancelled,
+  isPromoted,
+  isVisible,
+  mapToEventEntities
+} from '../utils/event-utils';
+import Footer from '../components/beta/footer';
+import banner from '../images/baner-percent.jpg';
+import bannerMobile from '../images/baner-mobile.jpg';
 
 const BetaPage = ({ data }) => {
-  const eventList = data.allMarkdownRemark.edges.map(({node}) => {
-    return {
-      new: isNew(node.frontmatter.date),
-      date: node.frontmatter.date,
-      promoted: node.frontmatter.promoted,
-      visible: node.frontmatter.visible,
-      image: node.frontmatter.image.childImageSharp.fluid,
-      title: node.frontmatter.title,
-      dateFrom: node.frontmatter.dateFrom,
-      dateTo: node.frontmatter.dateTo,
-      multiday: node.frontmatter.dateTo !== node.frontmatter.dateFrom,
-      path: node.frontmatter.path,
-      city: node.frontmatter.city
-    };
-  });
-  const isPromoted = (event) => event.promoted;
-  const isVisible = (event) => event.visible;
-  const isFuture = (visible) => isNowOrFuture(visible.dateTo);
-
-
+  const eventList = mapToEventEntities(data);
 
   return (
       <>
+        <SEO title='Strona główna'/>
         <Navbar></Navbar>
         <div className='page-container'>
           <div className="page-content">
@@ -44,24 +35,45 @@ const BetaPage = ({ data }) => {
                 eventList.length
               }></AmountLine>
               <div className="container">
+                <SocialSection />
+
                 <PromotedList events={
                   eventList
                       .filter(isVisible)
+                      .filter(isNotCancelled)
                       .filter(isFuture)
                       .filter(isPromoted)
                 }></PromotedList>
-                <SocialSection />
-                <EventList events={
-                  eventList
-                      .filter(isVisible)
-                      .filter(isFuture)
-                }></EventList>
-                <div className="text-center">
-                  <Link to='/archive'
-                      id='index-go-to-archive'
-                      className='btn btn-default btn-raised mb-20'>Przejdź do archiwum wydarzeń</Link>
+
+                {/*<EventList events={*/}
+                {/*  eventList*/}
+                {/*      .filter(isVisible)*/}
+                {/*      .filter(isFuture)*/}
+                {/*}></EventList>*/}
+                {/*<div classNae="text-center">*/}
+                {/*  <Link to='/archive'*/}
+                {/*      id='index-go-to-archive'*/}
+                {/*      className='btn btn-default btn-raised mb-20'>Przejdź do archiwum wydarzeń</Link>*/}
+                {/*</div>*/}
+
+                <div className='karta-zgloszen-banner mb-20'>
+                  <a href='https://kartazgloszen.pl'
+                      id='index-karta-zgloszen-banner-desktop'
+                      target='_blank'
+                      className='banner-sm'>
+                    <img src={banner} className='' />
+                  </a>
+                  <a href='https://kartazgloszen.pl'
+                      target='_blank'
+                      id='index-karta-zgloszen-banner-mobile'
+                      className='banner-xs'>
+                    <img src={bannerMobile} className='' />
+                  </a>
                 </div>
+
               </div>
+              {/*<AboutUs></AboutUs>*/}
+              <Footer></Footer>
             </div>
           </div>
 
@@ -69,7 +81,6 @@ const BetaPage = ({ data }) => {
       </>
   );
 };
-
 export default BetaPage;
 
 export const query = graphql`
@@ -82,6 +93,7 @@ export const query = graphql`
                         path
                         date
                         promoted
+                        cancelled
                         visible
                         dateFrom
                         dateTo
@@ -89,9 +101,6 @@ export const query = graphql`
                         city
                         image {
                             childImageSharp {
-                                resize(width: 1500, height: 1500) {
-                                    src
-                                }
                                 fluid(maxWidth: 786) {
                                     ...GatsbyImageSharpFluid
                                 }

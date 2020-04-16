@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/tanczac-w-jasnosciach-2020'
 date: '2020-02-27'
 
@@ -11,7 +12,10 @@ tags: []
 link: https://www.facebook.com/ofttanczacwjasnosciach/
 promoted: false
 visible: true
+cancelled: true
 ---
+**W związku z ogłoszonym stanem epidemii nowy termin zostanie ogłoszony wkrótce**
+
 ### Kategorie taneczne:
 
 Solo i formacje:

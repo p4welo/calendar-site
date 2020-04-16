@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/drgania-przestrzeni-2020'
 date: '2020-01-15'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/drganiaprzestrzeni/
 promoted: false
 visible: true
+cancelled: false
 ---
 13 edycja Zgierskich Spotkań Tanecznych "Drgania Przestrzeni"
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/street-meet-2019'
 date: '2019-04-17'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.flashdance.pl/street-meet-vol-3/
 promoted: false
 visible: true
+cancelled: false
 ---
 Witamy wszystkich!
 

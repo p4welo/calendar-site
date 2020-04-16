@@ -22,9 +22,6 @@ class EventTile extends React.Component {
     return <span>{ from }</span>
   }
 
-// { event.dateFrom }
-// { event.multiday && <span> - {event.dateTo}</span> }
-
   new(event) {
     return event.new ?
         <span className="label bg-success text-uppercase event-tile__label-new">Nowość</span> :
@@ -40,27 +37,46 @@ class EventTile extends React.Component {
         <span></span>;
   }
 
+  cancelled(event) {
+    if (event.cancelled) {
+      return (
+          <div className='text-center btn-block' style={{ position: 'absolute', top: '50%'}}>
+            <span className="label label-danger label-cancelled">Odwołany</span>
+          </div>
+      );
+    }
+    else {
+      return <span></span>
+    }
+  }
+
+  thumbnailClass(event) {
+    return `thumbnail btn-raised mb-20 ${ !!event.cancelled ? 'thumbnail-cancelled' : '' }`;
+  }
+
   render() {
     const { event } = this.props;
     return (
         <div className="col-lg-4 col-sm-6 col-xs-12"
             style={{ display: `flex`, flexDirection: `column`, marginBottom: `50px` }}>
-          <Link to={event.path}>
+          <Link to={event.path}
+              className={`event-tile-link ${event.promoted ? 'promoted-event-tile-link' : ''}`}>
             <div
-                className='thumbnail btn-raised mb-20'
+                className={this.thumbnailClass(event)}
                 style={{ padding: '0', height: 'auto', transition: 'all 150ms ease-in-out' }}>
               <div className="thumb" style={{ height: `250px` }}>
                 <Img className='thumb-image'
                     fluid={event.image}
                     alt={event.title}/>
-                <div className="caption-overflow">
-                  <span>
-                    <a href style={{ borderRadius: '50%', width: '42px', height: '42px' }}
-                        className="btn btn-flat border-white text-white btn-rounded btn-icon legitRipple">
-                      <i className="fas fa-arrow-up"></i>
-                    </a>
-                  </span>
-                </div>
+                {/*<div className="caption-overflow">*/}
+                {/*  <span>*/}
+                {/*    <a href style={{ borderRadius: '50%', width: '42px', height: '42px' }}*/}
+                {/*        className="btn btn-flat border-white text-white btn-rounded btn-icon legitRipple">*/}
+                {/*      <i className="fas fa-arrow-up"></i>*/}
+                {/*    </a>*/}
+                {/*  </span>*/}
+                {/*</div>*/}
+                {this.cancelled(event)}
               </div>
               {this.ribbon(event)}
             </div>

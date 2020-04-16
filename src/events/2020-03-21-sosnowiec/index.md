@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/world-dance-2020'
 date: '2020-02-11'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://kiepura.pl/skandal/pl,1,m,68,world-dance
 promoted: false
 visible: true
+cancelled: false
 ---
 Turniej odbędzie się w Sosnowcu, w dniu 21 marca 2020r. o godz. 8.30, na terenie Hali Widowiskowo – Sportowej przy ul. Braci Mieroszewskich 91.
 

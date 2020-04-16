@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/serduczko-dla-jasia-2020'
 date: '2020-02-19'
 
@@ -10,7 +11,8 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/250848339237194/
 promoted: true
-visible: false
+visible: true
+cancelled: true
 ---
 **STOSUJĄC SIĘ DO ZALECEŃ WŁADZ I MAJĄC NA WZGLĘDZIE ZDROWIE WSZYSTKICH UCZESTNIKÓW I WIDZÓW
  PODJELIŚMY DECYZJĘ O ODWOŁANIU TURNIEJU MOVE4LIFE SERDUSZKO DLA JASIA ! TURNIEJ NA PEWNO SIĘ ODB

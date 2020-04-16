@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dzieci-dzieciom-bez-barier-2020'
 date: '2019-12-29'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.mok.zory.pl/aktualnosc-1184-festiwal_tanca_dzieci_dzieciom_bez.html
 promoted: false
 visible: true
+cancelled: false
 ---
 Festiwal skierowany jest do dzieci, młodzieży i zespołów tanecznych działających w instytucjach kultury i innych placówkach oświatowo-wychowawczych w kraju i za granicą.
 

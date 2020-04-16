@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/magia-tanca-2018'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.konkursmagiatanca.pl
 promoted: false
 visible: true
+cancelled: false
 ---
 W konkursie mogą brać udział uczestnicy domów kultury, prywatnych szkół tanecznych, stowarzyszeń, szkół podstawowych i ponadpodstawowych, niepublicznych szkół baletowych. 
 

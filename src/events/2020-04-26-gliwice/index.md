@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/xdance-gliwice-2020'
 date: '2020-01-27'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.xdancefestival.com/
 promoted: false
 visible: true
+cancelled: false
 ---
 Rozpoczynamy cykl imprez XDF! Najlepsi tancerze spotkają się na XDance Festival World Final w Łodzi, gdzie pula nagród do wygrania to ponad 10.000 zł !
 

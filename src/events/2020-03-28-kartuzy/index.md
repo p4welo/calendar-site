@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/kaszubski-stolem-2020'
 date: '2019-11-13'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://www.agencjabravo.com/kaszubskistolem
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY MINI FORMACJE I FORMACJE- WSZYSTKIE STYLE TANECZNE

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/pakoslaw-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/I-Og%C3%B3lnopolski-Turniej-Ta%C5%84ca-Nowoczesnego-Pakos%C5%82aw-2019-r-776122852780301/
 promoted: false
 visible: true
+cancelled: false
 ---
 I Ogólnopolski Turniej Tańca Nowoczesnego Pakosław 2019r.
 

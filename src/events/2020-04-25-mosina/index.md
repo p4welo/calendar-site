@@ -1,16 +1,18 @@
 ---
+province: ''
 path: '/mosina-2020'
 date: '2020-02-25'
 
 title: '17 Turniej Formacji Tanecznych Mosina 2020'
-dateFrom: '2020-04-25'
-dateTo: '2020-04-25'
+dateFrom: '2020-11-07'
+dateTo: '2020-11-07'
 city: 'Mosina'
 image: 'image.jpg'
 tags: []
 link: http://osirmosina.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Turniej organizowany jest już po raz 17 dla dzieci i młodzieży uprawiającej różne formy taneczne, reprezentujących jednostki oświatowe, szkoły tańca, formacje nieformalne, grupy formalne działające przy instytucjach publicznych i niepublicznych. Tego dnia na mosińskiej scenie tanecznej spotyka sie ponad 1300 tancerzy z różnych cześć Polski. 
 

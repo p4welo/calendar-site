@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/roztanczona-legnica-2019'
 date: '2019-10-14'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/505486046971041/
 promoted: false
 visible: true
+cancelled: false
 ---
 Turniej Tańca „Roztańczona Legnica”, to kolejna propozycja Ośrodka Sportu i Rekreacji w Legnicy.
 

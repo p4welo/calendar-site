@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/talent-show-2020'
 date: '2020-02-27'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://facebook.com/TalentSHOWAndrychow/
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY NA V EDYCJĘ OGÓLNOPOLSKIEGO KONKURSU TAŃCA TALENT SHOW - ANDRYCHÓW 2020
 

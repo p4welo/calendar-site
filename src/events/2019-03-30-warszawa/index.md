@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zwpek-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://mdk.zwpek.pl/2019/03/12/ii-wojewodzki-przeglad-amatorskiej-tworczosci-tanecznej/
 promoted: false
 visible: true
+cancelled: false
 ---
 II WOJEWÓDZKI PRZEGLĄD AMATORSKIEJ TWÓRCZOŚCI TANECZNEJ – ZWPEK 2019 O PUCHAR BURMISTRZA WOLI
 

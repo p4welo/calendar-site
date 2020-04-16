@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/revolution-of-dance-2020'
 date: '2020-01-08'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.szkola-dance4you.pl/ogolnoposlki-turniej-tanca-revolution-of-dance/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy na nasz pierwszy turniej! Czekają atrakcyjne nagrody, 8 kategorii tanecznych i mnóstwo dobrej energii.
 

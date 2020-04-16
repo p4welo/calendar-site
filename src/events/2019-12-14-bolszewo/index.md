@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-off-2019'
 date: '2019-10-29'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/427998208069242/
 promoted: false
 visible: true
+cancelled: false
 ---
 Mamy ogromną przyjemność zaprosić was na Festiwal Form Tanecznych - DANCE OFF 2019. 
 

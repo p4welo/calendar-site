@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/taneczne-miraze-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://palac.bydgoszcz.pl/regulaminy.php#mirages
 promoted: false
 visible: true
+cancelled: false
 ---
 UCZESTNICY
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-machine-festival-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/934171833455078
 promoted: false
 visible: true
+cancelled: false
 ---
 Dance Machine Festival
 

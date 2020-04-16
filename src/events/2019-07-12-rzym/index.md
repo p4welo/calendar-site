@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/top-art-festiwal-rzym-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/topartfestival/
 promoted: false
 visible: true
+cancelled: false
 ---
 Międzynarodowy Festiwal Dzieci i Młodzieży w Rzymie – Wieczne miasto Rzym otwiera swoje ulice na muzykę i utalentowane dzieci i młodzież z całego świata.
 

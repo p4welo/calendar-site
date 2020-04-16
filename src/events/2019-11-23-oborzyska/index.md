@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/move-your-emotions-2019'
 date: '2019-09-28'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://szkolapoezja.pl/turniejtanca/
 promoted: false
 visible: true
+cancelled: false
 ---
 Drodzy instruktorzy, choreografowie, trenerzy i tancerze!
 

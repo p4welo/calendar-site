@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/awangarda-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://www.studiobravo.wix.com/awangarda
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/turniej-tanca-top-2020'
 date: '2019-08-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/3137660979791710/
 promoted: true
 visible: true
+cancelled: false
 ---
 ##### ZAPRASZAMY SERDECZNIE NA 4. EDYCJĘ TURNIEJU TAŃCA NOWOCZESNEGO TOP NA DOLNY ŚLĄSK!
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/pniewy-2020'
 date: '2020-02-11'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://ft-pniewy.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 II Ogólnopolski Festiwal Tańca w Pniewach 2020 objęty patronatem honorowym Marszałka Województwa Wielkopolskiego, Burmistrza Miasta Pniewy i Starosty Powiatu Szamotulskiego.
 

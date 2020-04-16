@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import { Link } from '@reach/router';
+import Footer from './beta/footer';
 
 const Layout = ({ children }) => (
     <StaticQuery
@@ -24,24 +25,25 @@ const Layout = ({ children }) => (
                 {/*</div>*/}
                 {children}
               </div>
-              <footer style={{
-                background: `#07beb8`,
-                color: `white`,
-                padding: `100px 0`
-              }}>
-                <div className="container">
-                  <p>
-                    <span>© {new Date().getFullYear()}</span>
-                    <Link to='/' className='btn btn-link'>Taneczny kalendarz</Link>
-                  </p>
-                  <p>
-                    <span>Kontakt: </span>
-                    <a className='btn btn-link'
-                        href='mailto:kontakt@tanecznykalendarz.pl'>kontakt@tanecznykalendarz.pl</a>
-                  </p>
-                  <p>Administrator nie odpowiada za treści publikowane przez organizatorów.</p>
-                </div>
-              </footer>
+              <Footer></Footer>
+              {/*<footer style={{*/}
+              {/*  background: `#07beb8`,*/}
+              {/*  color: `white`,*/}
+              {/*  padding: `100px 0`*/}
+              {/*}}>*/}
+              {/*  <div className="container">*/}
+              {/*    <p>*/}
+              {/*      <span>© {new Date().getFullYear()}</span>*/}
+              {/*      <Link to='/' className='btn btn-link'>Taneczny kalendarz</Link>*/}
+              {/*    </p>*/}
+              {/*    <p>*/}
+              {/*      <span>Kontakt: </span>*/}
+              {/*      <a className='btn btn-link'*/}
+              {/*          href='mailto:kontakt@tanecznykalendarz.pl'>kontakt@tanecznykalendarz.pl</a>*/}
+              {/*    </p>*/}
+              {/*    <p>Administrator nie odpowiada za treści publikowane przez organizatorów.</p>*/}
+              {/*  </div>*/}
+              {/*</footer>*/}
             </>
         )}
     />

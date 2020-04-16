@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/luborzyca-2020'
 date: '2019-12-01'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.turniejcheer.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Stowarzyszenie "Rusz się!" oraz Gmina Kocmyrzów-Luborzyca serdecznie zapraszają do wzięcia udziału w I Małopolskich Mistrzostwach Cheerleaders. Zawody odbędą się 22 lutego 2020 w podkrakowskiej miejscowości Luborzyca. W turnieju mogą wziąć udział zespoły z całego kraju.
 

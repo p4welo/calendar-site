@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/ogolnopolski-festiwal-zespolow-artystycznych-moc-tanca-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: ["solo", "duet", "mini formacje", "formacje"]
 link: http://studiobravo.wixsite.com/moctanca
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.

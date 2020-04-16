@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/turniej-tanca-koscian-2020'
 date: '2019-09-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.szkolapoezja.pl/turniejtancakoscian
 promoted: false
 visible: true
+cancelled: false
 ---
 Kolejna edycja jednego z największych turniejów tańca w Polsce, tym razem odbędzie się w ostatni weekend marca. 
 

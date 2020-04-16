@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/taneczne-pejzaze-2019'
 date: '2019-09-01'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/tanecznepejzaze/posts/1327413277431354
 promoted: false
 visible: true
+cancelled: false
 ---
 Drodzy instruktorzy, choreografowie, trenerzy i tancerze!
 

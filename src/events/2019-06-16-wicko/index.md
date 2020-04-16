@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/mistrz-tanca-2019'
 date: '2019-05-24'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.studiobravo.wix.com/mistrztanca
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY SOLISTÓW, DUETY I MINI FORMACJE WE WSZYSTKICH KATEGORIACH TANECZNYCH!!!
 

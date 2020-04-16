@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wielka-bitwa-kaliska-2019'
 date: '2019-05-28'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/586780455133682/
 promoted: false
 visible: true
+cancelled: false
 ---
 Bijemy Rekord Polski w [Tańcu Hip Hop](/turniej-tanca-top-2020)!
 

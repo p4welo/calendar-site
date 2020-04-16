@@ -9,7 +9,6 @@ class MonthSection extends React.Component {
 
     return (
         <>
-          {/*<h6 className='text-semibold no-margin-top'>{ formatHeaderFromKey(sectionKey) }</h6>*/}
           <div className="text-center content-group text-muted content-divider">
             <span className="pt-10 pb-10">{ formatHeaderFromKey(sectionKey) }</span>
           </div>

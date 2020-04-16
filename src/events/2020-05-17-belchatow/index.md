@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/faza-belchatow-2020'
 date: '2020-03-02'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://grupafestiwale.pl/
 promoted: true
 visible: true
+cancelled: false
 ---
 Jeśli masz Fazę na taniec i szukasz imprezy z pozytywną atmosferą i rywalizacją fair play, zabierz swoje grupy na Fazę - Festiwal Amatorskich Zespołów Artystycznych! Turniej rozgrywamy na 3 poziomach zaawansowania, dlatego zapraszamy również początkujących :)
 

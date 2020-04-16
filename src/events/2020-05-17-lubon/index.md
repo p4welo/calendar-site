@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/street-dance-cup-2020'
 date: '2019-12-04'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/504126743466345/
 promoted: false
 visible: true
+cancelled: false
 ---
 Street Dance Cup 2020
 

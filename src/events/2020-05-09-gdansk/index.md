@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/talenty-2020'
 date: '2020-03-08'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/838550096596181/
 promoted: false
 visible: true
+cancelled: false
 ---
 XIV Ogólnopolski Konkurs Tańca "TALENTY " 2020 
 

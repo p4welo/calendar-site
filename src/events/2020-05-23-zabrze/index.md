@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/nie-lam-sie-2020'
 date: '2020-03-07'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/198751258013065/
 promoted: false
 visible: true
+cancelled: false
 ---
 "(Nie) Łam się" to obecnie najstarszy turniej tańca ulicznego na Śląsku. Po raz pierwszy rozegrany został w 2005 roku. Rok rocznie gromadzi ok. 500 uczestników nie tylko ze Śląska, ale i z innych województw. Tegoroczna edycja rozegrana zostanie w 4 kategoriach wiekowych - 6-8 lat, 9-11 lat, 12-15 lat i 16-20 lat. Natomiast kategorie taneczne to hip hop solo, street dance solo, street dance duety i street dance formacje.
  

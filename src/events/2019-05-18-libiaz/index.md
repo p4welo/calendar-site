@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/zlote-sznurowadlo-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://lck.libiaz.pl/
 promoted: false
 visible: true
+cancelled: false
 ---
 Festiwal Tańca "Złote Sznurowadło 2019"
 

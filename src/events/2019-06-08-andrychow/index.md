@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/dance-is-the-limit-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/375630586557936/
 promoted: false
 visible: true
+cancelled: false
 ---
 DANCE Is the LIMIT
 ~ Ponieważ w tańcu nie ma granic ~

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/awangarda-2020'
 date: '2020-02-05'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.agencjabravo.com/awangarda
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy solistów, duety, mini formacje i formacje taneczne :)
  

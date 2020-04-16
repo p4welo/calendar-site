@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/ogolnopolski-festiwal-sztuki-baletowej-2019'
 date: '2018-09-26'
 
@@ -11,5 +12,6 @@ tags: []
 link: http://studiobravo.wixsite.com/konkursbaletowy
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy solistów, duety, mini formacje i formacje.

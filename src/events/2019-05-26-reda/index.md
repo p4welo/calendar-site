@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/wygibajka-2019'
 date: '2018-09-26'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/304055270263895/
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy Was na I Ogólnopolski Festiwal Form Tanecznych, który odbędzie się 26 maja w Redzie.
  

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/festiwal-leba-2020'
 date: '2019-09-12'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://www.agencjabravo.com/oftn
 promoted: false
 visible: true
+cancelled: false
 ---
 ZAPRASZAMY SOLISTÓW, DUETY, MINI FORMACJE, FORMACJE. ZAPRASZAMY RÓWNIEŻ DO UDZIAŁU W WARSZTATACH.
 

@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/stepdance-show-2020'
 date: '2020-01-15'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.step-dance.pl 
 promoted: false
 visible: true
+cancelled: false
 ---
 Już po raz VI CENTRUM TAŃCA I RUCHU STEP-DANCE Iwona Kuchta a zarazem Placówka Kształcenia Ustawicznego zaprasza na FESTIWAL TAŃCA.
 

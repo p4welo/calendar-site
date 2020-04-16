@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/koszalinskie-yo-2020'
 date: '2019-11-13'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://facebook.com/events/s/koszalinskie-yo-vol1-turniejwa/996850740650258/?ti=icl
 promoted: false
 visible: true
+cancelled: false
 ---
 Street Dance Contest Koszalińskie Yo! impreza mająca na celu propagowanie kultury hip-hop jakiej od lat w Koszalinie nie było. 
 

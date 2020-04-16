@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/festiwal-tanca-w-pniewach-2019'
 date: '2019-09-20'
 
@@ -11,6 +12,7 @@ tags: []
 link: http://ft-pniewy.pl
 promoted: false
 visible: true
+cancelled: false
 ---
 Zapraszamy serdecznie na I Ogólnopolski Festiwal Tańca w Pniewach 2019❗
  

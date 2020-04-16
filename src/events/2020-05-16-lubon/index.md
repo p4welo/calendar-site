@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/artistic-dance-cup-2020'
 date: '2019-12-04'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.facebook.com/events/704617589963988/
 promoted: false
 visible: true
+cancelled: false
 ---
 Artistic Dance Cup 2020
 

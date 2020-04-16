@@ -1,4 +1,5 @@
 ---
+province: ''
 path: '/mistrzostwo-mokotowa-2019'
 date: '2019-10-16'
 
@@ -11,6 +12,7 @@ tags: []
 link: https://www.handtohand.pl/index,event,id,215,turniej-tanca-sportowego-o%C2%A0mistrzostwo-mokotowa-2019
 promoted: false
 visible: true
+cancelled: false
 ---
 16 listopada 2019 zapraszamy na Turniej Tańca Sportowego o Mistrzostwo Mokotowa 2019.
 
