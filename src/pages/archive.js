@@ -1,8 +1,7 @@
 import React from 'react';
-import Navbar from '../components/beta/navbar';
+import { Navbar, Seo } from '../components';
 import { graphql, Link } from 'gatsby';
 import { formatDate, isNowOrFuture } from '../utils/date-utils';
-import SEO from '../components/seo';
 import banner from '../images/banner-karta.jpg';
 
 class ArchivePage extends React.Component {
@@ -27,7 +26,7 @@ class ArchivePage extends React.Component {
   render() {
     return (
         <>
-          <SEO title='Archiwum wydarzeń'/>
+          <Seo title='Archiwum wydarzeń'/>
           <Navbar/>
           <div className='container'>
             <div className='karta-zgloszen-banner'>
@@ -67,31 +66,31 @@ class ArchivePage extends React.Component {
 export default ArchivePage;
 
 export const query = graphql`
-  query ArchiveListQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___dateFrom] }) {
-      edges {
-        node {
-          frontmatter {
-            path
-            promoted
-            visible
-            dateFrom
-            dateTo
-            title
-            city
-            image {
-              childImageSharp {
-                resize(width: 1500, height: 1500) {
-                  src
+    query ArchiveListQuery {
+        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___dateFrom] }) {
+            edges {
+                node {
+                    frontmatter {
+                        path
+                        promoted
+                        visible
+                        dateFrom
+                        dateTo
+                        title
+                        city
+                        image {
+                            childImageSharp {
+                                resize(width: 1500, height: 1500) {
+                                    src
+                                }
+                                fluid(maxWidth: 786) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
                 }
-                fluid(maxWidth: 786) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
             }
-          }
         }
-      }
     }
-  }
 `;

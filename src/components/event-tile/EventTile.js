@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 import { formatDate } from '../../utils/date-utils';
+import './EventTile.scss';
 
-class EventTile extends React.Component {
+export class EventTile extends Component {
 
   star(event) {
     return (
@@ -17,9 +18,9 @@ class EventTile extends React.Component {
     const from = formatDate(event.dateFrom);
     const to = formatDate(event.dateTo);
     if (event.multiday) {
-      return <span>{ from } - { to }</span>
+      return <span>{from} - {to}</span>
     }
-    return <span>{ from }</span>
+    return <span>{from}</span>
   }
 
   new(event) {
@@ -40,18 +41,17 @@ class EventTile extends React.Component {
   cancelled(event) {
     if (event.cancelled) {
       return (
-          <div className='text-center btn-block' style={{ position: 'absolute', top: '50%'}}>
+          <div className='text-center btn-block' style={{ position: 'absolute', top: '50%' }}>
             <span className="label label-danger label-cancelled">Odwołany</span>
           </div>
       );
-    }
-    else {
+    } else {
       return <span></span>
     }
   }
 
   thumbnailClass(event) {
-    return `thumbnail btn-raised mb-20 ${ !!event.cancelled ? 'thumbnail-cancelled' : '' }`;
+    return `thumbnail btn-raised mb-20 ${!!event.cancelled ? 'thumbnail-cancelled' : ''}`;
   }
 
   render() {
@@ -96,5 +96,3 @@ class EventTile extends React.Component {
     );
   }
 }
-
-export default EventTile;

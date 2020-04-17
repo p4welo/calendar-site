@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class AuthModal extends React.Component {
+export class AuthModal extends Component {
 
   submit() {
     this.props.onSubmit();
@@ -56,5 +56,3 @@ class AuthModal extends React.Component {
     );
   }
 }
-
-export default AuthModal;

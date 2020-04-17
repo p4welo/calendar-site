@@ -1,7 +1,6 @@
-import React from 'react';
-import SocialButtons from '../social-buttons';
+import React, { Component } from 'react';
 
-class SocialSection extends React.Component{
+export class SocialSection extends Component{
   render() {
     return (
         <div style={{ display: `flex`, justifyContent: `center` }}>
@@ -28,4 +27,3 @@ class SocialSection extends React.Component{
     );
   }
 }
-export default SocialSection;

@@ -1,12 +1,15 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 
-import Navbar from '../components/beta/navbar';
-import Hero from '../components/beta/hero';
-import PromotedList from '../components/beta/promoted-list';
-import AmountLine from '../components/beta/amount-line';
-import SocialSection from '../components/beta/social-section';
-import SEO from '../components/seo';
+import {
+  AmountLine,
+  Footer,
+  Hero,
+  Navbar,
+  PromotedList,
+  SocialSection,
+  Seo
+} from '../components';
 import {
   isFuture,
   isNotCancelled,
@@ -14,7 +17,6 @@ import {
   isVisible,
   mapToEventEntities
 } from '../utils/event-utils';
-import Footer from '../components/beta/footer';
 import banner from '../images/baner-percent.jpg';
 import bannerMobile from '../images/baner-mobile.jpg';
 
@@ -23,19 +25,19 @@ const BetaPage = ({ data }) => {
 
   return (
       <>
-        <SEO title='Strona główna'/>
+        <Seo title='Strona główna'/>
         <Navbar></Navbar>
         <div className='page-container'>
           <div className="page-content">
             <div className="content-wrapper">
-              <Hero />
+              <Hero/>
               <AmountLine futureAmount={
                 eventList.filter(isVisible).filter(isFuture).length
               } eventAmount={
                 eventList.length
               }></AmountLine>
               <div className="container">
-                <SocialSection />
+                <SocialSection/>
 
                 <PromotedList events={
                   eventList
@@ -61,13 +63,13 @@ const BetaPage = ({ data }) => {
                       id='index-karta-zgloszen-banner-desktop'
                       target='_blank'
                       className='banner-sm'>
-                    <img src={banner} className='' />
+                    <img src={banner} className=''/>
                   </a>
                   <a href='https://kartazgloszen.pl'
                       target='_blank'
                       id='index-karta-zgloszen-banner-mobile'
                       className='banner-xs'>
-                    <img src={bannerMobile} className='' />
+                    <img src={bannerMobile} className=''/>
                   </a>
                 </div>
 

@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class AboutUs extends React.Component {
+export class AboutUs extends Component {
   render() {
     return (
         <div className='panel panel-white no-border-radius no-margin-bottom'>
@@ -13,4 +13,3 @@ class AboutUs extends React.Component {
     );
   }
 }
-export default AboutUs;

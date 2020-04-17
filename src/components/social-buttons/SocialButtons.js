@@ -1,8 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const Component = React.Component;
-
-class SocialButtons extends Component {
+export class SocialButtons extends Component {
   render() {
     return (
         <>
@@ -20,5 +18,3 @@ class SocialButtons extends Component {
     );
   }
 }
-
-export default SocialButtons;

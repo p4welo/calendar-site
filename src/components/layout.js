@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Link } from '@reach/router';
-import Footer from './beta/footer';
+import { Footer } from './footer';
 
 const Layout = ({ children }) => (
     <StaticQuery

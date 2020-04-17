@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import image from '../../images/home2.jpg';
 
-class Hero extends React.Component {
+export class Hero extends React.Component {
   render() {
     return (
         <div className="profile-cover">
@@ -35,5 +35,3 @@ class Hero extends React.Component {
     );
   }
 }
-
-export default Hero;

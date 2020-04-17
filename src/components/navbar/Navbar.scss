@@ -1,0 +1,16 @@
+.app-navbar {
+  .navbar-header {
+    margin: 0;
+  }
+
+  a.navbar-brand {
+    padding-top: 5px !important;
+    padding-bottom: 5px;
+    overflow: hidden;
+
+    > img {
+      margin-top: -19px;
+      height: 90px;
+    }
+  }
+}

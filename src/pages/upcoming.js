@@ -1,18 +1,15 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import SEO from '../components/seo';
-import Navbar from '../components/beta/navbar';
 import { isFuture, isVisible, mapToEventEntities } from '../utils/event-utils';
-import EventList from '../components/beta/event-list';
+import { EventList, Footer, Navbar, Seo } from '../components';
 import FilterArea from '../components/beta/filter-area';
-import Footer from '../components/beta/footer';
 
 const IncomingPage = ({ data }) => {
   const eventList = mapToEventEntities(data);
 
   return (
       <>
-        <SEO title={`Zawody taneczne`}/>
+        <Seo title={`Zawody taneczne`}/>
         <Navbar></Navbar>
         <div className='page-container'>
           <div className="page-content">

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from '../../images/logo.png';
-import { Link } from '@reach/router';
+import './Navbar.scss';
+import { Link } from 'gatsby';
 
-class Navbar extends React.Component {
-
+export class Navbar extends Component {
   render() {
     return (
         <div className='navbar navbar-default navbar-lg app-navbar'>
@@ -32,5 +32,3 @@ class Navbar extends React.Component {
     );
   }
 }
-
-export default Navbar;

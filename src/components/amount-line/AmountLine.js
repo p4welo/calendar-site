@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class AmountLine extends React.Component{
+export class AmountLine extends Component {
   render() {
     return (
         <div className='navbar navbar-default'>
@@ -15,4 +15,3 @@ class AmountLine extends React.Component{
     );
   }
 }
-export default AmountLine;

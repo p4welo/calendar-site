@@ -1,8 +1,8 @@
-import React from 'react';
-import EventTile from './event-tile';
-import { Link } from '@reach/router';
+import React, { Component } from 'react';
+import { EventTile} from '../event-tile';
+import { Link } from 'gatsby';
 
-class PromotedList extends React.Component {
+export class PromotedList extends Component {
   render() {
     return (
         <>
@@ -28,5 +28,3 @@ class PromotedList extends React.Component {
     );
   }
 }
-
-export default PromotedList;

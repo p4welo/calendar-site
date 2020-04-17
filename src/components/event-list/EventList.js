@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { groupByMonth } from '../../utils/date-utils';
-import MonthSection from './month-section';
+import { MonthSection } from '../month-section';
 
-class EventList extends React.Component {
+export class EventList extends Component {
 
   constructor(props) {
     super(props);
@@ -43,5 +43,3 @@ class EventList extends React.Component {
     );
   }
 }
-
-export default EventList;

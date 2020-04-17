@@ -2,10 +2,9 @@ import React from 'react';
 import Layout from '../components/layout';
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image';
-import { Link } from '@reach/router';
-import SEO from '../components/seo';
+import { Link } from 'gatsby';
 import { DiscussionEmbed } from 'disqus-react';
-import Navbar from '../components/beta/navbar';
+import { Navbar, Seo } from '../components';
 import { formatDate } from '../utils/date-utils';
 // import banner from '../images/baner-percent.jpg';
 import banner from '../images/baner-percent.jpg';
@@ -24,7 +23,7 @@ export default function Template({ location, data }) {
 
   return (
       <>
-        <SEO title={event.title}
+        <Seo title={event.title}
             description={page.excerpt}
             image={event.thumbnail.src}
             url={location.pathname}/>
@@ -40,7 +39,8 @@ export default function Template({ location, data }) {
 
           <div className='panel panel-flat blog-horizontal blog-horizontal-1 event-post'>
             <div className='panel-body'>
-              <div className='thumb' style={{float: `right`, marginRight: `0`, marginLeft: `10px`}}>
+              <div className='thumb'
+                  style={{ float: `right`, marginRight: `0`, marginLeft: `10px` }}>
                 <Img fluid={event.thumbnail}
                     className='img-responsive'/>
               </div>
@@ -77,7 +77,7 @@ export default function Template({ location, data }) {
                 rel="noopener noreferrer"
                 target='_blank'
                 id='post-karta-zgloszen-banner'>
-              <img src={banner} />
+              <img src={banner}/>
             </a>
           </div>
 
@@ -87,28 +87,28 @@ export default function Template({ location, data }) {
 }
 
 export const query = graphql`
-  query PostQuery($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      excerpt(pruneLength: 250)
-      frontmatter {
-        path
-          dateFrom
-          dateTo
-          title
-          city
-          link
-          image {
-            childImageSharp {
-              resize(width: 1500, height: 1500) {
-                src
-              }
-              fluid(maxWidth: 786) {
-                ...GatsbyImageSharpFluid
-              }
-            } 
-          }
-      }
+    query PostQuery($path: String!) {
+        markdownRemark(frontmatter: { path: { eq: $path } }) {
+            html
+            excerpt(pruneLength: 250)
+            frontmatter {
+                path
+                dateFrom
+                dateTo
+                title
+                city
+                link
+                image {
+                    childImageSharp {
+                        resize(width: 1500, height: 1500) {
+                            src
+                        }
+                        fluid(maxWidth: 786) {
+                            ...GatsbyImageSharpFluid
+                        }
+                    }
+                }
+            }
+        }
     }
-  }
 `;
