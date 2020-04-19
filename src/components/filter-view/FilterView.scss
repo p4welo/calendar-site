@@ -1,0 +1,20 @@
+.FilterView {
+  background: #eeeded;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: left 200ms ease-in-out;
+  z-index: 1000;
+
+  &--hidden {
+    left: 100vw
+  }
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

@@ -10,4 +10,5 @@ export * from './promoted-list';
 export * from './navbar';
 export * from './social-section';
 export * from './social-buttons';
+export * from './filter-view';
 export * from './seo';

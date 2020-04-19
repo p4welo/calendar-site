@@ -9,7 +9,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     siteUrl: `http://www.tanecznykalendarz.pl`,
-    title: `Taneczny kalendarz`,
+    title: `Kalendarz taneczny`,
     description: `Kalendarz taneczny to wszystkie turnieje tańca w jednym miejscu! Zgłoś swój turniej ZA DARMO i dotrzyj do nowych odbiorców.`,
     author: `Paweł Radomski`,
   },

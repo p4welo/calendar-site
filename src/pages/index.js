@@ -10,7 +10,8 @@ import {
   Navbar,
   PromotedList,
   SocialSection,
-  Seo
+  Seo,
+  FilterView
 } from '../components';
 import {
   isFuture,
@@ -41,6 +42,8 @@ const BetaPage = ({ data, intl }) => {
               }></AmountLine>
               <div className="container">
                 <SocialSection/>
+
+                {/*<FilterView />*/}
 
                 <PromotedList events={
                   eventList
