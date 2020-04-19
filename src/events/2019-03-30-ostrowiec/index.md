@@ -14,7 +14,8 @@ promoted: false
 visible: true
 cancelled: false
 ---
-Zapraszamy wszystkich tancerzy na Lit Dance Cup Event – 30 marca 2019 roku. Ostrowiec Św. (woj.świetokrzyskie).
+Zapraszamy wszystkich tancerzy na Lit Dance Cup Competition – 30 marca 2019 roku. Ostrowiec Św. (woj
+.świetokrzyskie).
 
 Turniej HIP-HOP DANCE. Do rozdania oprócz medali, pucharów, dyplomów mamy dla Was min. 10 000 zł !!!
 
