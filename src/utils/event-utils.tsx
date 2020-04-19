@@ -1,11 +1,12 @@
+import { Event } from '@model/Event';
 import { isNew, isNowOrFuture } from './date-utils';
 
-export const isPromoted = (event) => event.promoted;
-export const isVisible = (event) => event.visible;
-export const isFuture = (event) => isNowOrFuture(event.dateTo);
-export const isNotCancelled = (event) => !event.cancelled;
+export const isPromoted = (event: Event) => event.promoted;
+export const isVisible = (event: Event) => event.visible;
+export const isFuture = (event: Event) => isNowOrFuture(event.dateTo);
+export const isNotCancelled = (event: Event) => !event.cancelled;
 
-export const mapToEventEntities = (data) => data.allMarkdownRemark.edges.map(({node}) => {
+export const mapToEventEntities = (data: any): Event[] => data.allMarkdownRemark.edges.map(({node}) => {
   return {
     new: isNew(node.frontmatter.date),
     date: node.frontmatter.date,

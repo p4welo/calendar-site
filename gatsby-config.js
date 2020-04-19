@@ -33,6 +33,24 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-purgecss`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`,
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          "@src": "src",
+          "@pages": "src/pages",
+          "@components": "src/components",
+          "@utils": "src/utils",
+          "@constants": "src/constants",
+          "@images": "src/images",
+          "@model": "src/model",
+          "@templates": "src/templates",
+        },
+        extensions: [],
+      },
+    },
+    `gatsby-plugin-tslint`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,9 +1,20 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+// @ts-ignore
+import Helmet from "react-helmet";
 import { StaticQuery, graphql } from "gatsby"
 
-export const Seo = ({ description, lang, meta, keywords, title, image, url }) => {
+interface SeoProps {
+  description?: string;
+  lang?: string;
+  meta?: any;
+  keywords?: string[];
+  title?: string;
+  image?: string;
+  url?: string;
+}
+
+export const Seo = ({ description, lang, meta, keywords = [], title, image, url }: SeoProps) => {
   return (
       <StaticQuery
           query={detailsQuery}

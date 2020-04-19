@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import { formatHeaderFromKey } from '../../utils/date-utils';
+import { Event } from '@model/Event';
+import { formatHeaderFromKey } from '@utils/date-utils';
 import { EventTile } from '../event-tile';
 
-export class MonthSection extends Component {
+interface MonthSectionProps {
+  header: string;
+  events: Event[];
+}
+export class MonthSection extends Component<MonthSectionProps> {
   render() {
     const sectionKey = this.props.header;
     const events = this.props.events;

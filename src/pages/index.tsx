@@ -1,6 +1,7 @@
+import { Event } from '@model/Event';
 import React from 'react';
 import { graphql } from 'gatsby';
-import { injectIntl, FormattedMessage, changeLocale } from 'gatsby-plugin-intl'
+import { injectIntl, FormattedMessage, changeLocale } from 'gatsby-plugin-intl';
 
 
 import {
@@ -11,26 +12,32 @@ import {
   PromotedList,
   SocialSection,
   Seo,
-  FilterView
-} from '../components';
+} from '@components/index';
 import {
   isFuture,
   isNotCancelled,
   isPromoted,
   isVisible,
   mapToEventEntities
-} from '../utils/event-utils';
-import banner from '../images/baner-percent.jpg';
-import bannerMobile from '../images/baner-mobile.jpg';
+} from '@utils/event-utils';
+// @ts-ignore
+import banner from '@images/baner-percent.jpg';
+// @ts-ignore
+import bannerMobile from '@images/baner-mobile.jpg';
 
-const BetaPage = ({ data, intl }) => {
-  const eventList = mapToEventEntities(data);
+interface IndexPageProps {
+  data: any;
+  intl: any;
+}
+
+const BetaPage = ({ data, intl }: IndexPageProps) => {
+  const eventList: Event[] = mapToEventEntities(data);
 
   return (
       <>
         <Seo title='Strona główna'/>
         {/*<Seo title='Strona główna'/>*/}
-        <Navbar></Navbar>
+        <Navbar/>
         <div className='page-container'>
           <div className="page-content">
             <div className="content-wrapper">
@@ -39,7 +46,7 @@ const BetaPage = ({ data, intl }) => {
                 eventList.filter(isVisible).filter(isFuture).length
               } eventAmount={
                 eventList.length
-              }></AmountLine>
+              }/>
               <div className="container">
                 <SocialSection/>
 
@@ -51,7 +58,7 @@ const BetaPage = ({ data, intl }) => {
                       .filter(isNotCancelled)
                       .filter(isFuture)
                       .filter(isPromoted)
-                }></PromotedList>
+                }/>
 
                 {/*<EventList events={*/}
                 {/*  eventList*/}
@@ -81,7 +88,7 @@ const BetaPage = ({ data, intl }) => {
 
               </div>
               {/*<AboutUs></AboutUs>*/}
-              <Footer></Footer>
+              <Footer/>
             </div>
           </div>
 

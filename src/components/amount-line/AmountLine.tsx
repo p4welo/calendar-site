@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
-export class AmountLine extends Component {
+interface AmountLineProps {
+  futureAmount: number;
+  eventAmount: number;
+}
+export class AmountLine extends Component<AmountLineProps> {
   render() {
     return (
         <div className='navbar navbar-default'>

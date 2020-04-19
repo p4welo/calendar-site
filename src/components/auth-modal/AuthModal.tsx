@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
-export class AuthModal extends Component {
+interface AuthModalProps {
+  onSubmit: () => any;
+  visible: boolean;
+}
+export class AuthModal extends Component<AuthModalProps> {
 
   submit() {
     this.props.onSubmit();

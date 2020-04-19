@@ -1,10 +1,9 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import { isFuture, isVisible, mapToEventEntities } from '../utils/event-utils';
-import { EventList, Footer, Navbar, Seo } from '../components';
-import FilterArea from '../components/beta/filter-area';
+import { isFuture, isVisible, mapToEventEntities } from '@utils/event-utils';
+import { EventList, Footer, Navbar, Seo } from '@components/index';
 
-const IncomingPage = ({ data }) => {
+const IncomingPage = ({ data }: any) => {
   const eventList = mapToEventEntities(data);
 
   return (

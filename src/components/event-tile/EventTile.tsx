@@ -1,13 +1,16 @@
+import { Event } from '@model/Event';
 import React, { Component } from 'react';
 import Img from 'gatsby-image';
-// import { Link } from 'gatsby';
 import { Link } from "gatsby-plugin-intl"
-import { formatDate } from '../../utils/date-utils';
+import { formatDate } from '@utils/date-utils';
 import './EventTile.scss';
 
-export class EventTile extends Component {
+interface EventTileProps {
+  event: Event;
+}
+export class EventTile extends Component<EventTileProps> {
 
-  star(event) {
+  star(event: Event) {
     return (
         <p>
           <span className='icon-star-full2'></span>
@@ -15,7 +18,7 @@ export class EventTile extends Component {
     )
   }
 
-  date(event) {
+  date(event: Event) {
     const from = formatDate(event.dateFrom);
     const to = formatDate(event.dateTo);
     if (event.multiday) {
@@ -24,13 +27,13 @@ export class EventTile extends Component {
     return <span>{from}</span>
   }
 
-  new(event) {
+  new(event: Event) {
     return event.new ?
         <span className="label bg-success text-uppercase event-tile__label-new">Nowość</span> :
         <span></span>
   }
 
-  ribbon(event) {
+  ribbon(event: Event) {
     return event.promoted ?
         <div className="ribbon-container" style={{ right: '9px' }}>
           <div className="ribbon bg-primary">Polecamy</div>
@@ -38,7 +41,7 @@ export class EventTile extends Component {
         <span></span>;
   }
 
-  cancelled(event) {
+  cancelled(event: Event) {
     if (event.cancelled) {
       return (
           <div className='text-center btn-block' style={{ position: 'absolute', top: '50%' }}>
@@ -50,7 +53,7 @@ export class EventTile extends Component {
     }
   }
 
-  thumbnailClass(event) {
+  thumbnailClass(event: Event) {
     return `thumbnail btn-raised mb-20 ${!!event.cancelled ? 'thumbnail-cancelled' : ''}`;
   }
 

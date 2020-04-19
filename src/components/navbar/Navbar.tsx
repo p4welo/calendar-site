@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.png';
+// @ts-ignore
+import logo from '@images/logo.png';
 import './Navbar.scss';
 import { Link } from 'gatsby-plugin-intl';
 

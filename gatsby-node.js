@@ -3,7 +3,7 @@ const path = require('path');
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const eventTemplate = path.resolve('src/templates/event/Event.js');
+  const eventTemplate = path.resolve('src/templates/event/Event.tsx');
 
   return graphql(`{
     allMarkdownRemark {

@@ -1,14 +1,24 @@
-import React from 'react';
-import { Navbar, Seo } from '../components';
+import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
-import { formatDate, isNowOrFuture } from '../utils/date-utils';
-import banner from '../images/banner-karta.jpg';
 
-class ArchivePage extends React.Component {
-  constructor(props) {
+import { Navbar, Seo } from '@components/index';
+import { Event } from '@model/index';
+import { formatDate, isNowOrFuture } from '@utils/date-utils';
+// @ts-ignore
+import banner from '@images/banner-karta.jpg';
+
+interface ArchivePageProps {
+  data: { allMarkdownRemark: { edges: { node: any }[] } };
+}
+
+interface ArchivePageState {
+  events: Event[];
+}
+class ArchivePage extends Component<ArchivePageProps, ArchivePageState> {
+  constructor(props: ArchivePageProps) {
     super(props);
-    const isPast = ({ node }) => !isNowOrFuture(node.frontmatter.dateTo);
+    const isPast = ({ node }: any) => !isNowOrFuture(node.frontmatter.dateTo);
     this.state = {
       events: props.data.allMarkdownRemark.edges.filter(isPast).map((event) => {
         const data = event.node.frontmatter;

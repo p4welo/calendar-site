@@ -1,23 +1,33 @@
 import React, { Component } from 'react';
-import { groupByMonth } from '../../utils/date-utils';
-import { MonthSection } from '../month-section';
+import { groupByMonth } from '@utils/date-utils';
+import { MonthSection } from '@components/month-section';
+import { Event } from '@model/Event';
 
-export class EventList extends Component {
+interface EventListProps {
+  events: Event[];
+}
 
-  constructor(props) {
-    super(props);
+interface EventListState {
+  filtered: Event[];
+}
 
-    this.state = {
-      filtered: this.props.events
-    };
-  }
+interface EventFilter {
+  title?: string;
+}
+export class EventList extends Component<EventListProps, EventListState> {
+
+  initialState: EventListState = {
+    filtered: this.props.events
+  };
+
+  state: EventListState = this.initialState;
 
   getFilteredEventsForText(text = '') {
     return this.props.events
         .filter(event => event.title.toLowerCase().includes(text.toLowerCase()));
   }
 
-  filterEvents(filter = {}) {
+  filterEvents(filter: EventFilter = {}) {
     const { title } = filter;
     if (title) {
       this.setState({
@@ -36,7 +46,7 @@ export class EventList extends Component {
 
           {
             Object.keys(groupped).map((key, i) =>
-                <MonthSection events={groupped[key]} header={key} key={i}></MonthSection>
+                <MonthSection events={groupped[key]} header={key} key={i}/>
             )
           }
         </div>
