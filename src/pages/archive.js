@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navbar, Seo } from '../components';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
+import { Link } from 'gatsby-plugin-intl';
 import { formatDate, isNowOrFuture } from '../utils/date-utils';
 import banner from '../images/banner-karta.jpg';
 

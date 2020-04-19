@@ -1,5 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { injectIntl, FormattedMessage, changeLocale } from 'gatsby-plugin-intl'
+
 
 import {
   AmountLine,
@@ -20,12 +22,13 @@ import {
 import banner from '../images/baner-percent.jpg';
 import bannerMobile from '../images/baner-mobile.jpg';
 
-const BetaPage = ({ data }) => {
+const BetaPage = ({ data, intl }) => {
   const eventList = mapToEventEntities(data);
 
   return (
       <>
         <Seo title='Strona główna'/>
+        {/*<Seo title='Strona główna'/>*/}
         <Navbar></Navbar>
         <div className='page-container'>
           <div className="page-content">
@@ -83,7 +86,7 @@ const BetaPage = ({ data }) => {
       </>
   );
 };
-export default BetaPage;
+export default injectIntl(BetaPage);
 
 export const query = graphql`
     {

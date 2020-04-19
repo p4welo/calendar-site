@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { EventTile} from '../event-tile';
-import { Link } from 'gatsby';
+import { Link } from 'gatsby-plugin-intl';
 
 export class PromotedList extends Component {
   render() {

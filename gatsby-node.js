@@ -3,15 +3,33 @@ const path = require('path');
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const postTemplate = path.resolve('src/templates/post.js');
+  const eventTemplate = path.resolve('src/templates/event/Event.js');
 
   return graphql(`{
     allMarkdownRemark {
       edges {
         node {
           id
+          html
+          excerpt(pruneLength: 250)
           frontmatter {
             path
+            dateFrom
+            dateTo
+            title
+            city
+            link
+            image {
+              childImageSharp {
+                resize(width: 1500, height: 1500) {
+                  src
+                }
+                fluid(maxWidth: 786) {
+                  src
+                  aspectRatio
+                }
+              }
+            }
           }
         }
       }
@@ -25,9 +43,11 @@ exports.createPages = ({ actions, graphql }) => {
         res.data.allMarkdownRemark.edges.forEach(({ node }) => {
           createPage({
             path: node.frontmatter.path,
-            component: postTemplate
+            component: eventTemplate,
+            context: {
+              event: node
+            }
           })
         })
-
       })
 };

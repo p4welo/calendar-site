@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Img from 'gatsby-image';
-import { Link } from 'gatsby';
+// import { Link } from 'gatsby';
+import { Link } from "gatsby-plugin-intl"
 import { formatDate } from '../../utils/date-utils';
 import './EventTile.scss';
 
@@ -33,7 +34,6 @@ export class EventTile extends Component {
     return event.promoted ?
         <div className="ribbon-container" style={{ right: '9px' }}>
           <div className="ribbon bg-primary">Polecamy</div>
-          {/*<div className="ribbon bg-indigo-400">Polecamy</div>*/}
         </div> :
         <span></span>;
   }
