@@ -1,7 +1,8 @@
-import { graphql } from 'gatsby';
 import React from 'react';
-import { isFuture, isVisible, mapToEventEntities } from '@utils/event-utils';
-import { EventList, Footer, Navbar, Seo } from '@components/index';
+import { graphql } from 'gatsby';
+
+import { isFuture, isVisible, mapToEventEntities } from '@app/utils/event-utils';
+import { EventList, Footer, Navbar, Seo } from '@app/components';
 
 const IncomingPage = ({ data }: any) => {
   const eventList = mapToEventEntities(data);
@@ -9,7 +10,7 @@ const IncomingPage = ({ data }: any) => {
   return (
       <>
         <Seo title={`Zawody taneczne`}/>
-        <Navbar></Navbar>
+        <Navbar/>
         <div className='page-container'>
           <div className="page-content">
             <div className="content-wrapper">
@@ -18,9 +19,9 @@ const IncomingPage = ({ data }: any) => {
                   eventList
                       .filter(isVisible)
                       .filter(isFuture)
-                }></EventList>
+                }/>
               </div>
-              <Footer></Footer>
+              <Footer/>
             </div>
           </div>
         </div>

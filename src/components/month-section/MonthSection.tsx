@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Event } from '@model/Event';
-import { formatHeaderFromKey } from '@utils/date-utils';
+
+import { Event } from '@app/model';
+import { formatHeaderFromKey } from '@app/utils/date-utils';
+
 import { EventTile } from '../event-tile';
 
 interface MonthSectionProps {

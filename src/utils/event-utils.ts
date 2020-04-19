@@ -1,4 +1,4 @@
-import { Event } from '@model/Event';
+import { Event } from '@app/model';
 import { isNew, isNowOrFuture } from './date-utils';
 
 export const isPromoted = (event: Event) => event.promoted;

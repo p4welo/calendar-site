@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import { graphql } from 'gatsby';
 import { Link } from 'gatsby-plugin-intl';
 
-import { Navbar, Seo } from '@components/index';
-import { Event } from '@model/index';
-import { formatDate, isNowOrFuture } from '@utils/date-utils';
-// @ts-ignore
-import banner from '@images/banner-karta.jpg';
+import { Navbar, Seo } from '@app/components';
+import { Event } from '@app/model';
+import { formatDate, isNowOrFuture } from '@app/utils/date-utils';
+import banner from '@app/images/banner-karta.jpg';
 
 interface ArchivePageProps {
   data: { allMarkdownRemark: { edges: { node: any }[] } };

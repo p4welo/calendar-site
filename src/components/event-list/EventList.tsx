@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { groupByMonth } from '@utils/date-utils';
-import { MonthSection } from '@components/month-section';
-import { Event } from '@model/Event';
+import { groupByMonth } from '@app/utils/date-utils';
+import { MonthSection } from '@app/components/month-section';
+import { Event } from '@app/model';
 
 interface EventListProps {
   events: Event[];

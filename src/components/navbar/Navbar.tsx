@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-// @ts-ignore
-import logo from '@images/logo.png';
-import './Navbar.scss';
 import { Link } from 'gatsby-plugin-intl';
+
+import logo from '@app/images/logo.png';
+
+import './Navbar.scss';
 
 export class Navbar extends Component {
   render() {

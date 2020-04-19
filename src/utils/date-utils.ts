@@ -1,7 +1,8 @@
 import dayjs from 'dayjs';
 import 'dayjs/locale/pl';
 import { groupBy } from 'ramda';
-import { Event } from '@model/Event'
+
+import { Event } from '@app/model';
 
 export const isNowOrFuture = (date: string) => !dayjs(date).isBefore(dayjs());
 

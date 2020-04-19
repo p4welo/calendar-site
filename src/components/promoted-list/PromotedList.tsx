@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'gatsby-plugin-intl';
 
-import { Event } from '@model/Event';
+import { Event } from '@app/model';
+
 import { EventTile} from '../event-tile';
 
 interface PromotedListProps {

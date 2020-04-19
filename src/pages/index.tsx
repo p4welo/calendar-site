@@ -1,9 +1,8 @@
-import { Event } from '@model/Event';
 import React from 'react';
 import { graphql } from 'gatsby';
-import { injectIntl, FormattedMessage, changeLocale } from 'gatsby-plugin-intl';
+import { injectIntl } from 'gatsby-plugin-intl';
 
-
+import { Event } from '@app/model';
 import {
   AmountLine,
   Footer,
@@ -12,18 +11,16 @@ import {
   PromotedList,
   SocialSection,
   Seo,
-} from '@components/index';
+} from '@app/components';
 import {
   isFuture,
   isNotCancelled,
   isPromoted,
   isVisible,
   mapToEventEntities
-} from '@utils/event-utils';
-// @ts-ignore
-import banner from '@images/baner-percent.jpg';
-// @ts-ignore
-import bannerMobile from '@images/baner-mobile.jpg';
+} from '@app/utils/event-utils';
+import banner from '@app/images/baner-percent.jpg';
+import bannerMobile from '@app/images/baner-mobile.jpg';
 
 interface IndexPageProps {
   data: any;

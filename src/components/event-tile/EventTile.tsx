@@ -1,8 +1,9 @@
-import { Event } from '@model/Event';
 import React, { Component } from 'react';
 import Img from 'gatsby-image';
 import { Link } from "gatsby-plugin-intl"
-import { formatDate } from '@utils/date-utils';
+
+import { Event } from '@app/model';
+import { formatDate } from '@app/utils/date-utils';
 import './EventTile.scss';
 
 interface EventTileProps {
