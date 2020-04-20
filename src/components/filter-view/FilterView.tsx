@@ -22,28 +22,30 @@ export class FilterView extends Component<{}, FilterViewState> {
   render() {
     return (
         <>
-          <button onClick={this.setFilterOn.bind(this)}>Filter</button>
+          {/*<a onClick={this.setFilterOn.bind(this)}>*/}
+          {/*  <i className="fas fa-search"*/}
+          {/*      style={{fontSize: `1.6rem`}}></i>*/}
+          {/*</a>*/}
           <div className={`FilterView ${!this.state.visible ? 'FilterView--hidden' : ''}`}>
             <div className="navbar navbar-default navbar-component no-border-radius">
               <div className="navbar-header">
                 <ul className="nav navbar-nav pull-left">
                   <li>
                     <a className="mr-10 ml-10" onClick={this.setFilterOff.bind(this)}>
-                      <i className="fas fa-arrow-left"></i>
+                      <i className="fas fa-arrow-left"/>
                     </a>
                   </li>
-                  <li>
+                  <li style={{ width: `calc(100vw - 100px)` }}>
                     <div className="has-feedback">
-                      <input type="search" className="form-control" placeholder="Search field"/>
+                      <input type="search" className="form-control" placeholder="Szukaj"/>
                       <div className="form-control-feedback">
-                        <i className="icon-search4 text-size-base"></i>
+                        <i className="fas fa-search text-size-base"/>
                       </div>
                     </div>
                   </li>
                 </ul>
               </div>
             </div>
-            dupa
           </div>
         </>
     );

@@ -38,14 +38,7 @@ module.exports = {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
         alias: {
-          "@app": "src",
-          // "@pages": "src/pages",
-          // "@components": "src/components",
-          // "@utils": "src/utils",
-          // "@constants": "src/constants",
-          // "@images": "src/images",
-          // "@model": "src/model",
-          // "@templates": "src/templates",
+          "@app": "src"
         },
         extensions: [],
       },
@@ -110,7 +103,7 @@ module.exports = {
       options: {
         path: `${__dirname}/src/intl`,
         languages: [`en`, `pl`],
-        defaultLanguage: `en`,
+        defaultLanguage: `pl`,
         redirect: true,
       },
     },

@@ -1,8 +1,10 @@
 {
-  "title": "Taneczny kalendarz",
+  "title": "Kalendarz taneczny",
   "description": "Kalendarz taneczny to wszystkie turnieje tańca w jednym miejscu! Zgłoś swój turniej ZA DARMO i dotrzyj do nowych odbiorców.",
 
   "index.title": "Strona główna",
+  "heroHeading": "Turnieje tańca w jednym miejscu",
+  "index.cta": "Zgłoś turniej",
 
   "archive.title": "",
 

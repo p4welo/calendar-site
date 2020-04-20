@@ -27,13 +27,12 @@ interface IndexPageProps {
   intl: any;
 }
 
-const BetaPage = ({ data, intl }: IndexPageProps) => {
+const IndexPage = ({ data, intl }: IndexPageProps) => {
   const eventList: Event[] = mapToEventEntities(data);
 
   return (
       <>
         <Seo title='Strona główna'/>
-        {/*<Seo title='Strona główna'/>*/}
         <Navbar/>
         <div className='page-container'>
           <div className="page-content">
@@ -46,9 +45,6 @@ const BetaPage = ({ data, intl }: IndexPageProps) => {
               }/>
               <div className="container">
                 <SocialSection/>
-
-                {/*<FilterView />*/}
-
                 <PromotedList events={
                   eventList
                       .filter(isVisible)
@@ -93,7 +89,7 @@ const BetaPage = ({ data, intl }: IndexPageProps) => {
       </>
   );
 };
-export default injectIntl(BetaPage);
+export default injectIntl(IndexPage);
 
 export const query = graphql`
     {
