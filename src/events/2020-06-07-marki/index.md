@@ -10,7 +10,7 @@ city: 'Marki'
 image: 'image.jpg'
 tags: []
 link: https://grupafestiwale.pl/
-promoted: true
+promoted: false
 visible: true
 cancelled: false
 ---

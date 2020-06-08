@@ -29,7 +29,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-remark`,
+    // `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-purgecss`,
     `gatsby-plugin-react-helmet`,
@@ -44,6 +44,19 @@ module.exports = {
       },
     },
     `gatsby-plugin-tslint`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

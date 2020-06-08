@@ -1,3 +1,4 @@
+import { FreshList } from '@app/components/fresh-list/FreshList';
 import React from 'react';
 import { graphql } from 'gatsby';
 import { injectIntl } from 'gatsby-plugin-intl';
@@ -13,6 +14,7 @@ import {
   Seo,
 } from '@app/components';
 import {
+  isFresh,
   isFuture,
   isNotCancelled,
   isPromoted,
@@ -45,12 +47,23 @@ const IndexPage = ({ data, intl }: IndexPageProps) => {
               }/>
               <div className="container">
                 <SocialSection/>
+
+                {/*<Login />*/}
+
                 <PromotedList events={
                   eventList
                       .filter(isVisible)
                       .filter(isNotCancelled)
                       .filter(isFuture)
                       .filter(isPromoted)
+                }/>
+
+                <FreshList events={
+                  eventList
+                      .filter(isVisible)
+                      .filter(isNotCancelled)
+                      .filter(isFuture)
+                      .filter(isFresh)
                 }/>
 
                 {/*<EventList events={*/}

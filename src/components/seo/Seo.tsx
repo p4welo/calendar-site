@@ -51,7 +51,7 @@ export const Seo = ({ description, lang, meta, keywords = [], title, image, url 
                       },
                       {
                         property: `og:url`,
-                        content: `http://tanecznykalendarz.pl${url}`,
+                        content: `https://tanecznykalendarz.pl${url}`,
                       },
                       {
                         name: `og:locale`,

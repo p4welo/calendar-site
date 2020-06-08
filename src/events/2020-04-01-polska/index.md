@@ -6,7 +6,7 @@ date: '2020-04-03'
 title: 'V Art Clip Dance - konkurs online'
 dateFrom: '2020-04-01'
 dateTo: '2020-04-16'
-city: 'Polska'
+city: 'Online'
 image: 'image.jpg'
 tags: []
 link: https://wck.wadowice.pl/art-clip-dance/

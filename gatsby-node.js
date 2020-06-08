@@ -26,6 +26,8 @@ exports.createPages = ({ actions, graphql }) => {
                 }
                 fluid(maxWidth: 786) {
                   src
+                  srcSet
+                  sizes
                   aspectRatio
                 }
               }

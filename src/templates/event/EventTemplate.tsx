@@ -65,7 +65,7 @@ export default function EventTemplate({ pageContext, intl, location, data }: Eve
                     eventData.dateTo !== eventData.dateFrom &&
                     <span> - {formatDate(eventData.dateTo)}</span>
                   }
-              </span>
+                </span>
                 <div dangerouslySetInnerHTML={{ __html: event.html }}/>
                 <a href={eventData.link}
                     target='_blank'

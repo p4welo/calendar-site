@@ -11,8 +11,8 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/3137660979791710/
 promoted: true
-visible: true
-cancelled: false
+visible: false
+cancelled: true
 ---
 ##### ZAPRASZAMY SERDECZNIE NA 4. EDYCJĘ TURNIEJU TAŃCA NOWOCZESNEGO TOP NA DOLNY ŚLĄSK!
 

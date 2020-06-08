@@ -6,7 +6,7 @@ date: '2020-03-27'
 title: '#DOMÓWKA - taneczny konkurs online'
 dateFrom: '2020-04-09'
 dateTo: '2020-04-10'
-city: 'Cała Polska'
+city: 'Online'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/1557010171131763/

@@ -28,6 +28,7 @@ export class PromotedList extends Component<PromotedListProps> {
           <div className="text-center">
             <Link to='/upcoming'
                 id='see-all-bottom'
+                style={{ padding: '9px 40px' }}
                 className='btn btn-default btn-raised mb-20'>Zobacz wszystkie</Link>
           </div>
         </>

@@ -1,5 +1,5 @@
+import { Link } from 'gatsby';
 import React, { Component } from 'react';
-import { Link } from 'gatsby-plugin-intl';
 // @ts-ignore
 // import {DropdownButton, MenuItem} from 'react-bootstrap';
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Img from 'gatsby-image';
-import { Link } from "gatsby-plugin-intl"
+import { Link } from "gatsby"
 
 import { Event } from '@app/model';
 import { formatDate } from '@app/utils/date-utils';

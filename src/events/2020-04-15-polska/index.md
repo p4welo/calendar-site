@@ -6,7 +6,7 @@ date: '2020-03-31'
 title: 'Home Dance Challenge'
 dateFrom: '2020-04-15'
 dateTo: '2020-07-30'
-city: 'Polska'
+city: 'Online'
 image: 'image.jpg'
 tags: []
 link: http://www.akademiatanca-as.pl/

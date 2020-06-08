@@ -6,7 +6,7 @@ import { Event } from '@app/model';
 
 export const isNowOrFuture = (date: string) => !dayjs(date).isBefore(dayjs());
 
-export const isNew = (date: string) => dayjs().diff(dayjs(date), 'day') < 7;
+export const isNew = (date?: string) => dayjs().diff(dayjs(date), 'day') < 7;
 
 export const formatDate = (date: string) => {
   dayjs.locale('pl');

@@ -6,7 +6,7 @@ date: '2020-03-24'
 title: '1 Polish Dance Home Cup'
 dateFrom: '2020-04-09'
 dateTo: '2020-04-09'
-city: 'Cała Polska'
+city: 'Online'
 image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/1507596019404704/
