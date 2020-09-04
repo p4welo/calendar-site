@@ -34,7 +34,7 @@
     "gatsby-transformer-remark": "^2.2.0",
     "gatsby-transformer-sharp": "^2.1.12",
     "momentjs": "^2.0.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.6.2",
     "ramda": "^0.27.0",
     "react": "^16.6.3",
