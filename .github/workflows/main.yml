@@ -25,7 +25,10 @@ jobs:
 
       - run: yarn install
       - run: yarn build
-      - uses: actions/upload-artifact@v2
+      - name: FTP deploy
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          name: my-artifact
-          path: public/ # or path/to/artifact
+          ftp-server: ${{ secrets.FTP_HOST }}
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: public
