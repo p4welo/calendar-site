@@ -25,11 +25,3 @@ jobs:
 
       - run: yarn install
       - run: yarn build
-      - name: FTP deploy
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.FTP_HOST }}
-          ftp-username: ${{ secrets.FTP_USERNAME }}
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: './public'
-          git-ftp-args: --dry-run
