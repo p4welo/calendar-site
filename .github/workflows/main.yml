@@ -25,34 +25,38 @@ jobs:
 
       - run: yarn install
       - run: yarn build
-      - name: FTP Deployer
-        uses: sand4rt/ftp-deployer@v0.9
+      - uses: actions/upload-artifact@v2
         with:
-          # FTP host URL like: ftp.host.com
-          host: ${{ secrets.FTP_HOST }}
-          # FTP port default is: 21
-          port: 21 # optional
-          # Ftp username
-          username: ${{ secrets.FTP_USERNAME }}
-          # Ftp password
-          password: ${{ secrets.FTP_PASSWORD }}
-          # The remote folder location of your FTP server
-          remote_folder: cal
-          # The local folder location
-          local_folder: public # optional, default is dist
-          # Remove existing files inside FTP remote folder
-#          cleanup: false # optional
-#          include: '' # optional
-#          exclude: # optional
-#            - node_modules/**
-#            - node_modules/**/.*
-#            - .git/**
-#            - *.env
-#          pasive: true # optional
-#      - name: FTP deploy
-#        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+          name: build-artifact
+          path: public/
+#      - name: FTP Deployer
+#        uses: sand4rt/ftp-deployer@v0.9
 #        with:
-#          ftp-server: ${{ secrets.FTP_HOST }}
-#          ftp-username: ${{ secrets.FTP_USERNAME }}
-#          ftp-password: ${{ secrets.FTP_PASSWORD }}
-#          local-dir: public
+#          # FTP host URL like: ftp.host.com
+#          host: ${{ secrets.FTP_HOST }}
+#          # FTP port default is: 21
+##          port: 21 # optional
+#          # Ftp username
+#          username: ${{ secrets.FTP_USERNAME }}
+#          # Ftp password
+#          password: ${{ secrets.FTP_PASSWORD }}
+#          # The remote folder location of your FTP server
+#          remote_folder: cal
+#          # The local folder location
+#          local_folder: public # optional, default is dist
+#          # Remove existing files inside FTP remote folder
+##          cleanup: false # optional
+##          include: '' # optional
+##          exclude: # optional
+##            - node_modules/**
+##            - node_modules/**/.*
+##            - .git/**
+##            - *.env
+##          pasive: true # optional
+##      - name: FTP deploy
+##        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+##        with:
+##          ftp-server: ${{ secrets.FTP_HOST }}
+##          ftp-username: ${{ secrets.FTP_USERNAME }}
+##          ftp-password: ${{ secrets.FTP_PASSWORD }}
+##          local-dir: public
