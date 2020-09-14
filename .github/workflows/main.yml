@@ -25,3 +25,7 @@ jobs:
 
       - run: yarn install
       - run: yarn build
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: public/ # or path/to/artifact
