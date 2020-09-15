@@ -9,7 +9,7 @@ dateTo: '2020-11-22'
 city: 'Dobrzeń Wielki'
 image: 'image.jpg'
 tags: []
-link: http://plasowadla.gokdobrzenwielki.pl/
+link: http://gokdw.pl/sekcje-i-zespoly/arabesqe/
 promoted: true
 visible: true
 cancelled: false

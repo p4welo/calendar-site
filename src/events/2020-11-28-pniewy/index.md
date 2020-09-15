@@ -10,7 +10,7 @@ city: 'Pniewy'
 image: 'image.jpg'
 tags: []
 link: https://ft-pniewy.pl/
-promoted: false
+promoted: true
 visible: true
 cancelled: false
 ---
