@@ -1,0 +1,29 @@
+name: CI deploy
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.9.0'
+
+      - run: yarn install
+      - run: yarn build
+
+      - name: Upload bundle
+        uses: MajorVengeance/Ftp-Deploy-Action@v0.2.3-alpha
+        with:
+          ftp_username: ${{ secrets.FTP_USERNAME }}
+          ftp_password: ${{ secrets.FTP_PASSWORD }}
+          ftp_host: ftp.setenta.webd.pl
+          local_source_dir: public/
+          dist_target_dir: /public_html/cal/
