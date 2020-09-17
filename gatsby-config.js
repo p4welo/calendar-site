@@ -97,14 +97,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-yandex-metrika`,
-      options: {
-        trackingId: process.env.YANDEX_METRIKA_TRACKING_ID,
-        webvisor: true,
-        trackHash: true,
-      }
-    },
-    {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: process.env.HOTJAR_ID,
