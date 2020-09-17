@@ -35,4 +35,4 @@ jobs:
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           ftp_host: ftp.setenta.webd.pl
           local_source_dir: public/
-          dist_target_dir: /public_html/cal/
+          dist_target_dir: /public_html/calendar-site/
