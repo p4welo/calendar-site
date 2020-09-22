@@ -1,6 +1,6 @@
 ---
 province: ''
-path: '/koszalinskie-yo-2020'
+path: '/koszalinskie-yo-2-2020'
 date: '2020-09-21'
 
 title: 'Street Dance Contest "Koszalinskie Yo!"'
