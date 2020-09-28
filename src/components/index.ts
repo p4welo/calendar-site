@@ -12,3 +12,4 @@ export * from './social-section';
 export * from './social-buttons';
 export * from './filter-view';
 export * from './seo';
+export * from './cookies';
