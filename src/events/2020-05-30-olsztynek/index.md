@@ -15,7 +15,7 @@ visible: true
 cancelled: false
 ---
 Zapraszamy serdecznie na Ogólnopolski Turniej Tańca Nowoczesnego 
-COOLturalne BITY 2020! Będzie się działo, więc nie może Cię zabraknąć!
+COOLturalne BITY 2021! Będzie się działo, więc nie może Cię zabraknąć!
 
 Do zdobycia super nagrody:
 - 1000 PLN GRAND PRIX
@@ -37,7 +37,7 @@ Style taneczne:
 
 Tu znajdziesz szczegółowy regulamin czyli wszelkie niezbędne informacje:
 
-https://drive.google.com/file/d/1-FOR3BY85mwniiRVR9U1z8kV8hF-dsc4/view?usp=sharing
+https://drive.google.com/file/d/1j5G4PE7JcpUWLS1egF7AupaWz_BKWdQJ/view?usp=sharing
 
 Masz pytania? Dzwoń lub pisz :)
 
