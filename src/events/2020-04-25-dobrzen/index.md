@@ -3,8 +3,8 @@ province: ''
 path: '/plasowadla-2020'
 date: '2020-01-27'
 
-title: 'Pląsowadła'
-dateFrom: '2020-11-21'
+title: 'III Festiwal Sztuki Tanecznej PLĄSOWADŁA 2020 – transmisja on-line'
+dateFrom: '2020-11-22'
 dateTo: '2020-11-22'
 city: 'Dobrzeń Wielki'
 image: 'image.jpg'
@@ -14,12 +14,10 @@ promoted: true
 visible: true
 cancelled: false
 ---
-SZANOWNI PAŃSTWO, W ZWIĄZKU Z DYNAMICZNIE ROZWIJAJĄCĄ SIĘ SYTUACJĄ SPOWODOWANĄ PANDEMI
-Ą KORONAWIRUSA, ZMIANĄ ORGANIZACJI ROKU SZKOLNEGO (EGZAMINY 8-KLASISTÓW I MATURY) ORAZ W TROSCE O ZDROWIE I BEZPIECZEŃSTWO UCZESTNIKÓW I WIDZÓW, KOMITET ORGANIZACYJNY PODJĄŁ DECYZJĘ O PRZENIESIENIU FESTIWALU NA DRUGIE PÓŁROCZE 2020 ROKU.
+Drodzy Instruktorzy i Tancerze,
 
-**NOWY TERMIN III FESTIWALU SZTUKI TANECZNEJ "PLĄSOWADŁA" TO 21-22 LISTOPADA 2020 R.**
+w związku z wprowadzeniem czerwonej strefy na obszarze całego kraju, w trosce o zdrowie i bezpieczeństwo Uczestników i Organizatorów Festiwalu, musieliśmy podjąć trudną dla nas decyzję o zmianie formuły organizacji III FESTIWALU SZTUKI TANECZNEJ PLĄSOWADŁA 2020 z trybu stacjonarnego na on-line.
 
-FESTIWAL SZTUKI TANECZNEJ  **P L Ą S O W A D Ł A**
-TO IMPREZA, KTÓREJ IDEĄ JEST PROMOWANIE
-CIEKAWYCH POMYSŁÓW I ROZWIĄZAŃ CHOREOGRAFICZNYCH ORAZ
-POSZUKIWANIE INTERESUJĄCYCH ŚRODKÓW WYRAZU.
+Wszystkie podmioty taneczne, które już zgłosiły się do udziału w III edycji Festiwalu proszone są o przesłanie do 30 października br. na adres terpsychora@onet.eu potwierdzenia udziału w Festiwalu w formie on-line. Brak potwierdzenia będzie jednoznacznie traktowany jako rezygnacja z udziału w Festiwalu i tym samym zgłoszenie zostanie anulowane.
+
+W związku ze zmianą sposobu przeprowadzenia III edycji Festiwalu do REGULAMINU został dołączony ANEKS. Prosimy wszystkich zainteresowanych udziałem w Festiwalu o zapoznanie się z nim.
