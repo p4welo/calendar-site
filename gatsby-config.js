@@ -109,7 +109,7 @@ module.exports = {
         path: `${__dirname}/src/intl`,
         languages: [`en`, `pl`],
         defaultLanguage: `pl`,
-        redirect: true,
+        redirect: false,
       },
     },
     `gatsby-plugin-sitemap`,

@@ -23,6 +23,7 @@ import {
 } from '@app/utils/event-utils';
 import banner from '@app/images/baner-percent.jpg';
 import bannerMobile from '@app/images/baner-mobile.jpg';
+import { OrganizerBlog } from '@app/components/organizer-blog';
 
 interface IndexPageProps {
   data: any;
@@ -66,6 +67,8 @@ const IndexPage = ({ data, intl }: IndexPageProps) => {
                       .filter(isFresh)
                 }/>
 
+                <OrganizerBlog />
+
                 {/*<EventList events={*/}
                 {/*  eventList*/}
                 {/*      .filter(isVisible)*/}
@@ -81,7 +84,7 @@ const IndexPage = ({ data, intl }: IndexPageProps) => {
                   <a href='https://kartazgloszen.pl'
                       id='index-karta-zgloszen-banner-desktop'
                       target='_blank'
-                      className='banner-sm'>
+                      className='banner-sm '>
                     <img src={banner} className=''/>
                   </a>
                   <a href='https://kartazgloszen.pl'

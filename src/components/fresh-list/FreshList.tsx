@@ -1,13 +1,13 @@
 import { EventTile } from '@app/components';
 import { Event } from '@app/model';
-import { Link } from 'gatsby-plugin-intl';
-import React, { Component } from 'react';
+import { Link } from 'gatsby';
+import React, { PureComponent } from 'react';
 
 interface FreshListProps {
   events: Event[]
 }
 
-export class FreshList extends Component<FreshListProps> {
+export class FreshList extends PureComponent<FreshListProps> {
   render() {
     return this.props.events.length > 0 ?
         (
