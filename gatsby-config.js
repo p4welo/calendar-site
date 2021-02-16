@@ -103,15 +103,15 @@ module.exports = {
         sv: process.env.HOTJAR_SNIPPET_VERSION
       },
     },
-    {
-      resolve: `gatsby-plugin-intl`,
-      options: {
-        path: `${__dirname}/src/intl`,
-        languages: [`en`, `pl`],
-        defaultLanguage: `pl`,
-        redirect: false,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-intl`,
+    //   options: {
+    //     path: `${__dirname}/src/intl`,
+    //     languages: [`en`, `pl`],
+    //     defaultLanguage: `pl`,
+    //     redirect: false,
+    //   },
+    // },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`
     // `gatsby-plugin-offline`

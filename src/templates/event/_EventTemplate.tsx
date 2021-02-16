@@ -2,12 +2,11 @@ import React from 'react';
 
 interface EventTemplateProps {
   pageContext: { event: any };
-  intl: any;
   location: any;
   data: any;
 }
 
-export default function EventTemplate2({ pageContext, intl, location, data }: EventTemplateProps) {
+export default function EventTemplate2({ pageContext }: EventTemplateProps) {
   const { event } = pageContext;
   const eventData = {
     ...event.frontmatter,

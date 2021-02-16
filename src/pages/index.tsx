@@ -1,7 +1,6 @@
 import { FreshList } from '@app/components/fresh-list/FreshList';
 import React from 'react';
 import { graphql } from 'gatsby';
-import { injectIntl } from 'gatsby-plugin-intl';
 
 import { Event } from '@app/model';
 import {
@@ -27,10 +26,9 @@ import { OrganizerBlog } from '@app/components/organizer-blog';
 
 interface IndexPageProps {
   data: any;
-  intl: any;
 }
 
-const IndexPage = ({ data, intl }: IndexPageProps) => {
+const IndexPage = ({ data }: IndexPageProps) => {
   const eventList: Event[] = mapToEventEntities(data);
 
   return (
@@ -105,7 +103,7 @@ const IndexPage = ({ data, intl }: IndexPageProps) => {
       </>
   );
 };
-export default injectIntl(IndexPage);
+export default IndexPage;
 
 export const query = graphql`
     {

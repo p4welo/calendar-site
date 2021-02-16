@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'gatsby-plugin-intl';
+import { Link } from 'gatsby';
 
 import { Event } from '@app/model';
 

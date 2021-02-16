@@ -1,6 +1,5 @@
 import React from 'react';
 import Img from 'gatsby-image';
-import { Link } from 'gatsby-plugin-intl';
 // @ts-ignore
 import { DiscussionEmbed } from 'disqus-react';
 
@@ -8,16 +7,16 @@ import banner from '@app/images/baner-percent.jpg';
 import { formatDate } from '@app/utils/date-utils';
 import { Navbar, Seo } from '@app/components';
 import Layout from '@app/components/layout';
+import { Link } from 'gatsby';
 
 
 interface EventTemplateProps {
   pageContext: { event: any };
-  intl: any;
   location: any;
   data: any;
 }
 
-export default function EventTemplate({ pageContext, intl, location, data }: EventTemplateProps) {
+export default function EventTemplate({ pageContext, location, data }: EventTemplateProps) {
   const { event } = pageContext;
   const eventData = {
     ...event.frontmatter,

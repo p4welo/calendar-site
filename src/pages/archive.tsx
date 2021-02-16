@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { graphql } from 'gatsby';
-import { Link } from 'gatsby-plugin-intl';
+import { graphql, Link } from 'gatsby';
 
 import { Navbar, Seo } from '@app/components';
 import { Event } from '@app/model';
