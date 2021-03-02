@@ -1,9 +1,9 @@
 ---
 province: ''
 path: '/iii-festiwal-tanca-pniewy-2021'
-date: '2021-01-22'
+date: '2021-02-27'
 
-title: 'III Ogólnopolski Festiwal Tańca w Pniewach'
+title: 'III Ogólnopolski Turniej Tańca Nowoczesnego'
 dateFrom: '2021-05-28'
 dateTo: '2021-05-30'
 city: 'Pniewy'
@@ -14,29 +14,17 @@ promoted: true
 visible: true
 cancelled: false
 ---
-Ogólnopolski Festiwal Tańca w Pniewach objęty patronatem honorowym Marszałka Województwa Wielkopolskiego, Burmistrza Miasta Pniewy i Starosty Powiatu Szamotulskiego po raz pierwszy odbył się 30 listopada 2019 r.
+Zapraszamy na **III Ogólnopolski Turniej Tańca Nowoczesnego**, który odbędzie się podczas dni III Ogólnopolskiego Festiwalu Tańca w Pniewach. 
 
-W roku 2021 odbędzie się trzecia edycja festiwalu. 
+W III edycji TTN zostały wprowadzone dodatkowe podkategorie prezentowanych miniatur tanecznych, m.in.:
+1. **STREET DANCE** (Hip Hop, Break Dance, Electric Boogie, Funk Dance)
+2. **ART DANCE** (Ballet, Modern, Jazz Dance)
+3. **SHOW DANCE** (etiuda/ miniatura taneczna z możliwością wykorzystania własnej scenografii i rekwizytów)
 
-Termin: 28-30.05.2020.
-
-Miejsce: ul. Wolności 20, Hala Widowiskowo-Sportowa OSiR Pniewy. 
-
-Festiwal łączy w sobie dwie formy konkursowe: TTN - Turniej Tańca Nowoczesnego oraz TTP - Turniej Tańca w Powietrzu
-
-W III edycji festiwalu zostały wprowadzone dodatkowe podkategorie prezentowanych miniatur tanecznych:
-
-##### TTN:
-1. Hip-Hop,
-2. Inne Formy (dozwolone są prezentacje Jazz Dance, Modern, Taniec Współczesny),
-3. Taniec Klasyczny,
-4. Show Dance
-
-##### TTP:
-1. Aerial Silk/szarfa,
-2. Aerial Hoop/koło
-3. Art Performance/contortion 
- 
-W ramach festiwalu uczestnicy przedstawiają prezentacje konkursowe solistów, duetów oraz zespołów tanecznych w poszczególnych grupach wiekowych. Ocena zespołów polegała na merytorycznej ocenie występów w kategorii inscenizacji tanecznej – prezentacji artystycznej wybranego tematu przy użyciu technik tanecznych tańca klasycznego, współczesnego i nowoczesnego, w formie miniatur tanecznych i inscenizacji, z wykorzystaniem kostiumów i rekwizytów do wybranego utworu muzycznego.
+W ramach turnieju uczestnicy przedstawiają prezentacje konkursowe solistów, duetów oraz zespołów tanecznych w poszczególnych grupach wiekowych. Ocena prezentacji polegała na merytorycznej ocenie występów w kategorii inscenizacji tanecznej – prezentacji artystycznej wybranego tematu przy użyciu technik tanecznych tańca klasycznego, współczesnego i nowoczesnego, w formie miniatur tanecznych i inscenizacji, z wykorzystaniem kostiumów i rekwizytów do wybranego utworu muzycznego.
 
 Profesjonalne warsztaty, przepiękne występy konkursowe oraz pokazy pozakonkursowe, ciekawi goście, mnóstwo nagród i masa dobrej energii - zapraszamy!
+
+Regulamin i informacje szczegółowe na stronie wydarzenia - http://ft-pniewy.pl 
+
+Zgłoszenia w formie elektronicznej przez serwis: https://moja.kartazgloszen.pl

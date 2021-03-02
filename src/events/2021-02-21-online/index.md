@@ -4,8 +4,8 @@ path: '/magic-of-dance-2021'
 date: '2021-01-14'
 
 title: 'International Dance Competition "MAGIC OF DANCE"'
-dateFrom: '2021-02-21'
-dateTo: '2021-02-21'
+dateFrom: '2021-02-27'
+dateTo: '2021-02-28'
 city: 'Online'
 image: 'image.jpg'
 tags: []
