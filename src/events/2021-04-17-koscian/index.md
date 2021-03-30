@@ -9,7 +9,7 @@ dateTo: '2021-04-18'
 city: 'Kościan'
 image: 'image.jpg'
 tags: []
-link: http://www.szkolapoezja.pl/
+link: http://szkolapoezja.pl/turniejtanca/
 promoted: true
 visible: true
 cancelled: false
