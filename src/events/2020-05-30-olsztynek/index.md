@@ -4,8 +4,8 @@ path: '/coolturalne-bity-2020'
 date: '2020-10-02'
 
 title: 'Ogólnopolski Turniej Tańca Nowoczesnego COOLturalne BITY'
-dateFrom: '2021-05-29'
-dateTo: '2021-05-29'
+dateFrom: '2021-09-04'
+dateTo: '2021-09-04'
 city: 'Olsztynek'
 image: 'image.jpg'
 tags: []
@@ -37,7 +37,7 @@ Style taneczne:
 
 Tu znajdziesz szczegółowy regulamin czyli wszelkie niezbędne informacje:
 
-https://drive.google.com/file/d/1j5G4PE7JcpUWLS1egF7AupaWz_BKWdQJ/view?usp=sharing
+https://drive.google.com/file/d/1Co0F4WEOXnh_QelQdlnKUe66j-sf55My/view?usp=sharing
 
 Masz pytania? Dzwoń lub pisz :)
 
