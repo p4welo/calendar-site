@@ -15,6 +15,8 @@ visible: true
 cancelled: false
 ---
 ## "GIM-SHOW 2021" - edycja online XV MIĘDZYNARODOWYM FESTIWALU GIMNASTYCZNO – TANECZNYM O GRAND PRIX PREZYDENTA MIASTA GDYNI
+
+#### Ze względu na stan epidemiczny wydłużone zostało przyjmowanie zgłoszeń na Gim Show 2021 do 16.05.2021r. 
 Festiwal będzie składał się z trzech etapów:
 - I etap - Przyjmowanie zgłoszeń oraz weryfikacja zakwalifikowanych do Festiwalu zgłoszeń: 15.02 – 11.04.2021 r.
 - II etap - Prezentacja linków wykonań zgłoszonych do Festiwalu: od 20.04.2021 r.
@@ -39,3 +41,5 @@ Karta duet: http://www.mdk.gdynia.pl/images/konkursy/gimshow21/duet.pdf
 Karta mini formacja: http://www.mdk.gdynia.pl/images/konkursy/gimshow21/miniformacja.pdf 
 
 Karta formacja: http://www.mdk.gdynia.pl/images/konkursy/gimshow21/formacja.pdf
+
+

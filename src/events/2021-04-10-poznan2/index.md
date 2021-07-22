@@ -11,7 +11,7 @@ image: 'image.jpg'
 tags: []
 link: https://www.facebook.com/events/775449006715912/
 promoted: false
-visible: true
+visible: false
 cancelled: false
 ---
 Zapraszamy serdecznie wszystkich II gi raz do wystartowania w naszym Turnieju JACK & JILL oraz Discofox Grand Prix o puchar Prezydenta Miasta Poznania! (w stylu Disco/Hustle/Swing/Fox) już po raz drugi, w spotkaniu Międzynarodowym.

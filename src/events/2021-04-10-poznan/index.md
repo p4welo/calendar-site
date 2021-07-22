@@ -4,8 +4,8 @@ path: '/festiwal-tanca-w-powietrzu-poznan-2021'
 date: '2021-02-27'
 
 title: 'I Międzynarodowy Festiwal Tańca w Powietrzu'
-dateFrom: '2021-04-10'
-dateTo: '2021-04-11'
+dateFrom: '2021-09-18'
+dateTo: '2021-09-19'
 city: 'Poznań'
 image: 'image.jpg'
 tags: []
