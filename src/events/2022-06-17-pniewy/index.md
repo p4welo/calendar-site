@@ -3,7 +3,7 @@ province: ''
 path: '/ogolnopolski-festiwal-tanca-pniewy-2022'
 date: '2022-03-26'
 
-title: 'Ogólnopolski Festiwal Tańca'
+title: 'IV Ogólnopolski Festiwal Tańca'
 dateFrom: '2022-06-17'
 dateTo: '2022-06-19'
 city: 'Pniewy'
