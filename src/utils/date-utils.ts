@@ -1,6 +1,8 @@
 import dayjs from 'dayjs';
 import 'dayjs/locale/pl';
 import { groupBy } from 'ramda';
+import isBetween from 'dayjs/plugin/isBetween';
+dayjs.extend(isBetween)
 
 import { Event } from '@app/model';
 
@@ -21,3 +23,8 @@ export const formatHeaderFromKey = (key: string) => {
   dayjs.locale('pl');
   return dayjs(key, 'YYYYMM').format('MMMM YYYY');
 };
+
+export const isHoliday = () => dayjs().isBetween(
+    dayjs().month(5).startOf('month'),
+    dayjs().month(8).endOf('month')
+)

@@ -3,9 +3,12 @@ import { graphql } from 'gatsby';
 
 import { isFuture, isVisible, mapToEventEntities } from '@app/utils/event-utils';
 import { EventList, Footer, Navbar, Seo } from '@app/components';
+import { HolidayBox } from '@app/components/holiday-box';
 
 const IncomingPage = ({ data }: any) => {
-  const eventList = mapToEventEntities(data);
+  const eventList = mapToEventEntities(data)
+      .filter(isVisible)
+      .filter(isFuture)
 
   return (
       <>
@@ -15,13 +18,11 @@ const IncomingPage = ({ data }: any) => {
           <div className="page-content">
             <div className="content-wrapper">
               <div className="container">
-                <EventList events={
-                  eventList
-                      .filter(isVisible)
-                      .filter(isFuture)
-                }/>
+                <HolidayBox events={ eventList } />
+
+                <EventList events={ eventList }/>
               </div>
-              <Footer/>
+              {/*<Footer/>*/}
             </div>
           </div>
         </div>

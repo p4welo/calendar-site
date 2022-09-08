@@ -23,6 +23,7 @@ import {
 import banner from '@app/images/baner-percent.jpg';
 import bannerMobile from '@app/images/baner-mobile.jpg';
 import { OrganizerBlog } from '@app/components/organizer-blog';
+import { HolidayBox } from '@app/components/holiday-box';
 
 interface IndexPageProps {
   data: any;
@@ -30,6 +31,10 @@ interface IndexPageProps {
 
 const IndexPage = ({ data }: IndexPageProps) => {
   const eventList: Event[] = mapToEventEntities(data);
+  const futureEvents = eventList
+      .filter(isVisible)
+      .filter(isNotCancelled)
+      .filter(isFuture);
 
   return (
       <>
@@ -49,21 +54,10 @@ const IndexPage = ({ data }: IndexPageProps) => {
 
                 {/*<Login />*/}
 
-                <PromotedList events={
-                  eventList
-                      .filter(isVisible)
-                      .filter(isNotCancelled)
-                      .filter(isFuture)
-                      .filter(isPromoted)
-                }/>
+                <HolidayBox events={ futureEvents } />
 
-                <FreshList events={
-                  eventList
-                      .filter(isVisible)
-                      .filter(isNotCancelled)
-                      .filter(isFuture)
-                      .filter(isFresh)
-                }/>
+                <PromotedList events={ futureEvents.filter(isPromoted) }/>
+                <FreshList events={ futureEvents.filter(isFresh) }/>
 
                 <OrganizerBlog />
 
