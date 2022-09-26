@@ -1,11 +1,11 @@
 ---
 province: ''
-path: '/festiwal-tanca-w-powietrzu-2022'
+path: '/mistrz-tanca-2022'
 date: '2022-09-08'
 
-title: 'II Międzynarodowy Festiwal Tańca w Powietrzu'
-dateFrom: '2022-09-17'
-dateTo: '2022-09-18'
+title: XIV Ogólnopolski Turniej Solistów, Duetów i Formacji "MISTRZ TAŃCA"
+dateFrom: '2022-11-12'
+dateTo: '2022-11-13'
 city: 'Łeba'
 image: 'image.jpg'
 tags: []
