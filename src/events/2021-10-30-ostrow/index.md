@@ -14,7 +14,7 @@ promoted: true
 visible: true
 cancelled: false
 ---
-XVII edycja konkursu poświęconego sztuce tańca !!!
+XIX edycja konkursu poświęconego sztuce tańca !!!
 
 Wydarzenie, którego celem jest konfrontacja dorobku artystycznego 
 zespołów dziecięcych i młodzieżowych.
