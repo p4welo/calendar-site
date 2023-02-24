@@ -1,39 +1,51 @@
 ---
 province: ''
-path: '/pineapple-festival-2022'
-date: '2022-09-14'
+path: '/ck-hip-hop-festiwal-2022'
+date: '2022-10-26'
 
-title: Pineapple Festival - Modern & Contemporary
-dateFrom: '2022-11-11'
-dateTo: '2022-11-12'
+title: CK Hip Hop Festiwal
+dateFrom: '2022-12-11'
+dateTo: '2022-12-11'
 city: 'Kielce'
 image: 'image.jpg'
 tags: []
-link: https://pineapplefestival.pl/
+link: https://www.facebook.com/events/1290721028371592/
 promoted: false
 visible: true
 cancelled: false
 ---
-Cześć!
+Witamy witamy! 🙂
 
-Serdecznie zapraszamy na niezwykły festiwal tańca, łączący teatralny klimat oraz federacyjne współzawodnictwo!
+Tu Kielce. Miejsce, które po długim czasie wraca na hip hopową mapę Polski.
 
-Pineapple Festival to niezapomniane dwa dni tańca. \
-W dniu 11.12.2022r. zostanie rozegrany turniej tańca na pięknej sali w Centrum Kongresowym Targów Kielce.
+Już 11 grudnia br. zapraszamy Was na CK HIP HOP FESTIWAL. Odbędzie się on na deskach Kieleckiego Teatru Tańca.
 
-To co nas wyróżnia:
-- tancerz/choreograf ma możliwość wyboru nastroju/koloru świateł podczas swojego występu,
-- każdy tancerz w pakiecie startowym otrzymuje nagranie w jakości 4K wykonane przez markę Pineapple Media,
-- sala w Centrum Kongresowym Targów Kielce pozwala przeżyć więcej, dzięki wspaniałemu nagłośnieniu oraz prawie scenograficznej.
-- wspaniałe nagrody ufundowane przez naszych sponsorów,
-- starannie wyselekcjonowani sędziowie,
-- pokazy przygotowane przez sędziów,
-- warsztaty na sali treningowej teatru tańca!
+W tym magicznym miejscu, przepełnionym teatralnym flavourem, będziecie mieli okazję spotkać się z innymi tancerzami, potańczyć, rywalizować, dzielić się hip hopem i miłością do muzyki.
 
-Pierwszy etap zgłoszeń - online.
-Przeprowadzenie etapu online pozwoli na przeprowadzenie turnieju na najwyższym poziomie tanecznym oraz widowiskowym.
+Wydarzenie w formie konkursowej, o charakterze ogólnopolskim, popularyzujące streetowe formy taneczne.
 
-Więcej informacji:
+Zawody przeznaczone są dla grup tanecznych i solistów, w następujących kategoriach tanecznych i wiekowych :
+#### Hip Hop 1 vs 1
+- do 11 lat
+- 12 – 15 lat
+- pow. 16 lat
+#### Locking 1 vs 1
+- open
+#### HIP HOP GRUPY/FORMACJE SHOWCASE ( od 7 do 24 osób )
+- do 11 lat
+- 12 – 15 lat
+- pow. 16 lat
 
-www.pineapplefestival.pl \
-Instagram: @pineapple.festival
+Wspólnie stwórzmy klimat, którego Kielce jeszcze nie widziały!!!
+
+Bądźcie z Nami tego dnia 🖐️
+
+Prosimy o zgłaszanie się za pomocą karty zgłoszenia https://ktt.pl/wp-content/uploads/2022/10/Karta-zgloszenia-CK-Hip-Hop-Festiwal.xlsx .
+
+Regulamin dostępny pod adresem https://ktt.pl/wp-content/uploads/2022/10/Regulamin-CK-Hip-hop-Festiwal-dla-uczestnikow.pdf .
+
+Projekt odbywa się w ramach edycji programu „PRZESTRZENIE SZTUKI 2022”, finansowanego ze środków Ministra Kultury realizowanego przez Kielecki Teatr Tańca, operatora programu w województwie świętokrzyskim, we współpracy z Narodowym Instytutem Muzyki i Tańca oraz Instytutem Teatralnym im. Zbigniewa Raszewskiego.
+
+W razie dodatkowych pytań prosimy o kontakt e-mailowy: sekretariat@ktt.pl lub telefoniczny 41 367 67 12 oraz 41 361 27 46.
+
+Do dzieła! 😊

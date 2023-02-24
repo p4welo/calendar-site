@@ -20,4 +20,4 @@ Kolejny, to już po raz VIII, pragniemy Was zaprosić na Ogólnopolski Turniej T
 
 Dwa dni zmagań, tancerzy z całej Polski, dwa dni zmagań trenerów, choreografów i dwa dni tańca w najlepszej postaci 😉
 
-Święto Tańca w Kościanie, tydzień przed Międzynarodowym Dniem Tańca!!!
+Święto Tańca w Kościanie w Międzynarodowy Dzień Tańca!!!

@@ -24,7 +24,7 @@ const Layout = ({ children }) => (
                 {/*</div>*/}
                 {children}
               </div>
-              <Footer></Footer>
+              {/*<Footer></Footer>*/}
               {/*<footer style={{*/}
               {/*  background: `#07beb8`,*/}
               {/*  color: `white`,*/}

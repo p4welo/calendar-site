@@ -89,7 +89,7 @@ const IndexPage = ({ data }: IndexPageProps) => {
 
               </div>
               {/*<AboutUs></AboutUs>*/}
-              <Footer/>
+              {/*<Footer/>*/}
             </div>
           </div>
 
