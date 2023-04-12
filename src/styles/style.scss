@@ -145,12 +145,6 @@ $screen-lg: 75em;
 //  }
 //}
 
-.event-post {
-  .label-date {
-    margin-bottom: 20px;
-  }
-}
-
 //.event-tile {
 //  &__image {
 //    height: 350px;
@@ -208,6 +202,22 @@ $screen-lg: 75em;
 
     @include sm {
       max-width: 800px;
+    }
+  }
+}
+
+.NewSocialSection {
+  &_content {
+    justify-content: center;
+
+    @include sm {
+      justify-content: flex-start;
+    }
+  }
+
+  &_image {
+    @include sm {
+      margin-left: auto;
     }
   }
 }

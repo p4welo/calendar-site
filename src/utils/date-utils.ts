@@ -12,7 +12,7 @@ export const isNew = (date?: string) => dayjs().diff(dayjs(date), 'day') < 7;
 
 export const formatDate = (date: string) => {
   dayjs.locale('pl');
-  return dayjs(date).format('DD MMMM YYYY');
+  return dayjs(date).format('D MMMM YYYY');
 };
 
 export const groupByMonth = (events: Event[]) => {

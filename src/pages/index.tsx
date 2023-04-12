@@ -1,6 +1,6 @@
 import { FreshList } from '@app/components/fresh-list/FreshList';
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 
 import { Event } from '@app/model';
 import {
@@ -9,7 +9,6 @@ import {
   Hero,
   Navbar,
   PromotedList,
-  SocialSection,
   Seo,
 } from '@app/components';
 import {
@@ -22,8 +21,8 @@ import {
 } from '@app/utils/event-utils';
 import banner from '@app/images/baner-percent.jpg';
 import bannerMobile from '@app/images/baner-mobile.jpg';
-import { OrganizerBlog } from '@app/components/organizer-blog';
 import { HolidayBox } from '@app/components/holiday-box';
+import { NewSocialSection } from '@app/components/new-social-section';
 
 interface IndexPageProps {
   data: any;
@@ -38,58 +37,59 @@ const IndexPage = ({ data }: IndexPageProps) => {
 
   return (
       <>
-        <Seo title='Strona główna'/>
+        <Seo title="Strona główna"/>
         <Navbar/>
-        <div className='page-container'>
+        <div className="page-container">
           <div className="page-content">
             <div className="content-wrapper">
               <Hero/>
-              <AmountLine futureAmount={
-                eventList.filter(isVisible).filter(isFuture).length
-              } eventAmount={
-                eventList.length
-              }/>
+
               <div className="container">
-                <SocialSection/>
 
-                {/*<Login />*/}
+                <AmountLine futureAmount={ eventList.filter(isVisible).filter(isFuture).length }/>
 
-                <HolidayBox events={ futureEvents } />
+                <HolidayBox events={ futureEvents }/>
 
                 <PromotedList events={ futureEvents.filter(isPromoted) }/>
                 <FreshList events={ futureEvents.filter(isFresh) }/>
 
-                <OrganizerBlog />
+                <div style={ { marginBottom: '4rem' } }>
+                  <div style={ {
+                    display: 'flex',
+                    flexDirection: 'column',
+                    maxWidth: '100vw',
+                    width: '350px',
+                    margin: '0 auto'
+                  } }>
+                    <Link to="/upcoming"
+                          className="btn bg-indigo-100 btn-block text-indigo">Zobacz wszystkie</Link>
+                    <a href="https://goo.gl/forms/l2Ri9kqlDrPJsUnO2" target="_blank"
+                       className="btn bg-indigo btn-block ">Dodaj turniej</a>
+                  </div>
+                </div>
 
-                {/*<EventList events={*/}
-                {/*  eventList*/}
-                {/*      .filter(isVisible)*/}
-                {/*      .filter(isFuture)*/}
-                {/*}></EventList>*/}
-                {/*<div classNae="text-center">*/}
-                {/*  <Link to='/archive'*/}
-                {/*      id='index-go-to-archive'*/}
-                {/*      className='btn btn-default btn-raised mb-20'>Przejdź do archiwum wydarzeń</Link>*/}
-                {/*</div>*/}
+                <div style={ { marginBottom: '5rem' } }>
+                  <NewSocialSection/>
+                </div>
 
-                <div className='karta-zgloszen-banner mb-20'>
-                  <a href='https://kartazgloszen.pl'
-                      id='index-karta-zgloszen-banner-desktop'
-                      target='_blank'
-                      className='banner-sm '>
-                    <img src={banner} className=''/>
-                  </a>
-                  <a href='https://kartazgloszen.pl'
-                      target='_blank'
-                      id='index-karta-zgloszen-banner-mobile'
-                      className='banner-xs'>
-                    <img src={bannerMobile} className=''/>
-                  </a>
+                <div>
+                  <div className="karta-zgloszen-banner mb-20">
+                    <a href="https://kartazgloszen.pl"
+                       id="index-karta-zgloszen-banner-desktop"
+                       target="_blank"
+                       className="banner-sm ">
+                      <img src={ banner } className=""/>
+                    </a>
+                    <a href="https://kartazgloszen.pl"
+                       target="_blank"
+                       id="index-karta-zgloszen-banner-mobile"
+                       className="banner-xs">
+                      <img src={ bannerMobile } className=""/>
+                    </a>
+                  </div>
                 </div>
 
               </div>
-              {/*<AboutUs></AboutUs>*/}
-              {/*<Footer/>*/}
             </div>
           </div>
 

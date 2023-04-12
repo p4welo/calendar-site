@@ -13,7 +13,7 @@ export class SocialSection extends Component{
                 target='_blank'
                 style={{ width: '50px', height: '50px', borderRadius: '50%', backgroundColor: '#2196f3', padding: '15px', color: 'white' }}
                 className="btn btn-float btn-rounded heading-btn">
-              <i className="fab fa-facebook-f" style={{ fontSize: '2rem' }}></i>
+              <i className="fab fa-facebook-f" style={{ fontSize: '2rem' }} />
             </a>
             {/*<div className="fb-like"*/}
             {/*    data-href="https://facebook.com/tanecznykalendarz/"*/}

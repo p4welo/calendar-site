@@ -9,7 +9,7 @@ dateTo: '2023-04-23'
 city: 'Dobrzeń Wielki'
 image: 'image.jpg'
 tags: []
-link: https://www.facebook.com/profile.php?id=100051581657464
+link: https://www.facebook.com/Plasowadla/
 promoted: true
 visible: true
 cancelled: false
@@ -24,12 +24,12 @@ grupy (do 12 osób) – poziom zaawansowania: PASJA.
 Z kolei niedzielę (23 kwietnia 2023) – soliści, duety/tria i grupy – HOBBY.
 
 #### Konkurencje taneczne / techniki taneczne:
--Show dance/Fantasy
--Jazz Dance
--Ballet/ Neoklasyka
--Ballet Pointé
--Modern and Contemporary Dance
--Folk
+- Show dance/Fantasy
+- Jazz Dance
+- Ballet/ Neoklasyka
+- Ballet Pointé
+- Modern and Contemporary Dance
+- Folk
 
 Konkurencje taneczne zostaną rozegrane w dwóch poziomach zaawansowania: PASJA (22 kwietnia 2023) i HOBBY (23 kwietnia 2023). Dodatkowo, kategorie SOLO i DUET/TRIO rozgrywane będą z podziałem na DEBIUTY i MISTRZÓW. Kategoria OPEN: adults I i adults II: w tej kategorii prezentują się grupy taneczne, w takich konkurencjach tanecznych, jak SHOW DANCE/FANTASY, FOLK, JAZZ DANCE lub mieszance wymienionych stylów.
 

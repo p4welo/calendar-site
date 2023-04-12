@@ -13,8 +13,8 @@ export class FreshList extends PureComponent<FreshListProps> {
         (
             <>
               <h1>
-                Ostatnio dodane
-                <Link className="ml-20 text-semibold"
+                <span className="mr-20">Ostatnio dodane</span>
+                <Link className="text-semibold text-indigo"
                     id='see-all-top'
                     style={{ fontSize: '14px' }}
                     to='/upcoming'>Zobacz wszystkie</Link>
@@ -22,11 +22,11 @@ export class FreshList extends PureComponent<FreshListProps> {
 
               <div className="row" style={{ display: `flex`, flexWrap: `wrap` }}>
                 {
-                  this.props.events.map((event, i) => <EventTile event={event} key={i}></EventTile>)
+                  this.props.events.map((event, i) => <EventTile event={event} key={i} />)
                 }
               </div>
             </>
         ) :
-        <span></span>;
+        <span />;
   }
 }

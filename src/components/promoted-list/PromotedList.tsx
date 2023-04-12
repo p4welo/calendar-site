@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 
 import { Event } from '@app/model';
@@ -9,32 +9,29 @@ interface PromotedListProps {
   events: Event[]
 }
 
-export class PromotedList extends Component<PromotedListProps> {
-  render() {
-    return this.props.events.length > 0 ?
-        (
-            <>
-              <h1>
-                Proponowane wydarzenia
-                <Link className="ml-20 text-semibold"
-                      id="see-all-top"
-                      style={ { fontSize: '14px' } }
-                      to="/upcoming">Zobacz wszystkie</Link>
-              </h1>
+export const PromotedList = ({ events }: PromotedListProps) => {
 
-              <div className="row" style={ { display: `flex`, flexWrap: `wrap` } }>
-                {
-                  this.props.events.map((event, i) => <EventTile event={ event } key={ i }></EventTile>)
-                }
-              </div>
-              <div className="text-center">
-                <Link to="/upcoming"
-                      id="see-all-bottom"
-                      style={ { padding: '9px 40px' } }
-                      className="btn btn-default btn-raised mb-20">Zobacz wszystkie</Link>
-              </div>
-            </>
-        ) :
-        <span></span>;
-  }
+  const EventList = () => events.map((event, i) => <EventTile event={ event } key={ i } />)
+
+  return events.length > 0 && (
+      <div className="mb-20">
+        <h1>
+          <span className="mr-20">Proponowane wydarzenia</span>
+          <Link className="text-semibold text-indigo"
+                id="see-all-top"
+                style={ { fontSize: '14px' } }
+                to="/upcoming">Zobacz wszystkie</Link>
+        </h1>
+
+        <div className="row" style={ { display: `flex`, flexWrap: `wrap` } }>
+          <EventList/>
+        </div>
+        {/*<div className="text-center">*/}
+        {/*  <Link to="/upcoming"*/}
+        {/*        id="see-all-bottom"*/}
+        {/*        style={ { padding: '9px 40px' } }*/}
+        {/*        className="btn bg-indigo-100 text-indigo">Zobacz wszystkie</Link>*/}
+        {/*</div>*/}
+      </div>
+  )
 }

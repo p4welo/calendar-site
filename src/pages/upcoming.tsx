@@ -17,7 +17,7 @@ const IncomingPage = ({ data }: any) => {
         <div className='page-container'>
           <div className="page-content">
             <div className="content-wrapper">
-              <div className="container">
+              <div className="container pt-20">
                 <HolidayBox events={ eventList } />
 
                 <EventList events={ eventList }/>

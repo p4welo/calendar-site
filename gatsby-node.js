@@ -17,6 +17,7 @@ exports.createPages = ({ actions, graphql }) => {
             dateFrom
             dateTo
             title
+            promoted
             city
             link
             image {

@@ -273,6 +273,11 @@
   border-color: #3F51B5;
   color: #fff;
 }
+.bg-indigo-100 {
+  background-color: #D9DCF0;
+  border-color: #3F51B5;
+  color: #FFF;
+}
 .bg-indigo-300 {
   background-color: #7986CB;
   border-color: #7986CB;

@@ -51,4 +51,4 @@ Hala widowiskowo-sportowa MOSiR, ul. Orląt Lwowskich 70, w dniu 7 maja 2023r.
 - **GRAND PRIX** – Puchar i nagroda pieniężna – 1000 zł dla najlepszego zespołu ze wszystkich kategorii tanecznych!
 
 Regulamin: [www.festiwalasow.com](http://www.festiwalasow.com) \
-Kartę zgłoszenia: [moja.kartazgloszen.pl](https://moja.kartazgloszen.pl)
+Karta zgłoszenia: [moja.kartazgloszen.pl](https://moja.kartazgloszen.pl)

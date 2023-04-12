@@ -10,7 +10,7 @@ city: 'Kościan'
 image: 'image.jpg'
 tags: []
 link: http://www.szkolapoezja.pl/
-promoted: true
+promoted: false
 visible: true
 cancelled: false
 ---

@@ -13,7 +13,7 @@ export class SocialButtons extends Component {
               data-action="like"
               data-size="large"
               data-show-faces="true"
-              data-share="true"></div>
+              data-share="true" />
         </>
     );
   }

@@ -41,7 +41,6 @@ export class EventList extends Component<EventListProps, EventListState> {
 
     return (
         <div>
-          <p></p>
           {/*<FilterArea filterChange={this.filterEvents.bind(this)}></FilterArea>*/}
 
           {

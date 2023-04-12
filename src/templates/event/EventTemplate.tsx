@@ -1,14 +1,11 @@
 import React from 'react';
 import Img from 'gatsby-image';
-// @ts-ignore
-import { DiscussionEmbed } from 'disqus-react';
 
-import banner from '@app/images/baner-percent.jpg';
 import { formatDate } from '@app/utils/date-utils';
 import { Navbar, Seo } from '@app/components';
 import Layout from '@app/components/layout';
-import { Link } from 'gatsby';
-
+import { Ribbon } from '@app/components/ribbon';
+import { NewSocialSection } from '@app/components/new-social-section';
 
 interface EventTemplateProps {
   pageContext: { event: any };
@@ -24,68 +21,79 @@ export default function EventTemplate({ pageContext, location, data }: EventTemp
     thumbnail: event.frontmatter.image.childImageSharp.fluid
   };
 
-  const disqusShortname = `${process.env.DISQUS_ID}`;
-  const disqusConfig = {
-    identifier: eventData.title,
-    title: eventData.title,
-  };
+  const ContestyButton = () => (
+      <div style={ { marginBottom: '20px' } }>
+        <a href="https://moja.kartazgloszen.pl"
+           rel="dofollow"
+           target="_blank"
+           className="btn bg-indigo"
+           style={ { display: 'inline-flex', padding: '7px 17px 7px 13px', alignItems: 'center' } }>
+          <img src="https://moja.kartazgloszen.pl/assets/icons/apple-touch-icon.png" alt=""
+               style={ { height: '24px', marginRight: '8px' } }/>
+          Wyślij zgłoszenie
+        </a>
+      </div>
+  )
+
   return (
       <>
-        <Seo title={eventData.title}
-            description={event.excerpt}
-            image={eventData.thumbnail.src}
-            url={location.pathname}/>
-        <Navbar></Navbar>
+        <Seo title={ eventData.title }
+             description={ event.excerpt }
+             image={ eventData.thumbnail.src }
+             url={ location.pathname }/>
+        <Navbar />
         <Layout>
-          <div className='page-title no-padding-bottom'>
-            <Link to='/upcoming' className='btn btn-link btn-xs btn-raised post-back-to-upcoming'
-                id='post-back-to-upcoming'>
-              Powrót do nadchodzących wydarzeń
-            </Link>
+          <div className="page-title">
+            <button onClick={ () => history.back() }
+               className="btn btn-link text-indigo post-back-to-upcoming no-padding-left">
+              Powrót
+            </button>
           </div>
 
-          <div className='panel panel-flat blog-horizontal blog-horizontal-1 event-post'>
-            <div className='panel-body'>
-              <div className='thumb'
-                  style={{ float: `right`, marginRight: `0`, marginLeft: `10px` }}>
-                <Img fluid={eventData.thumbnail}
-                    className='img-responsive'/>
+          <div className="blog-horizontal blog-horizontal-1" style={ { marginBottom: '4rem' } }>
+            <div style={ { position: 'relative' } }>
+              <div className="thumb"
+                   style={ { float: `right`, marginRight: `0`, marginLeft: `10px` } }>
+                <Img fluid={ eventData.thumbnail }
+                     className="img-responsive"/>
               </div>
-              <div className='blog-preview'>
-                <h1 className='panel-title text-semibold'>
-                  {eventData.title}
-                </h1>
+              {
+                eventData.promoted && <Ribbon/>
+              }
 
-                <h4 className='text-uppercase'>{eventData.city}</h4>
+            </div>
+            <div className="blog-preview">
+              <h1 className="panel-title text-semibold">
+                { eventData.title }
+              </h1>
 
-                <span className='label label-striped label-date'>
-                {formatDate(eventData.dateFrom)}
-                  {
-                    eventData.dateTo !== eventData.dateFrom &&
-                    <span> - {formatDate(eventData.dateTo)}</span>
-                  }
+              <h4 className="text-uppercase">{ eventData.city }</h4>
+
+              <span className="label label-striped label-date" style={ { marginBottom: '20px' } }>
+                { formatDate(eventData.dateFrom) }
+                {
+                  eventData.dateTo !== eventData.dateFrom &&
+                  <span> - { formatDate(eventData.dateTo) }</span>
+                }
                 </span>
-                <div dangerouslySetInnerHTML={{ __html: event.html }}/>
-                <a href={eventData.link}
-                    target='_blank'
-                    id='post-goto-organizer-site'
-                    rel='noopener noreferrer nofollow'
-                    className='btn btn-primary'>
-                  Strona organizatora
-                </a>
-              </div>
+
+              {
+                eventData.promoted && <ContestyButton/>
+              }
+
+              <div style={ { margin: '3rem 0' } } dangerouslySetInnerHTML={ { __html: event.html } }/>
+              <a href={ eventData.link }
+                 target="_blank"
+                 id="post-goto-organizer-site"
+                 rel="noopener noreferrer nofollow"
+                 className="btn bg-indigo-100 text-indigo">
+                Strona organizatora
+              </a>
             </div>
           </div>
 
-          <DiscussionEmbed shortname={disqusShortname} config={disqusConfig}/>
-
-          <div className='karta-zgloszen-banner mb-20'>
-            <a href='https://kartazgloszen.pl'
-                rel="noopener noreferrer"
-                target='_blank'
-                id='post-karta-zgloszen-banner'>
-              <img src={banner}/>
-            </a>
+          <div style={ { marginBottom: '5rem' } }>
+            <NewSocialSection/>
           </div>
         </Layout>
       </>

@@ -57,7 +57,7 @@ TURNIEJ OCENIAĆ BĘDZIE JURY WYZNACZONE PRZEZ ORGANIZATORA.
 - muzykalność tancerzy.
    
 ### TURNIEJ ZOSTANIE ROZEGRANY W KATEGORIACH:
-#### ❌ SOBOTA 22 KWIETNIA 2021 ROKU ❌
+#### ❌ SOBOTA 22 KWIETNIA 2023 ROKU ❌
 ##### HIP HOP
 - Soliści i duety w kategoriach wiekowych BEZ WZGLĘDU NA STOPIEŃ ZAAWANSOWANIA: *7-8 lat *9-11 lat *12-15 lat *pow. 15 lat \
 prezentacje do muzyki organizatora, czas do 1 min.

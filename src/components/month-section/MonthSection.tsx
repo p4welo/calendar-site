@@ -17,11 +17,11 @@ export class MonthSection extends Component<MonthSectionProps> {
     return (
         <>
           <div className="text-center content-group text-muted content-divider">
-            <span className="pt-10 pb-10">{formatHeaderFromKey(sectionKey)}</span>
+            <span className="pt-10 pb-10" style={{backgroundColor: '#fff'}}>{formatHeaderFromKey(sectionKey)}</span>
           </div>
           <div className="row pt-20" style={{ display: `flex`, flexWrap: `wrap` }}>
             {
-              this.props.events.map((event, i) => <EventTile event={event} key={i}></EventTile>)
+              this.props.events.map((event, i) => <EventTile event={event} key={i} />)
             }
           </div>
         </>
