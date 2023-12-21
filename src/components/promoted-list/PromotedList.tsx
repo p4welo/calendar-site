@@ -11,9 +11,17 @@ interface PromotedListProps {
 
 export const PromotedList = ({ events }: PromotedListProps) => {
 
-  const EventList = () => events.map((event, i) => <EventTile event={ event } key={ i } />)
+  const EventList = () => (
+      <>
+        { events.map((event, i) => <EventTile event={ event } key={ i }/>) }
+      </>
+  )
 
-  return events.length > 0 && (
+  if (events.length === 0) {
+    return <span/>
+  }
+
+  return (
       <div className="mb-20">
         <h1>
           <span className="mr-20">Proponowane wydarzenia</span>
@@ -26,12 +34,6 @@ export const PromotedList = ({ events }: PromotedListProps) => {
         <div className="row" style={ { display: `flex`, flexWrap: `wrap` } }>
           <EventList/>
         </div>
-        {/*<div className="text-center">*/}
-        {/*  <Link to="/upcoming"*/}
-        {/*        id="see-all-bottom"*/}
-        {/*        style={ { padding: '9px 40px' } }*/}
-        {/*        className="btn bg-indigo-100 text-indigo">Zobacz wszystkie</Link>*/}
-        {/*</div>*/}
       </div>
   )
 }
