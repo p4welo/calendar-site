@@ -6,13 +6,13 @@
 
 import './src/styles/style.scss';
 
-// export const onServiceWorkerUpdateFound = () => {
+export const onServiceWorkerUpdateFound = () => {
   // const answer = window.confirm(
   //     `This application has been updated. ` +
   //     `Reload to display the latest version?`
   // );
   //
   // if (answer === true) {
-  //   window.location.reload()
+    window.location.reload()
   // }
-// };
+};
